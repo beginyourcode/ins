@@ -1,0 +1,12 @@
+<form #form="ngForm" autocomplete="off" (submit)="onSubmit(form)">
+    <div class="card">
+      <div class="card-header">Add State</div>
+      <div class="card-body">
+        <div class="form-group">
+          <label for="name">State Name</label>
+          <input type="text" name="name" id="name" class="form-control" #name="ngModel" [(ngModel)]="service.formData.name"></div>
+        <div class="card-footer"><button type="submit" class="btn btn-primary">Save</button></div>
+      </div>
+    </div>
+  </form>
+  {{form.value | json}}
