@@ -72,12 +72,12 @@ export class CityListComponent implements OnInit {
     this.processData();
   }
   processData() {
-    let clientCollection = this.firestore.collection(`clients`).get();
-    let jobsCollection = this.firestore.collection(`jobs`).get();
-    let clients = [];
-    clients.push(clientCollection);
-    clients.push(jobsCollection);
-    const res = Promise.all(clients);
+    let stateCollection = this.firestore.collection(`state`).get();
+    let cityCollection = this.firestore.collection(`city`).get();
+    let states = [];
+    states.push(stateCollection);
+    states.push(cityCollection);
+    const res = Promise.all(states);
     // res should equal a combination of both querySnapshots
   }
   getCollection(collectionName) {
