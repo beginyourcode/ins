@@ -4,9 +4,8 @@ import { StateService } from '../shared/state.service';
 import { AngularFirestore } from '@angular/fire/firestore';
 import { ToastrService } from 'ngx-toastr';
 import { ButtonModule } from 'primeng/button';
-import { CarService } from '../service/carservice';
-import { Car } from '../domain/car';
 import { SelectItem } from 'primeng/components/common/selectitem';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-state-list',
@@ -17,7 +16,7 @@ export class StateListComponent implements OnInit {
 
   list: State[];
 
-  selectedCar: Car;
+  selectedState: State;
 
   displayDialog: boolean;
 
@@ -32,13 +31,16 @@ export class StateListComponent implements OnInit {
   p: number = 1;
   collection: any[] = this.list;
 
+  display: boolean = false;
+  titleDialog: string = "Add";
+
   constructor(private service: StateService,
     private firestore: AngularFirestore,
     private toastr: ToastrService,
-    private carService: CarService) { }
+    private router: Router) { }
 
   ngOnInit() {
-    this.service.getState().subscribe(actionArray => {
+    this.service.getAll().subscribe(actionArray => {
       this.list = actionArray.map(item => {
         return {
           id: item.payload.doc.id,
@@ -47,24 +49,39 @@ export class StateListComponent implements OnInit {
       })
     });
     this.sortOptions = [
-      { label: 'Newest First', value: '!name' },
-      { label: 'Oldest First', value: 'name' },
-      { label: 'Brand', value: 'name' }
+      { label: 'State Name', value: '!name' }
     ];
   }
 
   onEdit(emp: State) {
     this.service.formData = Object.assign({}, emp);
+
+  }
+
+  onEditP(event: Event, state: State) {
+    //this.service.formData = Object.assign({}, state);
+    this.service.formData = Object.assign({}, state);
+    //this.router.navigate(['/state/add/' + state.id]);
+    //this.router.navigate(['/state']);
+    this.display = true;
   }
 
   onDelete(id: string) {
     if (confirm("Are you sure to delete this record?")) {
       this.firestore.doc('state/' + id).delete();
-      this.toastr.warning('Deleted successfully', 'EMP. Register');
+      this.toastr.warning('Deleted successfully', 'State');
     }
   }
-  selectCar(event: Event, car: Car) {
-    this.selectedCar = car;
+  onDeleteP(event: Event, state: State) {
+    if (confirm("Are you sure to delete this record?")) {
+      this.selectedState = state;
+      this.firestore.doc('state/' + this.selectedState.id).delete();
+      this.toastr.warning('Deleted successfully', 'State');
+      event.preventDefault();
+    }
+  }
+  selectCar(event: Event, car: State) {
+    this.selectedState = car;
     this.displayDialog = true;
     event.preventDefault();
   }
@@ -83,6 +100,19 @@ export class StateListComponent implements OnInit {
   }
 
   onDialogHide() {
-    this.selectedCar = null;
+    this.selectedState = null;
+  }
+  showDialog() {
+    this.display = true;
+  }
+  onModalClose(event) {
+    this.service.resetData();
+    this.display = false;
+  }
+  onModalOpen(event) {
+    if (this.service.formData.id == null)
+      this.titleDialog = "Add";
+    else
+      this.titleDialog = "Edit";
   }
 }

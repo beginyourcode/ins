@@ -2,12 +2,16 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { LoginComponent } from './login/login.component';
 import { StateListComponent } from './state/state-list.component';
-import { StateAddComponent } from './state/state-add.component';
+import { StateAddEditComponent } from './state/state-add-edit.component';
+import { CityAddComponent } from './city/city-add.component';
+import { CityListComponent } from './city/city-list.component';
 
 const routes: Routes = [
   { path: 'signin', component: LoginComponent },
-  { path: 'state', component: StateListComponent },
-  { path: 'state/add', component: StateAddComponent },
+  { path: 'states', component: StateListComponent },
+  // { path: 'state', component: StateAddEditComponent },
+  { path: 'city', component: CityAddComponent },
+  { path: 'cities', component: CityListComponent },
 ];
 
 @NgModule({

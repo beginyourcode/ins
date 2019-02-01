@@ -43,3 +43,8 @@ body {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
+
+/* to fix toastr */
+#toast-container > div {
+  opacity:1;
+}

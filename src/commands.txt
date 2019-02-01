@@ -1,0 +1,10 @@
+npm install firebase @angular/fire
+npm install -g firebase-tools
+npm install primeng
+npm install primeicons
+npm install ngx-pagination
+npm install angular-font-awesome
+npm install font-awesome
+npm install ngx-toastr
+-------------------
+npm install primeng primeicons ngx-pagination angular-font-awesome font-awesome ngx-toastr

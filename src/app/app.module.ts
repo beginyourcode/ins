@@ -6,10 +6,14 @@ import { AngularFirestoreModule } from "@angular/fire/firestore";
 import { FormsModule } from "@angular/forms";
 import { ToastrModule } from 'ngx-toastr';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import {NgxPaginationModule} from 'ngx-pagination';
-import {DataViewModule} from 'primeng/dataview';
-import {PaginatorModule} from 'primeng/paginator';
+import { NgxPaginationModule } from 'ngx-pagination';
 import { HttpClientModule } from '@angular/common/http';
+
+import { DataViewModule } from 'primeng/dataview';
+import { PaginatorModule } from 'primeng/paginator';
+import { ButtonModule } from 'primeng/button';
+import { DialogModule } from 'primeng/dialog';
+import { DropdownModule } from 'primeng/dropdown';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -19,10 +23,9 @@ import { QuoteComponent } from './quote/quote.component';
 import { StateService } from './shared/state.service';
 import { environment } from 'src/environments/environment';
 import { StateListComponent } from './state/state-list.component';
-import { StateAddComponent } from './state/state-add.component';
+import { StateAddEditComponent } from './state/state-add-edit.component';
 import { CityAddComponent } from './city/city-add.component';
 import { CityListComponent } from './city/city-list.component';
-import { CarService } from './service/carservice';
 
 
 @NgModule({
@@ -32,10 +35,10 @@ import { CarService } from './service/carservice';
     LoginComponent,
     QuoteComponent,
     StateListComponent,
-    StateAddComponent,
+    StateAddEditComponent,
     CityAddComponent,
     CityListComponent
-    
+
   ],
   imports: [
     BrowserModule,
@@ -44,16 +47,15 @@ import { CarService } from './service/carservice';
     FormsModule,
     AngularFirestoreModule,
     AngularFireModule.initializeApp(environment.firebaseConfigI),
-    ToastrModule.forRoot(),
     BrowserAnimationsModule,
+    ToastrModule.forRoot({ positionClass: 'toast-bottom-right' }),
     NgxPaginationModule,
-    DataViewModule,
-    PaginatorModule,
-    HttpClientModule
+    HttpClientModule,
+    DataViewModule, PaginatorModule, ButtonModule, DialogModule, DropdownModule
   ],
-  providers: [StateService, CarService],
+  providers: [StateService],
   bootstrap: [AppComponent]
 })
-export class AppModule { 
-  
+export class AppModule {
+
 }

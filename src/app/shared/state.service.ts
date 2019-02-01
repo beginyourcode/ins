@@ -9,9 +9,28 @@ export class StateService {
   formData: State;
 
   constructor(private firestore: AngularFirestore) {
-
+    this.resetData();
   }
-  getState() {
+  resetData(){
+    this.formData = {
+      id: null,
+      name: '',
+    }
+  }
+  getAll() {
     return this.firestore.collection("state").snapshotChanges();
+  }
+  add(state: any) {
+    let data = Object.assign({}, state);
+    delete data.id;
+    this.firestore.collection('state').add(data);
+  }
+  edit(state: any) {
+    let data = Object.assign({}, state);
+    delete data.id;
+    this.firestore.doc('state/' + state.id).update(data);
+  }
+  delete(state: State) {
+    this.firestore.doc('state/' + state.id).delete();
   }
 }
