@@ -4,10 +4,10 @@ import { AngularFirestore } from '@angular/fire/firestore';
 import { ToastrService } from 'ngx-toastr';
 import { Router, ActivatedRoute } from '@angular/router';
 import { NgForm } from '@angular/forms';
-import { StateService } from '../shared/state.service';
+import { StateService } from '../service/state.service';
 import { SelectItem } from 'primeng/components/common/selectitem';
-import { City } from '../shared/city.model';
-import { State } from '../shared/state.model';
+import { City } from '../model/city.model';
+import { State } from '../model/state.model';
 
 @Component({
   selector: 'app-city-add',

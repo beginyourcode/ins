@@ -1,0 +1,217 @@
+[
+    {
+        "id": "MA2",
+        "makename": "ASTON MARTIN",
+        "istopmake": false
+    },
+    {
+        "id": "MA3",
+        "makename": "AUDI",
+        "istopmake": false
+    },
+    {
+        "id": "MA5",
+        "makename": "BENTLEY",
+        "istopmake": false
+    },
+    {
+        "id": "MA6",
+        "makename": "BMW",
+        "istopmake": false
+    },
+    {
+        "id": "MA7",
+        "makename": "BUICK",
+        "istopmake": false
+    },
+    {
+        "id": "MA9",
+        "makename": "CHEVROLET",
+        "istopmake": true
+    },
+    {
+        "id": "MA13",
+        "makename": "FERRARI",
+        "istopmake": false
+    },
+    {
+        "id": "MA14",
+        "makename": "FIAT",
+        "istopmake": true
+    },
+    {
+        "id": "MA16",
+        "makename": "HINDUSTAN",
+        "istopmake": false
+    },
+    {
+        "id": "MA18",
+        "makename": "HONDA",
+        "istopmake": true
+    },
+    {
+        "id": "MA19",
+        "makename": "HUMMER",
+        "istopmake": false
+    },
+    {
+        "id": "MA20",
+        "makename": "HYUNDAI",
+        "istopmake": true
+    },
+    {
+        "id": "MA22",
+        "makename": "INFINITI",
+        "istopmake": false
+    },
+    {
+        "id": "MA23",
+        "makename": "ISUZU",
+        "istopmake": false
+    },
+    {
+        "id": "MA24",
+        "makename": "JAGUAR",
+        "istopmake": false
+    },
+    {
+        "id": "MA25",
+        "makename": "LAMBORGHNI",
+        "istopmake": false
+    },
+    {
+        "id": "MA26",
+        "makename": "LAND ROVER",
+        "istopmake": false
+    },
+    {
+        "id": "MA27",
+        "makename": "LEXUS",
+        "istopmake": false
+    },
+    {
+        "id": "MA29",
+        "makename": "MAHINDRA",
+        "istopmake": true
+    },
+    {
+        "id": "MA30",
+        "makename": "MAHINDRA",
+        "istopmake": false
+    },
+    {
+        "id": "MA31",
+        "makename": "MAHINDRA REVA",
+        "istopmake": false
+    },
+    {
+        "id": "MA33",
+        "makename": "MARUTI",
+        "istopmake": true
+    },
+    {
+        "id": "MA34",
+        "makename": "MASERATI",
+        "istopmake": false
+    },
+    {
+        "id": "MA36",
+        "makename": "MERCEDES-BENZ",
+        "istopmake": false
+    },
+    {
+        "id": "MA37",
+        "makename": "MITSUBISHI",
+        "istopmake": false
+    },
+    {
+        "id": "MA38",
+        "makename": "NISSAN MOTORS",
+        "istopmake": false
+    },
+    {
+        "id": "MA39",
+        "makename": "PORSCHE",
+        "istopmake": false
+    },
+    {
+        "id": "MA40",
+        "makename": "ROLLS ROYCE",
+        "istopmake": false
+    },
+    {
+        "id": "MA44",
+        "makename": "SKODA",
+        "istopmake": true
+    },
+    {
+        "id": "MA45",
+        "makename": "TATA",
+        "istopmake": true
+    },
+    {
+        "id": "MA46",
+        "makename": "TOYOTA",
+        "istopmake": true
+    },
+    {
+        "id": "MA47",
+        "makename": "VOLKSWAGEN",
+        "istopmake": true
+    },
+    {
+        "id": "MA48",
+        "makename": "VOLVO",
+        "istopmake": false
+    },
+    {
+        "id": "MA49",
+        "makename": "WILLEYS",
+        "istopmake": false
+    },
+    {
+        "id": "MA50",
+        "makename": "FORD",
+        "istopmake": true
+    },
+    {
+        "id": "MA51",
+        "makename": "OPEL",
+        "istopmake": false
+    },
+    {
+        "id": "MA52",
+        "makename": "RENAULT",
+        "istopmake": true
+    },
+    {
+        "id": "MA53",
+        "makename": "MINI",
+        "istopmake": false
+    },
+    {
+        "id": "MA56",
+        "make name": "MAZDA",
+        "istopmake": false
+    },
+    {
+        "id": "MA58",
+        "makename": "PREMIER",
+        "istopmake": false
+    },
+    {
+        "id": "MA60",
+        "makename": "SSANGYONG",
+        "istopmake": false
+    },
+    {
+        "id": "MA61",
+        "makename": "DATSUN",
+        "istopmake": false
+    },
+    {
+        "id": "MA62",
+        "makename": "Jeep",
+        "istopmake": false
+    }
+]

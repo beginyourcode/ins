@@ -1,0 +1,5149 @@
+{
+  "cities": [
+    {
+      "id": "C1",
+      "stateid": "S2",
+      "name": "CAR NICOBAR"
+    },
+    {
+      "id": "C2",
+      "stateid": "S2",
+      "name": "PORT BLAIR"
+    },
+    {
+      "id": "C3",
+      "stateid": "S1",
+      "name": "ADILABAD"
+    },
+    {
+      "id": "C4",
+      "stateid": "S1",
+      "name": "ADONI"
+    },
+    {
+      "id": "C5",
+      "stateid": "S1",
+      "name": "AMALAPURAM"
+    },
+    {
+      "id": "C7",
+      "stateid": "S1",
+      "name": "ANANTAPUR"
+    },
+    {
+      "id": "C8",
+      "stateid": "S1",
+      "name": "HYDERABAD"
+    },
+    {
+      "id": "C9",
+      "stateid": "S1",
+      "name": "BHIMAVARAM"
+    },
+    {
+      "id": "C10",
+      "stateid": "S1",
+      "name": "BHONGIR"
+    },
+    {
+      "id": "C11",
+      "stateid": "S1",
+      "name": "CHIRALA"
+    },
+    {
+      "id": "C12",
+      "stateid": "S1",
+      "name": "CHITTOOR"
+    },
+    {
+      "id": "C13",
+      "stateid": "S1",
+      "name": "ELURU"
+    },
+    {
+      "id": "C15",
+      "stateid": "S1",
+      "name": "GADWAL"
+    },
+    {
+      "id": "C17",
+      "stateid": "S1",
+      "name": "GUDIVADA"
+    },
+    {
+      "id": "C18",
+      "stateid": "S1",
+      "name": "GUDUR"
+    },
+    {
+      "id": "C20",
+      "stateid": "S1",
+      "name": "GUNTUR"
+    },
+    {
+      "id": "C21",
+      "stateid": "S1",
+      "name": "HINDUPUR"
+    },
+    {
+      "id": "C22",
+      "stateid": "S1",
+      "name": "JAGTIAL"
+    },
+    {
+      "id": "C23",
+      "stateid": "S1",
+      "name": "JANGAON"
+    },
+    {
+      "id": "C24",
+      "stateid": "S1",
+      "name": "JANGAREDDY GUDEM"
+    },
+    {
+      "id": "C25",
+      "stateid": "S1",
+      "name": "KADAPA"
+    },
+    {
+      "id": "C26",
+      "stateid": "S1",
+      "name": "KAKINADA"
+    },
+    {
+      "id": "C27",
+      "stateid": "S1",
+      "name": "KAMAREDDY"
+    },
+    {
+      "id": "C28",
+      "stateid": "S1",
+      "name": "KARIMNAGAR"
+    },
+    {
+      "id": "C29",
+      "stateid": "S1",
+      "name": "KARIM NAGAR"
+    },
+    {
+      "id": "C30",
+      "stateid": "S1",
+      "name": "KAVALI"
+    },
+    {
+      "id": "C32",
+      "stateid": "S1",
+      "name": "KHAMMAM"
+    },
+    {
+      "id": "C33",
+      "stateid": "S1",
+      "name": "KOTHAGUDEM"
+    },
+    {
+      "id": "C34",
+      "stateid": "S1",
+      "name": "KOVVUR"
+    },
+    {
+      "id": "C35",
+      "stateid": "S1",
+      "name": "KRISHNA"
+    },
+    {
+      "id": "C36",
+      "stateid": "S1",
+      "name": "KURNOOL"
+    },
+    {
+      "id": "C37",
+      "stateid": "S1",
+      "name": "MACHILIPATNAM"
+    },
+    {
+      "id": "C38",
+      "stateid": "S1",
+      "name": "MADANAPALLE"
+    },
+    {
+      "id": "C41",
+      "stateid": "S1",
+      "name": "MANCHERYAL"
+    },
+    {
+      "id": "C42",
+      "stateid": "S1",
+      "name": "MARKAPUR"
+    },
+    {
+      "id": "C43",
+      "stateid": "S1",
+      "name": "MEDAK"
+    },
+    {
+      "id": "C45",
+      "stateid": "S1",
+      "name": "NALGONDA"
+    },
+    {
+      "id": "C47",
+      "stateid": "S1",
+      "name": "NANDYAL"
+    },
+    {
+      "id": "C48",
+      "stateid": "S1",
+      "name": "NARASARAOPETA"
+    },
+    {
+      "id": "C49",
+      "stateid": "S1",
+      "name": "NELLORE"
+    },
+    {
+      "id": "C50",
+      "stateid": "S1",
+      "name": "NIRMAL"
+    },
+    {
+      "id": "C51",
+      "stateid": "S1",
+      "name": "NIZAMABAD"
+    },
+    {
+      "id": "C52",
+      "stateid": "S1",
+      "name": "NUZVID"
+    },
+    {
+      "id": "C53",
+      "stateid": "S1",
+      "name": "ONGOLE"
+    },
+    {
+      "id": "C54",
+      "stateid": "S1",
+      "name": "MAHABUB NAGAR"
+    },
+    {
+      "id": "C55",
+      "stateid": "S1",
+      "name": "PEDDAPALLI"
+    },
+    {
+      "id": "C57",
+      "stateid": "S1",
+      "name": "PRAKASAM"
+    },
+    {
+      "id": "C58",
+      "stateid": "S1",
+      "name": "PRODDATUR"
+    },
+    {
+      "id": "C59",
+      "stateid": "S1",
+      "name": "RAJAHMUNDRY"
+    },
+    {
+      "id": "C60",
+      "stateid": "S1",
+      "name": "RANGAREDDY"
+    },
+    {
+      "id": "C61",
+      "stateid": "S1",
+      "name": "K.V.RANGAREDDY"
+    },
+    {
+      "id": "C62",
+      "stateid": "S1",
+      "name": "SANGA REDDY"
+    },
+    {
+      "id": "C63",
+      "stateid": "S1",
+      "name": "SATTENAPALLE"
+    },
+    {
+      "id": "C64",
+      "stateid": "S1",
+      "name": "SECUNDERABAD"
+    },
+    {
+      "id": "C65",
+      "stateid": "S1",
+      "name": "SIDDIPET"
+    },
+    {
+      "id": "C66",
+      "stateid": "S1",
+      "name": "SRIKAKULAM"
+    },
+    {
+      "id": "C68",
+      "stateid": "S1",
+      "name": "SURYAPET"
+    },
+    {
+      "id": "C69",
+      "stateid": "S1",
+      "name": "TADEPALLIGUDEM"
+    },
+    {
+      "id": "C70",
+      "stateid": "S1",
+      "name": "TANUKU"
+    },
+    {
+      "id": "C71",
+      "stateid": "S1",
+      "name": "TENALI"
+    },
+    {
+      "id": "C72",
+      "stateid": "S1",
+      "name": "TIRUPATHI"
+    },
+    {
+      "id": "C73",
+      "stateid": "S1",
+      "name": "VIJAYAWADA"
+    },
+    {
+      "id": "C77",
+      "stateid": "S1",
+      "name": "VISAKHAPATNAM"
+    },
+    {
+      "id": "C81",
+      "stateid": "S1",
+      "name": "VIZIANAGARAM"
+    },
+    {
+      "id": "C82",
+      "stateid": "S1",
+      "name": "WARANGAL"
+    },
+    {
+      "id": "C83",
+      "stateid": "S1",
+      "name": "YELLANDU"
+    },
+    {
+      "id": "C84",
+      "stateid": "S3",
+      "name": "ALONG"
+    },
+    {
+      "id": "C85",
+      "stateid": "S3",
+      "name": "DIBANG VALLEY"
+    },
+    {
+      "id": "C86",
+      "stateid": "S3",
+      "name": "BOMDILA"
+    },
+    {
+      "id": "C87",
+      "stateid": "S3",
+      "name": "CHANGLANG"
+    },
+    {
+      "id": "C88",
+      "stateid": "S3",
+      "name": "DAPORIJO"
+    },
+    {
+      "id": "C89",
+      "stateid": "S3",
+      "name": "KURUNG KUMEY"
+    },
+    {
+      "id": "C90",
+      "stateid": "S3",
+      "name": "LOHIT"
+    },
+    {
+      "id": "C91",
+      "stateid": "S3",
+      "name": "ROING"
+    },
+    {
+      "id": "C92",
+      "stateid": "S3",
+      "name": "ITANAGAR"
+    },
+    {
+      "id": "C94",
+      "stateid": "S3",
+      "name": "KHONSA"
+    },
+    {
+      "id": "C95",
+      "stateid": "S3",
+      "name": "PASIGHAT"
+    },
+    {
+      "id": "C96",
+      "stateid": "S3",
+      "name": "SEPPA"
+    },
+    {
+      "id": "C97",
+      "stateid": "S3",
+      "name": "TAWANG"
+    },
+    {
+      "id": "C98",
+      "stateid": "S3",
+      "name": "TEZU"
+    },
+    {
+      "id": "C99",
+      "stateid": "S3",
+      "name": "YINGKIONG"
+    },
+    {
+      "id": "C100",
+      "stateid": "S3",
+      "name": "ZIRO"
+    },
+    {
+      "id": "C102",
+      "stateid": "S4",
+      "name": "BARPETA"
+    },
+    {
+      "id": "C103",
+      "stateid": "S4",
+      "name": "BONGAIGAON"
+    },
+    {
+      "id": "C104",
+      "stateid": "S4",
+      "name": "SILCHAR"
+    },
+    {
+      "id": "C105",
+      "stateid": "S4",
+      "name": "DARRANG"
+    },
+    {
+      "id": "C106",
+      "stateid": "S4",
+      "name": "DHEMAJI"
+    },
+    {
+      "id": "C107",
+      "state id": "S4",
+      "name": "DHUBRI"
+    },
+    {
+      "id": "C108",
+      "stateid": "S4",
+      "name": "DIBRUGARH"
+    },
+    {
+      "id": "C109",
+      "stateid": "S4",
+      "name": "TEZPUR"
+    },
+    {
+      "id": "C110",
+      "stateid": "S4",
+      "name": "GOALPARA"
+    },
+    {
+      "id": "C111",
+      "stateid": "S4",
+      "name": "GOLAGHAT"
+    },
+    {
+      "id": "C112",
+      "stateid": "S4",
+      "name": "GUWAHATI"
+    },
+    {
+      "id": "C114",
+      "stateid": "S4",
+      "name": "HAILAKANDI"
+    },
+    {
+      "id": "C115",
+      "stateid": "S4",
+      "name": "JORHAT"
+    },
+    {
+      "id": "C116",
+      "stateid": "S4",
+      "name": "KAMRUP"
+    },
+    {
+      "id": "C117",
+      "stateid": "S4",
+      "name": "KARBI ANGLONG"
+    },
+    {
+      "id": "C118",
+      "stateid": "S4",
+      "name": "KARIM GANJ"
+    },
+    {
+      "id": "C119",
+      "stateid": "S4",
+      "name": "KOKRAJHAR"
+    },
+    {
+      "id": "C120",
+      "stateid": "S4",
+      "name": "LAKHIMPUR"
+    },
+    {
+      "id": "C121",
+      "stateid": "S4",
+      "name": "MARIGAON"
+    },
+    {
+      "id": "C122",
+      "stateid": "S4",
+      "name": "NAGAON"
+    },
+    {
+      "id": "C123",
+      "stateid": "S4",
+      "name": "NALBARI"
+    },
+    {
+      "id": "C124",
+      "stateid": "S4",
+      "name": "NORTH CACHAR HILLS"
+    },
+    {
+      "id": "C125",
+      "stateid": "S4",
+      "name": "SIBSAGAR"
+    },
+    {
+      "id": "C126",
+      "stateid": "S4",
+      "name": "SONITPUR"
+    },
+    {
+      "id": "C127",
+      "stateid": "S4",
+      "name": "TINSUKIA"
+    },
+    {
+      "id": "C128",
+      "stateid": "S4",
+      "name": "UDALGURI"
+    },
+    {
+      "id": "C129",
+      "stateid": "S5",
+      "name": "ARARIA"
+    },
+    {
+      "id": "C130",
+      "stateid": "S5",
+      "name": "JAHANABAD"
+    },
+    {
+      "id": "C131",
+      "stateid": "S5",
+      "name": "AURANGABAD"
+    },
+    {
+      "id": "C132",
+      "stateid": "S5",
+      "name": "BANKA"
+    },
+    {
+      "id": "C133",
+      "stateid": "S5",
+      "name": "BEGUSARAI"
+    },
+    {
+      "id": "C134",
+      "stateid": "S5",
+      "name": "BETTIAH"
+    },
+    {
+      "id": "C135",
+      "stateid": "S5",
+      "name": "BHABUA"
+    },
+    {
+      "id": "C136",
+      "stateid": "S5",
+      "name": "BHAGALPUR"
+    },
+    {
+      "id": "C137",
+      "stateid": "S5",
+      "name": "BHOJPUR"
+    },
+    {
+      "id": "C139",
+      "stateid": "S5",
+      "name": "BUXAR"
+    },
+    {
+      "id": "C140",
+      "stateid": "S15",
+      "name": "WEST SINGHBHUM"
+    },
+    {
+      "id": "C141",
+      "stateid": "S5",
+      "name": "CHAPRA"
+    },
+    {
+      "id": "C142",
+      "stateid": "S5",
+      "name": "DARBHANGA"
+    },
+    {
+      "id": "C143",
+      "stateid": "S5",
+      "name": "ROHTAS"
+    },
+    {
+      "id": "C145",
+      "stateid": "S15",
+      "name": "DHANBAD"
+    },
+    {
+      "id": "C147",
+      "stateid": "S5",
+      "name": "GAYA"
+    },
+    {
+      "id": "C148",
+      "stateid": "S15",
+      "name": "GIRIDH"
+    },
+    {
+      "id": "C150",
+      "stateid": "S5",
+      "name": "GOPAL GANJ"
+    },
+    {
+      "id": "C151",
+      "stateid": "S15",
+      "name": "GUMLA"
+    },
+    {
+      "id": "C152",
+      "stateid": "S5",
+      "name": "HAJIPUR"
+    },
+    {
+      "id": "C155",
+      "stateid": "S5",
+      "name": "JAMSHEDPUR"
+    },
+    {
+      "id": "C156",
+      "stateid": "S5",
+      "name": "JAMUI"
+    },
+    {
+      "id": "C157",
+      "stateid": "S5",
+      "n ame": "KATIHAR"
+    },
+    {
+      "id": "C158",
+      "stateid": "S5",
+      "name": "KHAGARIA"
+    },
+    {
+      "id": "C159",
+      "stateid": "S5",
+      "name": "KISHANGANJ"
+    },
+    {
+      "id": "C161",
+      "stateid": "S5",
+      "name": "LAKHISARAI"
+    },
+    {
+      "id": "C163",
+      "stateid": "S5",
+      "name": "MADHEPURA"
+    },
+    {
+      "id": "C164",
+      "stateid": "S5",
+      "name": "MADHUBANI"
+    },
+    {
+      "id": "C165",
+      "stateid": "S5",
+      "name": "MONGHYR"
+    },
+    {
+      "id": "C166",
+      "stateid": "S5",
+      "name": "MOTIHARI"
+    },
+    {
+      "id": "C167",
+      "stateid": "S5",
+      "name": "MUZAFFARPUR"
+    },
+    {
+      "id": "C169",
+      "stateid": "S5",
+      "name": "NALANDA"
+    },
+    {
+      "id": "C170",
+      "stateid": "S5",
+      "name": "NAWADAH"
+    },
+    {
+      "id": "C172",
+      "stateid": "S5",
+      "name": "PATNA"
+    },
+    {
+      "id": "C173",
+      "stateid": "S5",
+      "name": "PURNIA"
+    },
+    {
+      "id": "C175",
+      "stateid": "S5",
+      "name": "SAHARSA"
+    },
+    {
+      "id": "C176",
+      "stateid": "S15",
+      "name": "SAHEBGANJ"
+    },
+    {
+      "id": "C177",
+      "stateid": "S5",
+      "name": "SAMASTIPUR"
+    },
+    {
+      "id": "C178",
+      "stateid": "S5",
+      "name": "SHEIKHPURA"
+    },
+    {
+      "id": "C180",
+      "stateid": "S5",
+      "name": "SITAMARHI"
+    },
+    {
+      "id": "C181",
+      "stateid": "S5",
+      "name": "SIWAN"
+    },
+    {
+      "id": "C182",
+      "stateid": "S5",
+      "name": "SUPAUL"
+    },
+    {
+      "id": "C189",
+      "stateid": "S7",
+      "name": "AMBIKAPUR"
+    },
+    {
+      "id": "C190",
+      "stateid": "S7",
+      "name": "BAIKUNTHPUR"
+    },
+    {
+      "id": "C191",
+      "stateid": "S7",
+      "name": "BIJAPUR"
+    },
+    {
+      "id": "C192",
+      "stateid": "S7",
+      "name": "BILASPUR"
+    },
+    {
+      "id": "C193",
+      "stateid": "S7",
+      "name": "JASHPUR"
+    },
+    {
+      "id": "C195",
+      "stateid": "S7",
+      "name": "DHAMTARI"
+    },
+    {
+      "id": "C197",
+      "stateid": "S7",
+      "name": "DURG"
+    },
+    {
+      "id": "C198",
+      "stateid": "S7",
+      "name": "DANTEWADA"
+    },
+    {
+      "id": "C199",
+      "stateid": "S7",
+      "name": "JANJGIRCHAMPA"
+    },
+    {
+      "id": "C200",
+      "stateid": "S7",
+      "name": "KANKER"
+    },
+    {
+      "id": "C201",
+      "stateid": "S7",
+      "name": "KAWARDHA"
+    },
+    {
+      "id": "C202",
+      "stateid": "S7",
+      "name": "KORBA"
+    },
+    {
+      "id": "C203",
+      "stateid": "S7",
+      "name": "MAHASAMUND"
+    },
+    {
+      "id": "C204",
+      "stateid": "S7",
+      "name": "RAIGARH"
+    },
+    {
+      "id": "C205",
+      "stateid": "S7",
+      "name": "RAIPUR"
+    },
+    {
+      "id": "C206",
+      "stateid": "S7",
+      "name": "RAJNANDGAON"
+    },
+    {
+      "id": "C207",
+      "stateid": "S8",
+      "name": "SILVASA"
+    },
+    {
+      "id": "C208",
+      "stateid": "S9",
+      "name": "DAMAN"
+    },
+    {
+      "id": "C209",
+      "stateid": "S9",
+      "name": "DIU"
+    },
+    {
+      "id": "C210",
+      "stateid": "S35",
+      "name": "CENTRAL DELHI"
+    },
+    {
+      "id": "C213",
+      "stateid": "S35",
+      "name": "EAST DELHI"
+    },
+    {
+      "id": "C217",
+      "stateid": "S35",
+      "name": "NORTH WEST DELHI"
+    },
+    {
+      "id": "C220",
+      "stateid": "S35",
+      "name": "SOUTH DELHI"
+    },
+    {
+      "id": "C224",
+      "stateid": "S35 ",
+      "name": "NORTH DELHI"
+    },
+    {
+      "id": "C228",
+      "stateid": "S35",
+      "name": "SOUTH WEST DELHI"
+    },
+    {
+      "id": "C229",
+      "stateid": "S35",
+      "name": "WEST DELHI"
+    },
+    {
+      "id": "C232",
+      "stateid": "S10",
+      "name": "MARGAO"
+    },
+    {
+      "id": "C234",
+      "stateid": "S10",
+      "name": "NORTH GOA"
+    },
+    {
+      "id": "C235",
+      "stateid": "S10",
+      "name": "PANAJI"
+    },
+    {
+      "id": "C237",
+      "stateid": "S10",
+      "name": "PONDA"
+    },
+    {
+      "id": "C238",
+      "stateid": "S10",
+      "name": "SOUTH GOA"
+    },
+    {
+      "id": "C241",
+      "stateid": "S11",
+      "name": "AHMEDABAD"
+    },
+    {
+      "id": "C242",
+      "stateid": "S11",
+      "name": "AMRELI"
+    },
+    {
+      "id": "C243",
+      "stateid": "S11",
+      "name": "ANAND"
+    },
+    {
+      "id": "C244",
+      "stateid": "S11",
+      "name": "BANASKANTHA"
+    },
+    {
+      "id": "C245",
+      "stateid": "S11",
+      "name": "BARDOLI"
+    },
+    {
+      "id": "C246",
+      "stateid": "S11",
+      "name": "BHARUCH"
+    },
+    {
+      "id": "C247",
+      "stateid": "S11",
+      "name": "BHAVNAGAR"
+    },
+    {
+      "id": "C248",
+      "stateid": "S11",
+      "name": "BHUJ"
+    },
+    {
+      "id": "C249",
+      "stateid": "S11",
+      "name": "DAHOD"
+    },
+    {
+      "id": "C251",
+      "stateid": "S11",
+      "name": "GANDHI NAGAR"
+    },
+    {
+      "id": "C252",
+      "stateid": "S11",
+      "name": "GODHRA"
+    },
+    {
+      "id": "C253",
+      "stateid": "S11",
+      "name": "HIMAT NAGAR"
+    },
+    {
+      "id": "C254",
+      "stateid": "S11",
+      "name": "JAMNAGAR"
+    },
+    {
+      "id": "C255",
+      "stateid": "S11",
+      "name": "JUNAGADH"
+    },
+    {
+      "id": "C256",
+      "stateid": "S11",
+      "name": "KHEDA"
+    },
+    {
+      "id": "C257",
+      "stateid": "S11",
+      "name": "MEHSANA"
+    },
+    {
+      "id": "C258",
+      "stateid": "S11",
+      "name": "NADIAD"
+    },
+    {
+      "id": "C259",
+      "stateid": "S11",
+      "name": "NARMADA"
+    },
+    {
+      "id": "C260",
+      "stateid": "S11",
+      "name": "NAVSARI"
+    },
+    {
+      "id": "C261",
+      "stateid": "S11",
+      "name": "PALANPUR"
+    },
+    {
+      "id": "C262",
+      "stateid": "S11",
+      "name": "PANCH MAHALS"
+    },
+    {
+      "id": "C263",
+      "stateid": "S11",
+      "name": "PATAN"
+    },
+    {
+      "id": "C264",
+      "stateid": "S11",
+      "name": "PORBANDAR"
+    },
+    {
+      "id": "C265",
+      "stateid": "S11",
+      "name": "RAJKOT"
+    },
+    {
+      "id": "C266",
+      "stateid": "S11",
+      "name": "RAJPIPLA"
+    },
+    {
+      "id": "C267",
+      "stateid": "S11",
+      "name": "SABARKANTHA"
+    },
+    {
+      "id": "C268",
+      "stateid": "S11",
+      "name": "SURAT"
+    },
+    {
+      "id": "C269",
+      "stateid": "S11",
+      "name": "SURENDRA NAGAR"
+    },
+    {
+      "id": "C270",
+      "stateid": "S11",
+      "name": "VADODARA"
+    },
+    {
+      "id": "C272",
+      "stateid": "S11",
+      "name": "VALSAD"
+    },
+    {
+      "id": "C273",
+      "stateid": "S11",
+      "name": "VYARA"
+    },
+    {
+      "id": "C274",
+      "stateid": "S12",
+      "name": "AMBALA"
+    },
+    {
+      "id": "C276",
+      "stateid": "S12",
+      "name": "ASSANDH"
+    },
+    {
+      "id": "C278",
+      "stateid": "S12",
+      "name": "BERI"
+    },
+    {
+      "id": "C280",
+      "stateid": "S12",
+      "name": "BHIWANI"
+    },
+    {
+      "id": " C282",
+      "stateid": "S12",
+      "name": "YAMUNA NAGAR"
+    },
+    {
+      "id": "C286",
+      "stateid": "S12",
+      "name": "CHARKHI DADRI"
+    },
+    {
+      "id": "C289",
+      "stateid": "S12",
+      "name": "FARIDABAD"
+    },
+    {
+      "id": "C291",
+      "stateid": "S12",
+      "name": "FATEHABAD"
+    },
+    {
+      "id": "C293",
+      "stateid": "S12",
+      "name": "FEROZEPUR JHIRKA"
+    },
+    {
+      "id": "C294",
+      "stateid": "S12",
+      "name": "GANAUR"
+    },
+    {
+      "id": "C295",
+      "stateid": "S12",
+      "name": "GOHANA"
+    },
+    {
+      "id": "C296",
+      "stateid": "S12",
+      "name": "GURGAON"
+    },
+    {
+      "id": "C300",
+      "stateid": "S12",
+      "name": "HANSI"
+    },
+    {
+      "id": "C302",
+      "stateid": "S12",
+      "name": "HISAR"
+    },
+    {
+      "id": "C303",
+      "stateid": "S12",
+      "name": "HISSAR"
+    },
+    {
+      "id": "C308",
+      "stateid": "S12",
+      "name": "JAGADHRI"
+    },
+    {
+      "id": "C309",
+      "stateid": "S12",
+      "name": "JHAJJAR"
+    },
+    {
+      "id": "C311",
+      "stateid": "S12",
+      "name": "JIND"
+    },
+    {
+      "id": "C313",
+      "stateid": "S12",
+      "name": "KAITHAL"
+    },
+    {
+      "id": "C315",
+      "stateid": "S12",
+      "name": "KALKA"
+    },
+    {
+      "id": "C316",
+      "stateid": "S12",
+      "name": "KARNAL"
+    },
+    {
+      "id": "C318",
+      "stateid": "S12",
+      "name": "REWARI"
+    },
+    {
+      "id": "C319",
+      "stateid": "S12",
+      "name": "KURUKSHETRA"
+    },
+    {
+      "id": "C321",
+      "stateid": "S12",
+      "name": "LOHARU"
+    },
+    {
+      "id": "C322",
+      "stateid": "S12",
+      "name": "HATHIN"
+    },
+    {
+      "id": "C324",
+      "stateid": "S12",
+      "name": "MAHENDRAGARH"
+    },
+    {
+      "id": "C325",
+      "stateid": "S12",
+      "name": "NARAINGARH"
+    },
+    {
+      "id": "C326",
+      "stateid": "S12",
+      "name": "NARNAUL"
+    },
+    {
+      "id": "C328",
+      "stateid": "S12",
+      "name": "NARWANA"
+    },
+    {
+      "id": "C329",
+      "stateid": "S12",
+      "name": "NUH"
+    },
+    {
+      "id": "C330",
+      "stateid": "S12",
+      "name": "PALWAL"
+    },
+    {
+      "id": "C332",
+      "stateid": "S12",
+      "name": "PANCHKULA"
+    },
+    {
+      "id": "C335",
+      "stateid": "S12",
+      "name": "PANIPAT"
+    },
+    {
+      "id": "C337",
+      "stateid": "S12",
+      "name": "PATAUDI"
+    },
+    {
+      "id": "C338",
+      "stateid": "S12",
+      "name": "PEHOWA"
+    },
+    {
+      "id": "C342",
+      "stateid": "S12",
+      "name": "ROHTAK"
+    },
+    {
+      "id": "C345",
+      "stateid": "S12",
+      "name": "SAFIDON"
+    },
+    {
+      "id": "C346",
+      "stateid": "S12",
+      "name": "SAMALKHA"
+    },
+    {
+      "id": "C347",
+      "stateid": "S12",
+      "name": "SIRSA"
+    },
+    {
+      "id": "C350",
+      "stateid": "S12",
+      "name": "SONEPAT"
+    },
+    {
+      "id": "C353",
+      "stateid": "S12",
+      "name": "TOHANA"
+    },
+    {
+      "id": "C356",
+      "stateid": "S13",
+      "name": "ARKI"
+    },
+    {
+      "id": "C358",
+      "stateid": "S13",
+      "name": "BANJAR"
+    },
+    {
+      "id": "C359",
+      "stateid": "S13",
+      "name": "BARSAR"
+    },
+    {
+      "id": "C362",
+      "stateid": "S13",
+      "name": "BILASPUR"
+    },
+    {
+      "id": "C371",
+      "stateid": "S13",
+      "name": "DEHRA GOPIPUR"
+    },
+    {
+      "id": "C372",
+      "stateid": "S13",
+      "name": "DHARMASALA"
+    },
+    {
+      "id": "C380",
+      "stateid": "S13",
+      "name": "KANGRA"
+    },
+    {
+      "id": "C387",
+      "stateid": "S13",
+      "name": "KARSOG"
+    },
+    {
+      "id": "C388",
+      "stateid": "S13",
+      "name": "KULLU"
+    },
+    {
+      "id": "C396",
+      "stateid": "S13",
+      "name": "NADAUN"
+    },
+    {
+      "id": "C397",
+      "stateid": "S13",
+      "name": "NAHAN"
+    },
+    {
+      "id": "C399",
+      "stateid": "S13",
+      "name": "NALAGARH"
+    },
+    {
+      "id": "C400",
+      "stateid": "S13",
+      "name": "REKONG PEO"
+    },
+    {
+      "id": "C403",
+      "stateid": "S13",
+      "name": "PALAMPUR"
+    },
+    {
+      "id": "C404",
+      "stateid": "S13",
+      "name": "CHAMBA"
+    },
+    {
+      "id": "C405",
+      "stateid": "S13",
+      "name": "PAONTA SAHIB"
+    },
+    {
+      "id": "C408",
+      "stateid": "S13",
+      "name": "SIRMAUR"
+    },
+    {
+      "id": "C409",
+      "stateid": "S13",
+      "name": "RAMPUR BUSHAHR"
+    },
+    {
+      "id": "C411",
+      "stateid": "S13",
+      "name": "ROHRU"
+    },
+    {
+      "id": "C412",
+      "stateid": "S13",
+      "name": "SARKAGHAT"
+    },
+    {
+      "id": "C414",
+      "stateid": "S13",
+      "name": "SHIMLA"
+    },
+    {
+      "id": "C424",
+      "stateid": "S13",
+      "name": "SOLAN"
+    },
+    {
+      "id": "C427",
+      "stateid": "S13",
+      "name": "THEOG"
+    },
+    {
+      "id": "C429",
+      "stateid": "S13",
+      "name": "UNA"
+    },
+    {
+      "id": "C431",
+      "stateid": "S14",
+      "name": "ANANTNAG"
+    },
+    {
+      "id": "C433",
+      "stateid": "S14",
+      "name": "BARAMULLA"
+    },
+    {
+      "id": "C435",
+      "stateid": "S14",
+      "name": "BUDGAM"
+    },
+    {
+      "id": "C436",
+      "stateid": "S14",
+      "name": "DODA"
+    },
+    {
+      "id": "C437",
+      "stateid": "S14",
+      "name": "GANDERBAL"
+    },
+    {
+      "id": "C438",
+      "stateid": "S14",
+      "name": "JAMMU"
+    },
+    {
+      "id": "C439",
+      "stateid": "S14",
+      "name": "KARGIL"
+    },
+    {
+      "id": "C440",
+      "stateid": "S14",
+      "name": "KATHUA"
+    },
+    {
+      "id": "C441",
+      "stateid": "S14",
+      "name": "KISHTWAR"
+    },
+    {
+      "id": "C442",
+      "stateid": "S14",
+      "name": "KULGAM"
+    },
+    {
+      "id": "C443",
+      "stateid": "S14",
+      "name": "KUPWARA"
+    },
+    {
+      "id": "C444",
+      "stateid": "S14",
+      "name": "LEH"
+    },
+    {
+      "id": "C445",
+      "stateid": "S14",
+      "name": "POONCH"
+    },
+    {
+      "id": "C446",
+      "stateid": "S14",
+      "name": "PULWAMA"
+    },
+    {
+      "id": "C447",
+      "stateid": "S14",
+      "name": "RAJOURI"
+    },
+    {
+      "id": "C448",
+      "stateid": "S14",
+      "name": "RAMBAN"
+    },
+    {
+      "id": "C449",
+      "stateid": "S14",
+      "name": "REASI"
+    },
+    {
+      "id": "C450",
+      "stateid": "S14",
+      "name": "SAMBA"
+    },
+    {
+      "id": "C451",
+      "stateid": "S14",
+      "name": "SRINAGAR"
+    },
+    {
+      "id": "C452",
+      "stateid": "S14",
+      "name": "UDHAMPUR"
+    },
+    {
+      "id": "C453",
+      "stateid": "S15",
+      "name": "BOKARO"
+    },
+    {
+      "id": "C454",
+      "stateid": "S15",
+      "name": "EAST SINGHBHUM"
+    },
+    {
+      "id": "C455",
+      "stateid": "S15",
+      "name": "DEOGHAR"
+    },
+    {
+      "id": "C457",
+      "stateid": "S15",
+      "name": "DUMKA"
+    },
+    {
+      "id": "C458",
+      "stateid": "S15",
+      "name": "GIRIDIH"
+    },
+    {
+      "id": "C460",
+      "state id": "S15",
+      "name": "HAZARIBAGH"
+    },
+    {
+      "id": "C461",
+      "stateid": "S15",
+      "name": "JAMSHEDPUR"
+    },
+    {
+      "id": "C462",
+      "stateid": "S15",
+      "name": "JAMTARA"
+    },
+    {
+      "id": "C463",
+      "stateid": "S15",
+      "name": "PALAMU"
+    },
+    {
+      "id": "C466",
+      "stateid": "S15",
+      "name": "LOHARDAGA"
+    },
+    {
+      "id": "C468",
+      "stateid": "S15",
+      "name": "CHATRA"
+    },
+    {
+      "id": "C470",
+      "stateid": "S15",
+      "name": "PAKUR"
+    },
+    {
+      "id": "C471",
+      "stateid": "S15",
+      "name": "GODDA"
+    },
+    {
+      "id": "C472",
+      "stateid": "S15",
+      "name": "KODERMA"
+    },
+    {
+      "id": "C473",
+      "stateid": "S15",
+      "name": "LATEHAR"
+    },
+    {
+      "id": "C474",
+      "stateid": "S15",
+      "name": "RAMGARH"
+    },
+    {
+      "id": "C475",
+      "stateid": "S15",
+      "name": "RANCHI"
+    },
+    {
+      "id": "C476",
+      "stateid": "S15",
+      "name": "SAHIBGANJ"
+    },
+    {
+      "id": "C477",
+      "stateid": "S15",
+      "name": "SERAIKELAKHARSAWAN"
+    },
+    {
+      "id": "C478",
+      "stateid": "S15",
+      "name": "SIMDEGA"
+    },
+    {
+      "id": "C479",
+      "stateid": "S16",
+      "name": "BAGALKOT"
+    },
+    {
+      "id": "C480",
+      "stateid": "S16",
+      "name": "BAILHONGAL"
+    },
+    {
+      "id": "C481",
+      "stateid": "S16",
+      "name": "BANGALORE"
+    },
+    {
+      "id": "C485",
+      "stateid": "S16",
+      "name": "RAJAJINAGAR"
+    },
+    {
+      "id": "C487",
+      "stateid": "S16",
+      "name": "BELGAUM"
+    },
+    {
+      "id": "C488",
+      "stateid": "S16",
+      "name": "BELLARY"
+    },
+    {
+      "id": "C489",
+      "stateid": "S16",
+      "name": "BHALKI"
+    },
+    {
+      "id": "C490",
+      "stateid": "S16",
+      "name": "BIDAR"
+    },
+    {
+      "id": "C492",
+      "stateid": "S16",
+      "name": "BIJAPUR"
+    },
+    {
+      "id": "C493",
+      "stateid": "S16",
+      "name": "CHAMRAJNAGAR"
+    },
+    {
+      "id": "C494",
+      "stateid": "S16",
+      "name": "CHICKMAGALUR"
+    },
+    {
+      "id": "C495",
+      "stateid": "S16",
+      "name": "CHIKABALLAPUR"
+    },
+    {
+      "id": "C496",
+      "stateid": "S16",
+      "name": "CHIKODI"
+    },
+    {
+      "id": "C497",
+      "stateid": "S16",
+      "name": "CHITRADURGA"
+    },
+    {
+      "id": "C498",
+      "stateid": "S16",
+      "name": "DAVANAGERE"
+    },
+    {
+      "id": "C499",
+      "stateid": "S16",
+      "name": "DEVANAHALLI"
+    },
+    {
+      "id": "C500",
+      "stateid": "S16",
+      "name": "DHARWAD"
+    },
+    {
+      "id": "C501",
+      "stateid": "S16",
+      "name": "GADAG"
+    },
+    {
+      "id": "C502",
+      "stateid": "S16",
+      "name": "GOKAK"
+    },
+    {
+      "id": "C503",
+      "stateid": "S16",
+      "name": "GULBARGA"
+    },
+    {
+      "id": "C504",
+      "stateid": "S16",
+      "name": "HASSAN"
+    },
+    {
+      "id": "C505",
+      "stateid": "S16",
+      "name": "HAVERI"
+    },
+    {
+      "id": "C506",
+      "stateid": "S16",
+      "name": "HONAVAR"
+    },
+    {
+      "id": "C507",
+      "stateid": "S16",
+      "name": "HOSPET"
+    },
+    {
+      "id": "C508",
+      "stateid": "S16",
+      "name": "HUNSUR"
+    },
+    {
+      "id": "C509",
+      "stateid": "S16",
+      "name": "JAMKHANDI"
+    },
+    {
+      "id": "C511",
+      "stateid": "S16",
+      "name": "KARWAR"
+    },
+    {
+      "id": "C512",
+      "stateid": "S16",
+      "name": "KOLAR"
+    },
+    {
+      "id": "C514",
+      "stateid": "S16",
+      "name": "KOPPAL"
+    },
+    {
+      "id": "C516",
+      "stateid": "S16",
+      "name": "MADIKERE"
+    },
+    {
+      "id": "C517",
+      "stateid": "S16",
+      "name": "MANDYA"
+    },
+    {
+      "id": "C518",
+      "stateid": "S16",
+      "name": "MANGALORE"
+    },
+    {
+      "id": "C519",
+      "stateid": "S16",
+      "name": "MYSORE"
+    },
+    {
+      "id": "C520",
+      "stateid": "S16",
+      "name": "NAGAMANGALA"
+    },
+    {
+      "id": "C522",
+      "stateid": "S16",
+      "name": "PUTTUR"
+    },
+    {
+      "id": "C523",
+      "stateid": "S16",
+      "name": "RAICHUR"
+    },
+    {
+      "id": "C525",
+      "stateid": "S16",
+      "name": "RAMANAGAR"
+    },
+    {
+      "id": "C527",
+      "stateid": "S16",
+      "name": "SAKLESHPUR"
+    },
+    {
+      "id": "C528",
+      "stateid": "S16",
+      "name": "SHIMOGA"
+    },
+    {
+      "id": "C529",
+      "stateid": "S16",
+      "name": "SIRSI"
+    },
+    {
+      "id": "C530",
+      "stateid": "S16",
+      "name": "TIPTUR"
+    },
+    {
+      "id": "C531",
+      "stateid": "S16",
+      "name": "TUMKUR"
+    },
+    {
+      "id": "C532",
+      "stateid": "S16",
+      "name": "UDUPI"
+    },
+    {
+      "id": "C533",
+      "stateid": "S16",
+      "name": "YADGIR"
+    },
+    {
+      "id": "C534",
+      "stateid": "S16",
+      "name": "YELAHANKA"
+    },
+    {
+      "id": "C535",
+      "stateid": "S17",
+      "name": "ADUR KERALA"
+    },
+    {
+      "id": "C536",
+      "stateid": "S17",
+      "name": "ALAPPUZHA"
+    },
+    {
+      "id": "C538",
+      "stateid": "S17",
+      "name": "ALUVA"
+    },
+    {
+      "id": "C539",
+      "stateid": "S17",
+      "name": "COCHIN"
+    },
+    {
+      "id": "C540",
+      "stateid": "S17",
+      "name": "ATTINGAL"
+    },
+    {
+      "id": "C543",
+      "stateid": "S17",
+      "name": "CHANGANASSERY"
+    },
+    {
+      "id": "C544",
+      "stateid": "S17",
+      "name": "CHENGANNUR"
+    },
+    {
+      "id": "C545",
+      "stateid": "S17",
+      "name": "CHERTHALA"
+    },
+    {
+      "id": "C548",
+      "stateid": "S17",
+      "name": "IDUKKI"
+    },
+    {
+      "id": "C549",
+      "stateid": "S17",
+      "name": "IRINJALAKUDA"
+    },
+    {
+      "id": "C550",
+      "stateid": "S17",
+      "name": "KANHANGAD"
+    },
+    {
+      "id": "C551",
+      "stateid": "S17",
+      "name": "KANJIRAPALLY"
+    },
+    {
+      "id": "C552",
+      "stateid": "S17",
+      "name": "KANNUR"
+    },
+    {
+      "id": "C553",
+      "stateid": "S17",
+      "name": "KARUNAGAPALLY"
+    },
+    {
+      "id": "C554",
+      "stateid": "S17",
+      "name": "KASARAGOD"
+    },
+    {
+      "id": "C555",
+      "stateid": "S17",
+      "name": "KAYAMKULAM"
+    },
+    {
+      "id": "C559",
+      "stateid": "S17",
+      "name": "KOLLAM"
+    },
+    {
+      "id": "C560",
+      "stateid": "S17",
+      "name": "KOTHAMANGALAM"
+    },
+    {
+      "id": "C561",
+      "stateid": "S17",
+      "name": "KOTTARAKARA"
+    },
+    {
+      "id": "C562",
+      "stateid": "S17",
+      "name": "KOTTAYAM"
+    },
+    {
+      "id": "C563",
+      "stateid": "S17",
+      "name": "KOZHIKODE"
+    },
+    {
+      "id": "C566",
+      "stateid": "S17",
+      "name": "MALAPPURAM"
+    },
+    {
+      "id": "C567",
+      "stateid": "S17",
+      "name": "MALLAPPALLY"
+    },
+    {
+      "id": "C570",
+      "stateid": "S17",
+      "name": "MAVELIKARA"
+    },
+    {
+      "id": "C571",
+      "stateid": "S17",
+      "name": "MUVATTUPUZHA"
+    },
+    {
+      "id": "C572",
+      "stateid": "S17",
+      "name": "NEDUMANGAD"
+    },
+    {
+      "id": "C573",
+      "stateid": "S17",
+      "name": "NEYYATTINKARA"
+    },
+    {
+      "id": "C574",
+      "stateid": "S17",
+      "name": "ERNAKULAM"
+    },
+    {
+      "id": "C575",
+      "stateid": "S17",
+      "name": "OTTAPALAM"
+    },
+    {
+      "id": "C576",
+      "stateid": "S17",
+      "name": "PALAI"
+    },
+    {
+      "id": "C577",
+      "stateid": "S17",
+      "name": "PALAKKAD"
+    },
+    {
+      "id": "C581",
+      "stateid": "S17",
+      "name": "PERINTHALMANNA"
+    },
+    {
+      "id": "C582",
+      "stateid": "S17",
+      "name": "PERUMBAVOOR"
+    },
+    {
+      "id": "C583",
+      "stateid": "S17",
+      "name": "PONANI"
+    },
+    {
+      "id": "C584",
+      "stateid": "S17",
+      "name": "PUNALUR"
+    },
+    {
+      "id": "C585",
+      "stateid": "S17",
+      "name": "PATHANAMTHITTA"
+    },
+    {
+      "id": "C586",
+      "stateid": "S17",
+      "name": "TALIPARAMBA"
+    },
+    {
+      "id": "C587",
+      "stateid": "S17",
+      "name": "THALASSERY"
+    },
+    {
+      "id": "C588",
+      "stateid": "S17",
+      "name": "TIRUVALLA"
+    },
+    {
+      "id": "C589",
+      "stateid": "S17",
+      "name": "THIRUVANANTHAPURAM"
+    },
+    {
+      "id": "C590",
+      "stateid": "S17",
+      "name": "TRIVANDRUM"
+    },
+    {
+      "id": "C591",
+      "stateid": "S17",
+      "name": "THODUPUZHA"
+    },
+    {
+      "id": "C594",
+      "stateid": "S17",
+      "name": "TIRUR"
+    },
+    {
+      "id": "C595",
+      "stateid": "S17",
+      "name": "TIRURANGADI"
+    },
+    {
+      "id": "C596",
+      "stateid": "S17",
+      "name": "VAIKOM"
+    },
+    {
+      "id": "C598",
+      "stateid": "S17",
+      "name": "VADAKARA"
+    },
+    {
+      "id": "C599",
+      "stateid": "S17",
+      "name": "THRISSUR"
+    },
+    {
+      "id": "C600",
+      "stateid": "S17",
+      "name": "WAYANAD"
+    },
+    {
+      "id": "C601",
+      "stateid": "S18",
+      "name": "LAKSHADWEEP"
+    },
+    {
+      "id": "C602",
+      "stateid": "S19",
+      "name": "AMBIKAPUR"
+    },
+    {
+      "id": "C603",
+      "stateid": "S19",
+      "name": "ANUPPUR"
+    },
+    {
+      "id": "C605",
+      "stateid": "S19",
+      "name": "NARSINGHPUR"
+    },
+    {
+      "id": "C606",
+      "stateid": "S19",
+      "name": "ASHOK NAGAR"
+    },
+    {
+      "id": "C608",
+      "stateid": "S19",
+      "name": "BALAGHAT"
+    },
+    {
+      "id": "C610",
+      "stateid": "S19",
+      "name": "BETUL"
+    },
+    {
+      "id": "C612",
+      "stateid": "S19",
+      "name": "BHIND"
+    },
+    {
+      "id": "C613",
+      "stateid": "S19",
+      "name": "BHOPAL"
+    },
+    {
+      "id": "C615",
+      "stateid": "S19",
+      "name": "BURHANPUR"
+    },
+    {
+      "id": "C616",
+      "stateid": "S19",
+      "name": "MORENA"
+    },
+    {
+      "id": "C617",
+      "stateid": "S19",
+      "name": "CHHATARPUR"
+    },
+    {
+      "id": "C618",
+      "stateid": "S19",
+      "name": "CHHINDWARA"
+    },
+    {
+      "id": "C620",
+      "stateid": "S19",
+      "name": "DAMOH"
+    },
+    {
+      "id": "C621",
+      "stateid": "S19",
+      "name": "DATIA"
+    },
+    {
+      "id": "C623",
+      "stateid": "S19",
+      "name": "DEWAS"
+    },
+    {
+      "id": "C625",
+      "stateid": "S19",
+      "name": "DHAR"
+    },
+    {
+      "id": "C626",
+      "stateid": "S19",
+      "name": "DINDORI"
+    },
+    {
+      "id": "C629",
+      "stateid": " S19",
+      "name": "GUNA"
+    },
+    {
+      "id": "C630",
+      "stateid": "S19",
+      "name": "GWALIOR"
+    },
+    {
+      "id": "C631",
+      "stateid": "S19",
+      "name": "HARDA"
+    },
+    {
+      "id": "C632",
+      "stateid": "S19",
+      "name": "HOSHANGABAD"
+    },
+    {
+      "id": "C633",
+      "stateid": "S19",
+      "name": "INDORE"
+    },
+    {
+      "id": "C634",
+      "stateid": "S19",
+      "name": "JABALPUR"
+    },
+    {
+      "id": "C635",
+      "stateid": "S7",
+      "name": "JAGADALPUR"
+    },
+    {
+      "id": "C636",
+      "stateid": "S19",
+      "name": "JHABUA"
+    },
+    {
+      "id": "C637",
+      "stateid": "S19",
+      "name": "KATNI"
+    },
+    {
+      "id": "C638",
+      "stateid": "S19",
+      "name": "KHANDWA"
+    },
+    {
+      "id": "C639",
+      "stateid": "S19",
+      "name": "KHARGONE"
+    },
+    {
+      "id": "C640",
+      "stateid": "S19",
+      "name": "MANDLA"
+    },
+    {
+      "id": "C642",
+      "stateid": "S19",
+      "name": "MANDSAUR"
+    },
+    {
+      "id": "C645",
+      "stateid": "S19",
+      "name": "NEEMUCH"
+    },
+    {
+      "id": "C646",
+      "stateid": "S19",
+      "name": "PANNA"
+    },
+    {
+      "id": "C649",
+      "stateid": "S19",
+      "name": "RAISEN"
+    },
+    {
+      "id": "C650",
+      "stateid": "S19",
+      "name": "RAJGARH"
+    },
+    {
+      "id": "C651",
+      "stateid": "S19",
+      "name": "RATLAM"
+    },
+    {
+      "id": "C652",
+      "stateid": "S19",
+      "name": "REWA"
+    },
+    {
+      "id": "C653",
+      "stateid": "S19",
+      "name": "SAGAR"
+    },
+    {
+      "id": "C654",
+      "stateid": "S19",
+      "name": "SATNA"
+    },
+    {
+      "id": "C655",
+      "stateid": "S19",
+      "name": "SEHORE"
+    },
+    {
+      "id": "C656",
+      "stateid": "S19",
+      "name": "SEONI"
+    },
+    {
+      "id": "C657",
+      "stateid": "S19",
+      "name": "SHAHDOL"
+    },
+    {
+      "id": "C658",
+      "stateid": "S19",
+      "name": "SHAJAPUR"
+    },
+    {
+      "id": "C659",
+      "stateid": "S19",
+      "name": "SHEOPUR"
+    },
+    {
+      "id": "C661",
+      "stateid": "S19",
+      "name": "SHIVPURI"
+    },
+    {
+      "id": "C662",
+      "stateid": "S19",
+      "name": "SIDHI"
+    },
+    {
+      "id": "C664",
+      "stateid": "S19",
+      "name": "TIKAMGARH"
+    },
+    {
+      "id": "C665",
+      "stateid": "S19",
+      "name": "UJJAIN"
+    },
+    {
+      "id": "C666",
+      "stateid": "S19",
+      "name": "UMARIA"
+    },
+    {
+      "id": "C668",
+      "stateid": "S19",
+      "name": "VIDISHA"
+    },
+    {
+      "id": "C669",
+      "stateid": "S20",
+      "name": "AHMED NAGAR"
+    },
+    {
+      "id": "C671",
+      "stateid": "S20",
+      "name": "AKOLA"
+    },
+    {
+      "id": "C672",
+      "stateid": "S20",
+      "name": "AMRAVATI"
+    },
+    {
+      "id": "C673",
+      "stateid": "S20",
+      "name": "AURANGABAD"
+    },
+    {
+      "id": "C674",
+      "stateid": "S20",
+      "name": "BARAMATI"
+    },
+    {
+      "id": "C675",
+      "stateid": "S20",
+      "name": "BEED"
+    },
+    {
+      "id": "C676",
+      "stateid": "S20",
+      "name": "BHANDARA"
+    },
+    {
+      "id": "C677",
+      "stateid": "S20",
+      "name": "BULDHANA"
+    },
+    {
+      "id": "C678",
+      "stateid": "S20",
+      "name": "CHANDRAPUR"
+    },
+    {
+      "id": "C679",
+      "stateid": "S20",
+      "name": "DHULE"
+    },
+    {
+      "id": "C681",
+      "stateid": "S20",
+      "name": "GADCHIROLI"
+    },
+    {
+      "id": "C682",
+      "stateid": "S20",
+      "name": "GOND IA"
+    },
+    {
+      "id": "C683",
+      "stateid": "S20",
+      "name": "HINGOLI"
+    },
+    {
+      "id": "C684",
+      "stateid": "S20",
+      "name": "JALGAON"
+    },
+    {
+      "id": "C685",
+      "stateid": "S20",
+      "name": "JALNA"
+    },
+    {
+      "id": "C686",
+      "stateid": "S20",
+      "name": "KALYAN"
+    },
+    {
+      "id": "C687",
+      "stateid": "S20",
+      "name": "KOLHAPUR"
+    },
+    {
+      "id": "C688",
+      "stateid": "S20",
+      "name": "LATUR"
+    },
+    {
+      "id": "C689",
+      "stateid": "S20",
+      "name": "MALEGAON"
+    },
+    {
+      "id": "C690",
+      "stateid": "S20",
+      "name": "MUMBAI"
+    },
+    {
+      "id": "C693",
+      "stateid": "S20",
+      "name": "NAGPUR"
+    },
+    {
+      "id": "C694",
+      "stateid": "S20",
+      "name": "NANDED"
+    },
+    {
+      "id": "C695",
+      "stateid": "S20",
+      "name": "NANDURBAR"
+    },
+    {
+      "id": "C696",
+      "stateid": "S20",
+      "name": "NASHIK"
+    },
+    {
+      "id": "C697",
+      "stateid": "S20",
+      "name": "NAVI MUMBAI"
+    },
+    {
+      "id": "C698",
+      "stateid": "S20",
+      "name": "OSMANABAD"
+    },
+    {
+      "id": "C699",
+      "stateid": "S20",
+      "name": "PANVEL"
+    },
+    {
+      "id": "C700",
+      "stateid": "S20",
+      "name": "PARBHANI"
+    },
+    {
+      "id": "C702",
+      "stateid": "S20",
+      "name": "PEN"
+    },
+    {
+      "id": "C703",
+      "stateid": "S20",
+      "name": "PIMPRI CHINCHWAD"
+    },
+    {
+      "id": "C704",
+      "stateid": "S20",
+      "name": "PUNE"
+    },
+    {
+      "id": "C705",
+      "stateid": "S20",
+      "name": "RATNAGIRI"
+    },
+    {
+      "id": "C706",
+      "stateid": "S20",
+      "name": "SANGLI"
+    },
+    {
+      "id": "C707",
+      "stateid": "S20",
+      "name": "SATARA"
+    },
+    {
+      "id": "C708",
+      "stateid": "S20",
+      "name": "KARAD"
+    },
+    {
+      "id": "C709",
+      "stateid": "S20",
+      "name": "SHRIRAMPUR"
+    },
+    {
+      "id": "C710",
+      "stateid": "S20",
+      "name": "SINDHUDURG"
+    },
+    {
+      "id": "C711",
+      "stateid": "S20",
+      "name": "SOLAPUR"
+    },
+    {
+      "id": "C712",
+      "stateid": "S20",
+      "name": "THANE"
+    },
+    {
+      "id": "C713",
+      "stateid": "S20",
+      "name": "ULHASNAGAR"
+    },
+    {
+      "id": "C715",
+      "stateid": "S20",
+      "name": "WADI"
+    },
+    {
+      "id": "C716",
+      "stateid": "S20",
+      "name": "WARDHA"
+    },
+    {
+      "id": "C717",
+      "stateid": "S20",
+      "name": "WASHIM"
+    },
+    {
+      "id": "C718",
+      "stateid": "S20",
+      "name": "YAVATMAL"
+    },
+    {
+      "id": "C719",
+      "stateid": "S21",
+      "name": "CHURACHANDPUR"
+    },
+    {
+      "id": "C720",
+      "stateid": "S21",
+      "name": "IMPHAL"
+    },
+    {
+      "id": "C722",
+      "stateid": "S21",
+      "name": "THOUBAL"
+    },
+    {
+      "id": "C723",
+      "stateid": "S22",
+      "name": "EAST GARO HILLS"
+    },
+    {
+      "id": "C724",
+      "stateid": "S22",
+      "name": "EAST KHASI HILLS"
+    },
+    {
+      "id": "C725",
+      "stateid": "S22",
+      "name": "JAINTIA HILLS"
+    },
+    {
+      "id": "C726",
+      "stateid": "S22",
+      "name": "SHILLONG"
+    },
+    {
+      "id": "C730",
+      "stateid": "S22",
+      "name": "SOUTH GARO HILLS"
+    },
+    {
+      "id": "C731",
+      "stateid": "S22",
+      "name": "WEST GARO HILLS"
+    },
+    {
+      "id": "C732",
+      "stateid": "S22",
+      "name": "WEST KHASI HIL LS"
+    },
+    {
+      "id": "C733",
+      "stateid": "S23",
+      "name": "AIZAWL"
+    },
+    {
+      "id": "C734",
+      "stateid": "S23",
+      "name": "CHAMPHAI"
+    },
+    {
+      "id": "C736",
+      "stateid": "S23",
+      "name": "KOLASIB"
+    },
+    {
+      "id": "C737",
+      "stateid": "S23",
+      "name": "LAWNGTLAI"
+    },
+    {
+      "id": "C738",
+      "stateid": "S23",
+      "name": "LUNGLEI"
+    },
+    {
+      "id": "C740",
+      "stateid": "S23",
+      "name": "SERCHHIP"
+    },
+    {
+      "id": "C741",
+      "stateid": "S24",
+      "name": "DIMAPUR"
+    },
+    {
+      "id": "C742",
+      "stateid": "S24",
+      "name": "KOHIMA"
+    },
+    {
+      "id": "C743",
+      "stateid": "S24",
+      "name": "MOKOKCHUNG"
+    },
+    {
+      "id": "C744",
+      "stateid": "S24",
+      "name": "MON"
+    },
+    {
+      "id": "C745",
+      "stateid": "S24",
+      "name": "PHEK"
+    },
+    {
+      "id": "C746",
+      "stateid": "S24",
+      "name": "TUENSANG"
+    },
+    {
+      "id": "C747",
+      "stateid": "S24",
+      "name": "WOKHA"
+    },
+    {
+      "id": "C749",
+      "stateid": "S25",
+      "name": "ANGUL"
+    },
+    {
+      "id": "C751",
+      "stateid": "S25",
+      "name": "BARAGARH"
+    },
+    {
+      "id": "C753",
+      "stateid": "S25",
+      "name": "BHUBANESWAR"
+    },
+    {
+      "id": "C754",
+      "stateid": "S25",
+      "name": "BOLANGIR"
+    },
+    {
+      "id": "C758",
+      "stateid": "S25",
+      "name": "DEBAGARH"
+    },
+    {
+      "id": "C760",
+      "stateid": "S25",
+      "name": "GAJAPATI"
+    },
+    {
+      "id": "C762",
+      "stateid": "S25",
+      "name": "JAGATSINGHPUR"
+    },
+    {
+      "id": "C763",
+      "stateid": "S25",
+      "name": "JHARSUGUDA"
+    },
+    {
+      "id": "C765",
+      "stateid": "S25",
+      "name": "KEONJHAR GARH"
+    },
+    {
+      "id": "C766",
+      "stateid": "S25",
+      "name": "KORAPUT"
+    },
+    {
+      "id": "C768",
+      "stateid": "S25",
+      "name": "MAYURBHANJ"
+    },
+    {
+      "id": "C769",
+      "stateid": "S25",
+      "name": "NABARANGAPUR"
+    },
+    {
+      "id": "C771",
+      "stateid": "S25",
+      "name": "NUAPADA"
+    },
+    {
+      "id": "C772",
+      "stateid": "S25",
+      "name": "PHULBANI"
+    },
+    {
+      "id": "C773",
+      "stateid": "S25",
+      "name": "PURI"
+    },
+    {
+      "id": "C775",
+      "stateid": "S25",
+      "name": "ROURKELA"
+    },
+    {
+      "id": "C777",
+      "stateid": "S25",
+      "name": "SONAPUR"
+    },
+    {
+      "id": "C779",
+      "stateid": "S26",
+      "name": "KARAIKAL"
+    },
+    {
+      "id": "C780",
+      "stateid": "S26",
+      "name": "MAHE"
+    },
+    {
+      "id": "C781",
+      "stateid": "S26",
+      "name": "PONDICHERRY"
+    },
+    {
+      "id": "C782",
+      "stateid": "S26",
+      "name": "YANAM"
+    },
+    {
+      "id": "C783",
+      "stateid": "S27",
+      "name": "ABOHAR"
+    },
+    {
+      "id": "C784",
+      "stateid": "S27",
+      "name": "AJNALA"
+    },
+    {
+      "id": "C785",
+      "stateid": "S27",
+      "name": "AMLOH"
+    },
+    {
+      "id": "C786",
+      "stateid": "S27",
+      "name": "AMRITSAR"
+    },
+    {
+      "id": "C791",
+      "stateid": "S27",
+      "name": "BARNALA"
+    },
+    {
+      "id": "C793",
+      "stateid": "S27",
+      "name": "BATALA"
+    },
+    {
+      "id": "C794",
+      "stateid": "S27",
+      "name": "BATHINDA"
+    },
+    {
+      "id": "C796",
+      "stateid": "S27",
+      "name": "BUDHLADA"
+    },
+    {
+      "id": "C798",
+      "stateid": "S6",
+      "na me": "CHANDIGARH"
+    },
+    {
+      "id": "C799",
+      "stateid": "S27",
+      "name": "DASUYA"
+    },
+    {
+      "id": "C800",
+      "stateid": "S27",
+      "name": "DERA BABA NANAK"
+    },
+    {
+      "id": "C802",
+      "stateid": "S27",
+      "name": "DHURI"
+    },
+    {
+      "id": "C803",
+      "stateid": "S27",
+      "name": "FARIDKOT"
+    },
+    {
+      "id": "C804",
+      "stateid": "S27",
+      "name": "FATEHGARH SAHIB"
+    },
+    {
+      "id": "C805",
+      "stateid": "S27",
+      "name": "FAZILKA"
+    },
+    {
+      "id": "C806",
+      "stateid": "S27",
+      "name": "FEROZEPUR"
+    },
+    {
+      "id": "C808",
+      "stateid": "S27",
+      "name": "GIDDERBAHA"
+    },
+    {
+      "id": "C809",
+      "stateid": "S27",
+      "name": "GURDASPUR"
+    },
+    {
+      "id": "C810",
+      "stateid": "S27",
+      "name": "HOSHIARPUR"
+    },
+    {
+      "id": "C811",
+      "stateid": "S27",
+      "name": "JAGRAON"
+    },
+    {
+      "id": "C812",
+      "stateid": "S27",
+      "name": "JAITU"
+    },
+    {
+      "id": "C813",
+      "stateid": "S27",
+      "name": "JALALABAD"
+    },
+    {
+      "id": "C814",
+      "stateid": "S27",
+      "name": "JALANDHAR"
+    },
+    {
+      "id": "C816",
+      "stateid": "S27",
+      "name": "KAPURTHALA"
+    },
+    {
+      "id": "C817",
+      "stateid": "S27",
+      "name": "KHANNA"
+    },
+    {
+      "id": "C818",
+      "stateid": "S27",
+      "name": "KHARAR"
+    },
+    {
+      "id": "C819",
+      "stateid": "S27",
+      "name": "LEHRAGAGA"
+    },
+    {
+      "id": "C820",
+      "stateid": "S27",
+      "name": "LUDHIANA"
+    },
+    {
+      "id": "C821",
+      "stateid": "S27",
+      "name": "MALERKOTLA"
+    },
+    {
+      "id": "C822",
+      "stateid": "S27",
+      "name": "MALOUT"
+    },
+    {
+      "id": "C823",
+      "stateid": "S27",
+      "name": "MANSA"
+    },
+    {
+      "id": "C824",
+      "stateid": "S27",
+      "name": "MOGA"
+    },
+    {
+      "id": "C825",
+      "stateid": "S27",
+      "name": "MOHALI"
+    },
+    {
+      "id": "C827",
+      "stateid": "S27",
+      "name": "MUKERIAN"
+    },
+    {
+      "id": "C828",
+      "stateid": "S27",
+      "name": "MUKTSAR"
+    },
+    {
+      "id": "C829",
+      "stateid": "S27",
+      "name": "NABHA"
+    },
+    {
+      "id": "C830",
+      "stateid": "S27",
+      "name": "NAKODAR"
+    },
+    {
+      "id": "C831",
+      "stateid": "S27",
+      "name": "NANGAL"
+    },
+    {
+      "id": "C832",
+      "stateid": "S27",
+      "name": "NAWANSHAHR"
+    },
+    {
+      "id": "C833",
+      "stateid": "S27",
+      "name": "PATHANKOT"
+    },
+    {
+      "id": "C834",
+      "stateid": "S27",
+      "name": "PATIALA"
+    },
+    {
+      "id": "C835",
+      "stateid": "S27",
+      "name": "PATTI"
+    },
+    {
+      "id": "C836",
+      "stateid": "S27",
+      "name": "PAYAL"
+    },
+    {
+      "id": "C837",
+      "stateid": "S27",
+      "name": "PHAGWARA"
+    },
+    {
+      "id": "C839",
+      "stateid": "S27",
+      "name": "RAIKOT"
+    },
+    {
+      "id": "C840",
+      "stateid": "S27",
+      "name": "RAJPURA"
+    },
+    {
+      "id": "C841",
+      "stateid": "S27",
+      "name": "RAMPURA PHUL"
+    },
+    {
+      "id": "C842",
+      "stateid": "S27",
+      "name": "ROPAR"
+    },
+    {
+      "id": "C843",
+      "stateid": "S27",
+      "name": "SAMANA"
+    },
+    {
+      "id": "C844",
+      "stateid": "S27",
+      "name": "SAMRALA"
+    },
+    {
+      "id": "C845",
+      "stateid": "S27",
+      "name": "SANGRUR"
+    },
+    {
+      "id": "C846",
+      " stateid": "S27",
+      "name": "SARDULGARH"
+    },
+    {
+      "id": "C847",
+      "stateid": "S27",
+      "name": "SHAHKOT"
+    },
+    {
+      "id": "C848",
+      "stateid": "S27",
+      "name": "SULTANPUR LODHI"
+    },
+    {
+      "id": "C849",
+      "stateid": "S27",
+      "name": "SUNAM"
+    },
+    {
+      "id": "C851",
+      "stateid": "S27",
+      "name": "TARN TARAN"
+    },
+    {
+      "id": "C852",
+      "stateid": "S27",
+      "name": "ZIRA"
+    },
+    {
+      "id": "C853",
+      "stateid": "S28",
+      "name": "AJMER"
+    },
+    {
+      "id": "C854",
+      "stateid": "S28",
+      "name": "ALWAR"
+    },
+    {
+      "id": "C855",
+      "stateid": "S28",
+      "name": "BANSWARA"
+    },
+    {
+      "id": "C856",
+      "stateid": "S28",
+      "name": "BARAN"
+    },
+    {
+      "id": "C857",
+      "stateid": "S28",
+      "name": "BARMER"
+    },
+    {
+      "id": "C858",
+      "stateid": "S28",
+      "name": "BEAWAR"
+    },
+    {
+      "id": "C859",
+      "stateid": "S28",
+      "name": "BHARATPUR"
+    },
+    {
+      "id": "C860",
+      "stateid": "S28",
+      "name": "BHILWARA"
+    },
+    {
+      "id": "C861",
+      "stateid": "S28",
+      "name": "BIKANER"
+    },
+    {
+      "id": "C862",
+      "stateid": "S28",
+      "name": "BUNDI"
+    },
+    {
+      "id": "C863",
+      "stateid": "S28",
+      "name": "CHITTORGARH"
+    },
+    {
+      "id": "C864",
+      "stateid": "S28",
+      "name": "CHURU"
+    },
+    {
+      "id": "C865",
+      "stateid": "S28",
+      "name": "DAUSA"
+    },
+    {
+      "id": "C866",
+      "stateid": "S28",
+      "name": "DHOLPUR"
+    },
+    {
+      "id": "C867",
+      "stateid": "S28",
+      "name": "DUNGARPUR"
+    },
+    {
+      "id": "C868",
+      "stateid": "S28",
+      "name": "DIDWANA"
+    },
+    {
+      "id": "C869",
+      "stateid": "S28",
+      "name": "HANUMANGARH JN."
+    },
+    {
+      "id": "C870",
+      "stateid": "S28",
+      "name": "JAIPUR"
+    },
+    {
+      "id": "C871",
+      "stateid": "S28",
+      "name": "JAISALMER"
+    },
+    {
+      "id": "C872",
+      "stateid": "S28",
+      "name": "JALORE"
+    },
+    {
+      "id": "C873",
+      "stateid": "S28",
+      "name": "JHALAWAR"
+    },
+    {
+      "id": "C874",
+      "stateid": "S28",
+      "name": "JHUNJHUNU"
+    },
+    {
+      "id": "C875",
+      "stateid": "S28",
+      "name": "JODHPUR"
+    },
+    {
+      "id": "C876",
+      "stateid": "S28",
+      "name": "KARAULI"
+    },
+    {
+      "id": "C877",
+      "stateid": "S28",
+      "name": "KOTA"
+    },
+    {
+      "id": "C878",
+      "stateid": "S28",
+      "name": "KOTPUTLI"
+    },
+    {
+      "id": "C879",
+      "stateid": "S28",
+      "name": "NAGAUR"
+    },
+    {
+      "id": "C880",
+      "stateid": "S28",
+      "name": "PALI"
+    },
+    {
+      "id": "C881",
+      "stateid": "S28",
+      "name": "RAJSAMAND"
+    },
+    {
+      "id": "C882",
+      "stateid": "S28",
+      "name": "RAMGANJ MANDI"
+    },
+    {
+      "id": "C884",
+      "stateid": "S28",
+      "name": "SAWAI MADHOPUR"
+    },
+    {
+      "id": "C885",
+      "stateid": "S28",
+      "name": "SIKAR"
+    },
+    {
+      "id": "C886",
+      "stateid": "S28",
+      "name": "SIROHI"
+    },
+    {
+      "id": "C887",
+      "stateid": "S28",
+      "name": "GANGANAGAR"
+    },
+    {
+      "id": "C888",
+      "stateid": "S28",
+      "name": "TONK"
+    },
+    {
+      "id": "C889",
+      "stateid": "S28",
+      "name": "UDAIPUR"
+    },
+    {
+      "id": "C890",
+      "stateid": "S29",
+      "name": "GANGTOK"
+    },
+    {
+      "id ": "C892",
+      "stateid": "S29",
+      "name": "NORTH SIKKIM"
+    },
+    {
+      "id": "C895",
+      "stateid": "S30",
+      "name": "AMBASAMUDRAM"
+    },
+    {
+      "id": "C896",
+      "stateid": "S30",
+      "name": "ARIYALUR"
+    },
+    {
+      "id": "C897",
+      "stateid": "S30",
+      "name": "ATTUR"
+    },
+    {
+      "id": "C898",
+      "stateid": "S30",
+      "name": "BHAVANI"
+    },
+    {
+      "id": "C899",
+      "stateid": "S30",
+      "name": "CHENGALPATTU"
+    },
+    {
+      "id": "C900",
+      "stateid": "S30",
+      "name": "CHENNAI"
+    },
+    {
+      "id": "C906",
+      "stateid": "S30",
+      "name": "THARAMANGALAM"
+    },
+    {
+      "id": "C910",
+      "stateid": "S30",
+      "name": "COIMBATORE"
+    },
+    {
+      "id": "C914",
+      "stateid": "S30",
+      "name": "CUDDALORE"
+    },
+    {
+      "id": "C915",
+      "stateid": "S30",
+      "name": "DHARAPURAM"
+    },
+    {
+      "id": "C916",
+      "stateid": "S30",
+      "name": "DHARMAPURI"
+    },
+    {
+      "id": "C917",
+      "stateid": "S30",
+      "name": "DINDIGUL"
+    },
+    {
+      "id": "C918",
+      "stateid": "S30",
+      "name": "ERODE"
+    },
+    {
+      "id": "C920",
+      "stateid": "S30",
+      "name": "GOBICHETTIPALAYAM"
+    },
+    {
+      "id": "C921",
+      "stateid": "S30",
+      "name": "HOSUR"
+    },
+    {
+      "id": "C922",
+      "stateid": "S30",
+      "name": "KANCHIPURAM"
+    },
+    {
+      "id": "C923",
+      "stateid": "S30",
+      "name": "KARUR"
+    },
+    {
+      "id": "C924",
+      "stateid": "S30",
+      "name": "KOVILPATTI"
+    },
+    {
+      "id": "C925",
+      "stateid": "S30",
+      "name": "KRISHNAGIRI"
+    },
+    {
+      "id": "C926",
+      "stateid": "S30",
+      "name": "KULITTALAI"
+    },
+    {
+      "id": "C927",
+      "stateid": "S30",
+      "name": "KUMBAKONAM"
+    },
+    {
+      "id": "C928",
+      "stateid": "S30",
+      "name": "MADURAI"
+    },
+    {
+      "id": "C931",
+      "stateid": "S30",
+      "name": "KANYAKUMARI"
+    },
+    {
+      "id": "C933",
+      "stateid": "S30",
+      "name": "METTUPALAYAM"
+    },
+    {
+      "id": "C934",
+      "stateid": "S30",
+      "name": "NAGAPATTINAM"
+    },
+    {
+      "id": "C935",
+      "stateid": "S30",
+      "name": "NAGERCOIL"
+    },
+    {
+      "id": "C936",
+      "stateid": "S30",
+      "name": "NAMAKKAL"
+    },
+    {
+      "id": "C938",
+      "stateid": "S30",
+      "name": "PERAMBALUR"
+    },
+    {
+      "id": "C939",
+      "stateid": "S30",
+      "name": "PERIYAKULAM"
+    },
+    {
+      "id": "C940",
+      "stateid": "S30",
+      "name": "PERUNDURAI"
+    },
+    {
+      "id": "C941",
+      "stateid": "S30",
+      "name": "POLLACHI"
+    },
+    {
+      "id": "C942",
+      "stateid": "S30",
+      "name": "PUDUKOTTAI"
+    },
+    {
+      "id": "C943",
+      "stateid": "S30",
+      "name": "RAMANATHAPURAM"
+    },
+    {
+      "id": "C944",
+      "stateid": "S30",
+      "name": "RANIPET"
+    },
+    {
+      "id": "C945",
+      "stateid": "S30",
+      "name": "RASIPURAM"
+    },
+    {
+      "id": "C947",
+      "stateid": "S30",
+      "name": "SALEM"
+    },
+    {
+      "id": "C951",
+      "stateid": "S30",
+      "name": "SANKARANKOIL"
+    },
+    {
+      "id": "C954",
+      "stateid": "S30",
+      "name": "SIVAGANGA"
+    },
+    {
+      "id": "C955",
+      "stateid": "S30",
+      "name": "SRIRANGAM"
+    },
+    {
+      "id": "C956",
+      "stateid": "S30",
+      "name": "TENKASI"
+    },
+    {
+      "id": "C95 7",
+      "stateid": "S30",
+      "name": "THANJAVUR"
+    },
+    {
+      "id": "C960",
+      "stateid": "S30",
+      "name": "TIRUVANNAMALAI"
+    },
+    {
+      "id": "C964",
+      "stateid": "S30",
+      "name": "TIRUCHENDUR"
+    },
+    {
+      "id": "C965",
+      "stateid": "S30",
+      "name": "TIRUCHIRAPPALLI"
+    },
+    {
+      "id": "C966",
+      "stateid": "S30",
+      "name": "TIRUNELVELI"
+    },
+    {
+      "id": "C967",
+      "stateid": "S30",
+      "name": "TIRUPPUR"
+    },
+    {
+      "id": "C968",
+      "stateid": "S30",
+      "name": "TIRUPUR"
+    },
+    {
+      "id": "C969",
+      "stateid": "S30",
+      "name": "TIRUVALLUR"
+    },
+    {
+      "id": "C970",
+      "stateid": "S30",
+      "name": "TIRUVARUR"
+    },
+    {
+      "id": "C972",
+      "stateid": "S30",
+      "name": "TUTICORIN"
+    },
+    {
+      "id": "C973",
+      "stateid": "S30",
+      "name": "UDAMALPET"
+    },
+    {
+      "id": "C974",
+      "stateid": "S30",
+      "name": "UDAGAMANDALAM"
+    },
+    {
+      "id": "C977",
+      "stateid": "S30",
+      "name": "VELLORE"
+    },
+    {
+      "id": "C978",
+      "stateid": "S30",
+      "name": "VILLUPURAM"
+    },
+    {
+      "id": "C979",
+      "stateid": "S30",
+      "name": "VIRUDHUNAGAR"
+    },
+    {
+      "id": "C980",
+      "stateid": "S31",
+      "name": "AGARTALA"
+    },
+    {
+      "id": "C981",
+      "stateid": "S31",
+      "name": "DHALAI"
+    },
+    {
+      "id": "C982",
+      "stateid": "S31",
+      "name": "NORTH TRIPURA"
+    },
+    {
+      "id": "C984",
+      "stateid": "S8",
+      "name": "DADRA & NAGAR HAVELI"
+    },
+    {
+      "id": "C985",
+      "stateid": "S32",
+      "name": "AGRA"
+    },
+    {
+      "id": "C986",
+      "stateid": "S32",
+      "name": "ALIGARH"
+    },
+    {
+      "id": "C987",
+      "stateid": "S32",
+      "name": "ALLAHABAD"
+    },
+    {
+      "id": "C989",
+      "stateid": "S32",
+      "name": "AMBEDKAR NAGAR"
+    },
+    {
+      "id": "C990",
+      "stateid": "S32",
+      "name": "AURAIYA"
+    },
+    {
+      "id": "C991",
+      "stateid": "S32",
+      "name": "AYODHYA"
+    },
+    {
+      "id": "C992",
+      "stateid": "S32",
+      "name": "AZAMGARH"
+    },
+    {
+      "id": "C993",
+      "stateid": "S32",
+      "name": "BUDAUN"
+    },
+    {
+      "id": "C994",
+      "stateid": "S32",
+      "name": "BAGPAT"
+    },
+    {
+      "id": "C995",
+      "stateid": "S32",
+      "name": "BAHRAICH"
+    },
+    {
+      "id": "C996",
+      "stateid": "S32",
+      "name": "BALLIA"
+    },
+    {
+      "id": "C997",
+      "stateid": "S32",
+      "name": "BALRAMPUR"
+    },
+    {
+      "id": "C998",
+      "stateid": "S32",
+      "name": "BANDA"
+    },
+    {
+      "id": "C999",
+      "stateid": "S32",
+      "name": "BARABANKI"
+    },
+    {
+      "id": "C1000",
+      "stateid": "S32",
+      "name": "BAREILLY"
+    },
+    {
+      "id": "C1001",
+      "stateid": "S32",
+      "name": "BASTI"
+    },
+    {
+      "id": "C1002",
+      "stateid": "S32",
+      "name": "BHADOHI"
+    },
+    {
+      "id": "C1003",
+      "stateid": "S32",
+      "name": "BIJNORE"
+    },
+    {
+      "id": "C1004",
+      "stateid": "S32",
+      "name": "BULANDSHAHR"
+    },
+    {
+      "id": "C1006",
+      "stateid": "S32",
+      "name": "CHANDAULI"
+    },
+    {
+      "id": "C1008",
+      "stateid": "S32",
+      "name": "DEORIA"
+    },
+    {
+      "id": "C1009",
+      "stateid": "S32",
+      "name": "ETAH"
+    },
+    {
+      "id": "C1010",
+      "stateid": "S32",
+      "na me": "ETAWAH"
+    },
+    {
+      "id": "C1012",
+      "stateid": "S32",
+      "name": "FAIZABAD"
+    },
+    {
+      "id": "C1013",
+      "stateid": "S32",
+      "name": "FARRUKHABAD"
+    },
+    {
+      "id": "C1014",
+      "stateid": "S32",
+      "name": "FATEHPUR"
+    },
+    {
+      "id": "C1015",
+      "stateid": "S32",
+      "name": "FIROZABAD"
+    },
+    {
+      "id": "C1016",
+      "stateid": "S32",
+      "name": "GAUTAM BUDDHA NAGAR"
+    },
+    {
+      "id": "C1017",
+      "stateid": "S32",
+      "name": "GHAZIABAD"
+    },
+    {
+      "id": "C1018",
+      "stateid": "S32",
+      "name": "GHAZIPUR"
+    },
+    {
+      "id": "C1019",
+      "stateid": "S32",
+      "name": "GONDA"
+    },
+    {
+      "id": "C1020",
+      "stateid": "S32",
+      "name": "GORAKHPUR"
+    },
+    {
+      "id": "C1023",
+      "stateid": "S32",
+      "name": "GREATER NOIDA"
+    },
+    {
+      "id": "C1024",
+      "stateid": "S32",
+      "name": "HAMIRPUR"
+    },
+    {
+      "id": "C1025",
+      "stateid": "S32",
+      "name": "HARDOI"
+    },
+    {
+      "id": "C1027",
+      "stateid": "S32",
+      "name": "HATHRAS"
+    },
+    {
+      "id": "C1028",
+      "stateid": "S32",
+      "name": "JALAUN"
+    },
+    {
+      "id": "C1029",
+      "stateid": "S32",
+      "name": "JAUNPUR"
+    },
+    {
+      "id": "C1031",
+      "stateid": "S32",
+      "name": "JHANSI"
+    },
+    {
+      "id": "C1034",
+      "stateid": "S32",
+      "name": "JYOTIBA PHULE NAGAR"
+    },
+    {
+      "id": "C1035",
+      "stateid": "S32",
+      "name": "KANNAUJ"
+    },
+    {
+      "id": "C1037",
+      "stateid": "S32",
+      "name": "KANPUR DEHAT"
+    },
+    {
+      "id": "C1038",
+      "stateid": "S32",
+      "name": "KANPUR"
+    },
+    {
+      "id": "C1039",
+      "stateid": "S32",
+      "name": "KAUSHAMBI"
+    },
+    {
+      "id": "C1040",
+      "stateid": "S32",
+      "name": "KHERI"
+    },
+    {
+      "id": "C1041",
+      "stateid": "S32",
+      "name": "LALITPUR"
+    },
+    {
+      "id": "C1042",
+      "stateid": "S32",
+      "name": "LUCKNOW"
+    },
+    {
+      "id": "C1045",
+      "stateid": "S32",
+      "name": "MAHOBA"
+    },
+    {
+      "id": "C1046",
+      "stateid": "S32",
+      "name": "MAHRAJGANJ"
+    },
+    {
+      "id": "C1047",
+      "stateid": "S32",
+      "name": "MAINPURI"
+    },
+    {
+      "id": "C1048",
+      "stateid": "S32",
+      "name": "MATHURA"
+    },
+    {
+      "id": "C1049",
+      "stateid": "S32",
+      "name": "MAU"
+    },
+    {
+      "id": "C1050",
+      "stateid": "S32",
+      "name": "MEERUT"
+    },
+    {
+      "id": "C1051",
+      "stateid": "S32",
+      "name": "MIRZAPUR"
+    },
+    {
+      "id": "C1052",
+      "stateid": "S32",
+      "name": "MORADABAD"
+    },
+    {
+      "id": "C1053",
+      "stateid": "S32",
+      "name": "MUZAFFARNAGAR"
+    },
+    {
+      "id": "C1055",
+      "stateid": "S32",
+      "name": "NOIDA"
+    },
+    {
+      "id": "C1056",
+      "stateid": "S32",
+      "name": "PADRAUNA"
+    },
+    {
+      "id": "C1058",
+      "stateid": "S32",
+      "name": "PILIBHIT"
+    },
+    {
+      "id": "C1060",
+      "stateid": "S32",
+      "name": "PRATAPGARH"
+    },
+    {
+      "id": "C1061",
+      "stateid": "S32",
+      "name": "RAE BARELI"
+    },
+    {
+      "id": "C1065",
+      "stateid": "S32",
+      "name": "RAMPUR"
+    },
+    {
+      "id": "C1066",
+      "stateid": "S32",
+      "name": "SAHARANPUR"
+    },
+    {
+      "id": "C1067",
+      "stateid": "S32",
+      "name": "CH ITRAKOOT"
+    },
+    {
+      "id": "C1068",
+      "stateid": "S32",
+      "name": "SANT KABIR NAGAR"
+    },
+    {
+      "id": "C1069",
+      "stateid": "S32",
+      "name": "SHAHJAHANPUR"
+    },
+    {
+      "id": "C1070",
+      "stateid": "S32",
+      "name": "SHRAWASTI"
+    },
+    {
+      "id": "C1072",
+      "stateid": "S32",
+      "name": "SITAPUR"
+    },
+    {
+      "id": "C1073",
+      "stateid": "S32",
+      "name": "SONBHADRA"
+    },
+    {
+      "id": "C1074",
+      "stateid": "S32",
+      "name": "SULTANPUR"
+    },
+    {
+      "id": "C1076",
+      "stateid": "S33",
+      "name": "UDHAM SINGH NAGAR"
+    },
+    {
+      "id": "C1077",
+      "stateid": "S32",
+      "name": "UNNAO"
+    },
+    {
+      "id": "C1080",
+      "stateid": "S32",
+      "name": "VARANASI"
+    },
+    {
+      "id": "C1081",
+      "stateid": "S33",
+      "name": "ALMORA"
+    },
+    {
+      "id": "C1083",
+      "stateid": "S33",
+      "name": "BAGESHWAR"
+    },
+    {
+      "id": "C1085",
+      "stateid": "S33",
+      "name": "CHAMOLI"
+    },
+    {
+      "id": "C1087",
+      "stateid": "S33",
+      "name": "CHAMPAWAT"
+    },
+    {
+      "id": "C1089",
+      "stateid": "S33",
+      "name": "DEHRADUN"
+    },
+    {
+      "id": "C1091",
+      "stateid": "S33",
+      "name": "HARIDWAR"
+    },
+    {
+      "id": "C1093",
+      "stateid": "S33",
+      "name": "NAINITAL"
+    },
+    {
+      "id": "C1095",
+      "stateid": "S33",
+      "name": "PAURI"
+    },
+    {
+      "id": "C1097",
+      "stateid": "S33",
+      "name": "PITHORAGARH"
+    },
+    {
+      "id": "C1099",
+      "stateid": "S33",
+      "name": "RISHIKESH"
+    },
+    {
+      "id": "C1101",
+      "stateid": "S33",
+      "name": "RUDRAPRAYAG"
+    },
+    {
+      "id": "C1103",
+      "stateid": "S33",
+      "name": "TEHRI"
+    },
+    {
+      "id": "C1107",
+      "stateid": "S33",
+      "name": "UTTARKASHI"
+    },
+    {
+      "id": "C1113",
+      "stateid": "S34",
+      "name": "ASANSOL"
+    },
+    {
+      "id": "C1116",
+      "stateid": "S34",
+      "name": "BALURGHAT"
+    },
+    {
+      "id": "C1118",
+      "stateid": "S34",
+      "name": "BANKURA"
+    },
+    {
+      "id": "C1120",
+      "stateid": "S34",
+      "name": "BARASAT"
+    },
+    {
+      "id": "C1124",
+      "stateid": "S34",
+      "name": "BARRACKPORE"
+    },
+    {
+      "id": "C1130",
+      "stateid": "S34",
+      "name": "BURDWAN"
+    },
+    {
+      "id": "C1132",
+      "stateid": "S34",
+      "name": "CONTAI"
+    },
+    {
+      "id": "C1134",
+      "stateid": "S34",
+      "name": "COOCH BEHAR"
+    },
+    {
+      "id": "C1136",
+      "stateid": "S34",
+      "name": "DARJEELING"
+    },
+    {
+      "id": "C1138",
+      "stateid": "S34",
+      "name": "DURGAPUR"
+    },
+    {
+      "id": "C1140",
+      "stateid": "S34",
+      "name": "HOOGHLY"
+    },
+    {
+      "id": "C1143",
+      "stateid": "S34",
+      "name": "HOWRAH"
+    },
+    {
+      "id": "C1147",
+      "stateid": "S34",
+      "name": "JALPAIGURI"
+    },
+    {
+      "id": "C1149",
+      "stateid": "S34",
+      "name": "KALIMPONG"
+    },
+    {
+      "id": "C1151",
+      "stateid": "S34",
+      "name": "KOLKATA"
+    },
+    {
+      "id": "C1161",
+      "stateid": "S34",
+      "name": "MALDA"
+    },
+    {
+      "id": "C1163",
+      "stateid": "S34",
+      "name": "MIDNAPORE"
+    },
+    {
+      "id": "C1166",
+      "stateid": "S34",
+      "name": "MURSHIDABAD"
+    },
+    {
+      "id": "C1168",
+      "stateid": "S34",
+      "name": "NADIA"
+    },
+    {
+      "id": "C1171",
+      "stateid": "S34",
+      "name": "PURULIYA"
+    },
+    {
+      "id": "C1173",
+      "stateid": "S34",
+      "name": "NORTH DINAJPUR"
+    },
+    {
+      "id": "C1175",
+      "stateid": "S34",
+      "name": "SILIGURI"
+    },
+    {
+      "id": "C1177",
+      "stateid": "S34",
+      "name": "SOUTH 24 PARGANAS"
+    },
+    {
+      "id": "C1179",
+      "stateid": "S34",
+      "name": "ALIPORE"
+    },
+    {
+      "id": "C1180",
+      "stateid": "S34",
+      "name": "TAMLUK"
+    },
+    {
+      "id": "C1182",
+      "stateid": "S12",
+      "name": "GULAH"
+    },
+    {
+      "id": "C1183",
+      "stateid": "S12",
+      "name": "MEHAM"
+    },
+    {
+      "id": "C1185",
+      "stateid": "S32",
+      "name": "PANCHSHEEL NAGAR"
+    },
+    {
+      "id": "C1186",
+      "stateid": "S27",
+      "name": "Khadoor Sahib"
+    },
+    {
+      "id": "C1187",
+      "stateid": "S27",
+      "name": "Nihal Singh Wala"
+    },
+    {
+      "id": "C1188",
+      "stateid": "S14",
+      "name": "BANDIPORA"
+    },
+    {
+      "id": "C1189",
+      "stateid": "S27",
+      "name": "Tappa Mandi"
+    },
+    {
+      "id": "C1190",
+      "stateid": "S4",
+      "name": "Chirang"
+    },
+    {
+      "id": "C1191",
+      "stateid": "S32",
+      "name": "Kanshiram Nagar"
+    },
+    {
+      "id": "C1192",
+      "stateid": "S30",
+      "name": "Tambaram"
+    },
+    {
+      "id": "C1193",
+      "stateid": "S20",
+      "name": "Nagpur East"
+    },
+    {
+      "id": "C1194",
+      "stateid": "S32",
+      "name": "Shamli"
+    },
+    {
+      "id": "C1195",
+      "stateid": "S28",
+      "name": "Pratapgarh"
+    },
+    {
+      "id": "C1196",
+      "stateid": "S25",
+      "name": "BALASORE"
+    },
+    {
+      "id": "C1197",
+      "stateid": "S25",
+      "name": "BHUBANESHWAR"
+    },
+    {
+      "id": "C1199",
+      "stateid": "S25",
+      "name": "CHANDIKHOL"
+    },
+    {
+      "id": "C1200",
+      "stateid": "S25",
+      "name": "CUTTACK"
+    },
+    {
+      "id": "C1201",
+      "stateid": "S25",
+      "name": "DHENKANAL"
+    },
+    {
+      "id": "C1202",
+      "stateid": "S25",
+      "name": "GANJAM"
+    },
+    {
+      "id": "C1203",
+      "stateid": "S25",
+      "name": "KALAHANDI"
+    },
+    {
+      "id": "C1204",
+      "stateid": "S25",
+      "name": "KEONJHAR"
+    },
+    {
+      "id": "C1207",
+      "stateid": "S25",
+      "name": "PHULABANI KHANDAMAL"
+    },
+    {
+      "id": "C1210",
+      "stateid": "S25",
+      "name": "SAMBALPUR"
+    },
+    {
+      "id": "C1211",
+      "stateid": "S25",
+      "name": "SUNDERGARH"
+    },
+    {
+      "id": "C1213",
+      "stateid": "S25",
+      "name": "RAYAGADA"
+    },
+    {
+      "id": "C1217",
+      "stateid": "S25",
+      "name": "BHADRAK"
+    },
+    {
+      "id": "C1219",
+      "stateid": "S25",
+      "name": "NABARANGPUR"
+    },
+    {
+      "id": "C1220",
+      "stateid": "S25",
+      "name": "NAYAGARH"
+    },
+    {
+      "id": "C1222",
+      "stateid": "S25",
+      "name": "BOUDH"
+    },
+    {
+      "id": "C1224",
+      "stateid": "S25",
+      "name": "MALKANGIRI"
+    },
+    {
+      "id": "C1225",
+      "stateid": "S25",
+      "name": "SONEPUR"
+    },
+    {
+      "id": "C1226",
+      "stateid": "S36",
+      "name": "ADILABAD"
+    },
+    {
+      "id": "C1227",
+      "stateid": "S36",
+      "name": "MANCHERIAL"
+    },
+    {
+      "id": "C1228",
+      "stateid": "S36",
+      "name": "NIRMAL"
+    },
+    {
+      "id": "C1229",
+      "stateid": "S36",
+      "name": "KARIMNAGAR"
+    },
+    {
+      "id": "C1231",
+      "stateid": "S36",
+      "name": "KHAMMAM"
+    },
+    {
+      "id": "C1234",
+      "stateid": "S36",
+      "name": "ATTAPUR"
+    },
+    {
+      "id": "C1237",
+      "stateid": "S36",
+      "name": "UPPAL KALAN"
+    },
+    {
+      "id": "C1238",
+      "stateid": "S36",
+      "name": "IBRAHIMPATNAM"
+    },
+    {
+      "id": "C1239",
+      "stateid": "S36",
+      "name": "MANUGURU"
+    },
+    {
+      "id": "C1240",
+      "stateid": "S36",
+      "name": "SATHUPALLY"
+    },
+    {
+      "id": "C1241",
+      "stateid": "S36",
+      "name": "YELLANDU"
+    },
+    {
+      "id": "C1242",
+      "stateid": "S36",
+      "name": "KHAIRTABAD"
+    },
+    {
+      "id": "C1243",
+      "stateid": "S36",
+      "name": "MAHBUBNAGAR"
+    },
+    {
+      "id": "C1244",
+      "stateid": "S36",
+      "name": "PEBBAIR"
+    },
+    {
+      "id": "C1245",
+      "stateid": "S36",
+      "name": "SECUNDERABAD"
+    },
+    {
+      "id": "C1246",
+      "stateid": "S36",
+      "name": "PATANCHERU"
+    },
+    {
+      "id": "C1247",
+      "stateid": "S36",
+      "name": "SANGAREDDY"
+    },
+    {
+      "id": "C1248",
+      "stateid": "S36",
+      "name": "SIDDIPET"
+    },
+    {
+      "id": "C1249",
+      "stateid": "S36",
+      "name": "MALAKPET"
+    },
+    {
+      "id": "C1250",
+      "stateid": "S36",
+      "name": "BIBINAGAR"
+    },
+    {
+      "id": "C1251",
+      "stateid": "S36",
+      "name": "MIRYALAGUDA"
+    },
+    {
+      "id": "C1252",
+      "stateid": "S36",
+      "name": "NALGONDA"
+    },
+    {
+      "id": "C1254",
+      "stateid": "S36",
+      "name": "KISANBAGH"
+    },
+    {
+      "id": "C1255",
+      "stateid": "S36",
+      "name": "BAHADURPURA"
+    },
+    {
+      "id": "C1256",
+      "stateid": "S36",
+      "name": "MEHADIPATTNAM"
+    },
+    {
+      "id": "C1257",
+      "stateid": "S36",
+      "name": "MEDCHAL"
+    },
+    {
+      "id": "C1259",
+      "stateid": "S36",
+      "name": "KALAN"
+    },
+    {
+      "id": "C1260",
+      "stateid": "S36",
+      "name": "UPPAL"
+    },
+    {
+      "id": "C1261",
+      "stateid": "S36",
+      "name": "MEDAK"
+    },
+    {
+      "id": "C1263",
+      "stateid": "S36",
+      "name": "NIZAMABAD"
+    },
+    {
+      "id": "C1265",
+      "stateid": "S12",
+      "name": "Kharkhoda"
+    },
+    {
+      "id": "C1266",
+      "stateid": "S30",
+      "name": "Ambattur"
+    },
+    {
+      "id": "C1267",
+      "stateid": "S4",
+      "name": "Baksa"
+    },
+    {
+      "id": "C1269",
+      "stateid": "S7",
+      "name": "Narayanpur"
+    },
+    {
+      "id": "C1270",
+      "stateid": "S7",
+      "name": "Baloda Bazar"
+    },
+    {
+      "id": "C1271",
+      "stateid": "S7",
+      "name": "Gariaband"
+    },
+    {
+      "id": "C1272",
+      "stateid": "S7",
+      "name": "Balod"
+    },
+    {
+      "id": "C1273",
+      "stateid": "S7",
+      "name": "Bemetara"
+    },
+    {
+      "id": "C1274",
+      "stateid": "S7",
+      "name": "Sukma"
+    },
+    {
+      "id": "C1275",
+      "stateid": "S7",
+      "name": "Kondagaon"
+    },
+    {
+      "id": "C1276",
+      "stateid": "S7",
+      "name": "Mungeli"
+    },
+    {
+      "id": "C1277",
+      "stateid": "S7",
+      "name": "Surajpur"
+    },
+    {
+      "id": "C1278",
+      "stateid": "S7",
+      "name": "Balrampur"
+    },
+    {
+      "id": "C1279",
+      "stateid": "S6",
+      "name": "Bhedpuri"
+    },
+    {
+      "id": "C1280",
+      "s tateid": "S10",
+      "name": "Canacona"
+    },
+    {
+      "id": "C1281",
+      "stateid": "S10",
+      "name": "Pernem"
+    },
+    {
+      "id": "C1282",
+      "stateid": "S10",
+      "name": "Dharbandora"
+    },
+    {
+      "id": "C1284",
+      "stateid": "S11",
+      "name": "Dang"
+    },
+    {
+      "id": "C1285",
+      "stateid": "S11",
+      "name": "Aravalli "
+    },
+    {
+      "id": "C1286",
+      "stateid": "S11",
+      "name": "Botad"
+    },
+    {
+      "id": "C1288",
+      "stateid": "S11",
+      "name": "Dwarka"
+    },
+    {
+      "id": "C1289",
+      "stateid": "S11",
+      "name": "Mahisagar Lunavada"
+    },
+    {
+      "id": "C1290",
+      "stateid": "S11",
+      "name": "Morbi"
+    },
+    {
+      "id": "C1291",
+      "stateid": "S11",
+      "name": "Chhota Udaipur"
+    },
+    {
+      "id": "C1293",
+      "stateid": "S13",
+      "name": "Hamirpur"
+    },
+    {
+      "id": "C1295",
+      "stateid": "S13",
+      "name": "Dodrakawar"
+    },
+    {
+      "id": "C1296",
+      "stateid": "S13",
+      "name": "Bangana, Una"
+    },
+    {
+      "id": "C1297",
+      "stateid": "S13",
+      "name": "Sangrah, Sirmaur"
+    },
+    {
+      "id": "C1298",
+      "stateid": "S13",
+      "name": "Haroli, Una"
+    },
+    {
+      "id": "C1299",
+      "stateid": "S13",
+      "name": "Salooni"
+    },
+    {
+      "id": "C1300",
+      "stateid": "S13",
+      "name": "Mandi "
+    },
+    {
+      "id": "C1301",
+      "stateid": "S13",
+      "name": "Jawalaji, Kangra"
+    },
+    {
+      "id": "C1302",
+      "stateid": "S13",
+      "name": "Sujanpur Tihra, Hamirpur"
+    },
+    {
+      "id": "C1303",
+      "stateid": "S13",
+      "name": "Shillai"
+    },
+    {
+      "id": "C1304",
+      "stateid": "S13",
+      "name": "Sarkaghat,Dharmpur"
+    },
+    {
+      "id": "C1305",
+      "stateid": "S12",
+      "name": "Adampur"
+    },
+    {
+      "id": "C1306",
+      "stateid": "S12",
+      "name": "Bawal"
+    },
+    {
+      "id": "C1307",
+      "stateid": "S12",
+      "name": "Sonipat"
+    },
+    {
+      "id": "C1308",
+      "stateid": "S12",
+      "name": "Kundli"
+    },
+    {
+      "id": "C1309",
+      "stateid": "S14",
+      "name": "Shopian"
+    },
+    {
+      "id": "C1310",
+      "stateid": "S16",
+      "name": "Surathkal, Mangaluru"
+    },
+    {
+      "id": "C1311",
+      "stateid": "S16",
+      "name": "Hubli "
+    },
+    {
+      "id": "C1312",
+      "stateid": "S16",
+      "name": "Madhugiri"
+    },
+    {
+      "id": "C1313",
+      "stateid": "S16",
+      "name": "Dandeli "
+    },
+    {
+      "id": "C1314",
+      "stateid": "S16",
+      "name": "Tarikere "
+    },
+    {
+      "id": "C1315",
+      "stateid": "S16",
+      "name": "Sedam "
+    },
+    {
+      "id": "C1316",
+      "stateid": "S17",
+      "name": "Kuttanadu"
+    },
+    {
+      "id": "C1317",
+      "stateid": "S17",
+      "name": "Uzhavoor"
+    },
+    {
+      "id": "C1318",
+      "stateid": "S17",
+      "name": "Devikulam"
+    },
+    {
+      "id": "C1319",
+      "stateid": "S17",
+      "name": "Udumbanchola"
+    },
+    {
+      "id": "C1320",
+      "stateid": "S17",
+      "name": "Chittur"
+    },
+    {
+      "id": "C1321",
+      "stateid": "S17",
+      "name": "Nilambur"
+    },
+    {
+      "id": "C1322",
+      "stateid": "S17",
+      "name": "Mananthavady"
+    },
+    {
+      "id": "C1323",
+      "stateid": "S17",
+      "name": "Sulthan Bathery"
+    },
+    {
+      "id": "C1324",
+      "st ateid": "S18",
+      "name": "Agatti"
+    },
+    {
+      "id": "C1325",
+      "stateid": "S18",
+      "name": "Amini"
+    },
+    {
+      "id": "C1326",
+      "stateid": "S18",
+      "name": "Androth"
+    },
+    {
+      "id": "C1327",
+      "stateid": "S18",
+      "name": "Kadmat"
+    },
+    {
+      "id": "C1329",
+      "stateid": "S18",
+      "name": "Chetlat"
+    },
+    {
+      "id": "C1330",
+      "stateid": "S18",
+      "name": "Kalpeni"
+    },
+    {
+      "id": "C1331",
+      "stateid": "S18",
+      "name": "Minicoy"
+    },
+    {
+      "id": "C1334",
+      "stateid": "S21",
+      "name": "Bishnupur"
+    },
+    {
+      "id": "C1335",
+      "stateid": "S21",
+      "name": "Imphal East"
+    },
+    {
+      "id": "C1336",
+      "stateid": "S21",
+      "name": "Ukhrul"
+    },
+    {
+      "id": "C1338",
+      "stateid": "S19",
+      "name": "Agar \/ Malwa"
+    },
+    {
+      "id": "C1339",
+      "stateid": "S25",
+      "name": "Bhanjanagar"
+    },
+    {
+      "id": "C1340",
+      "stateid": "S25",
+      "name": "Jajpur"
+    },
+    {
+      "id": "C1341",
+      "stateid": "S25",
+      "name": "Talcher"
+    },
+    {
+      "id": "C1342",
+      "stateid": "S27",
+      "name": "Khamanon"
+    },
+    {
+      "id": "C1343",
+      "stateid": "S27",
+      "name": "Dhar Kalan "
+    },
+    {
+      "id": "C1344",
+      "stateid": "S27",
+      "name": "Pattran "
+    },
+    {
+      "id": "C1345",
+      "stateid": "S27",
+      "name": "Ahmedgarh"
+    },
+    {
+      "id": "C1346",
+      "stateid": "S27",
+      "name": "Guru Har Sahai"
+    },
+    {
+      "id": "C1347",
+      "stateid": "S30",
+      "name": "Mahe"
+    },
+    {
+      "id": "C1348",
+      "stateid": "S28",
+      "name": "Balotra "
+    },
+    {
+      "id": "C1349",
+      "stateid": "S28",
+      "name": "Bhiwadi "
+    },
+    {
+      "id": "C1350",
+      "stateid": "S28",
+      "name": "Chomu "
+    },
+    {
+      "id": "C1351",
+      "stateid": "S28",
+      "name": "Kishangarh "
+    },
+    {
+      "id": "C1352",
+      "stateid": "S28",
+      "name": "Phalodi "
+    },
+    {
+      "id": "C1353",
+      "stateid": "S28",
+      "name": "Sujangarh "
+    },
+    {
+      "id": "C1354",
+      "stateid": "S28",
+      "name": "Jaipur North"
+    },
+    {
+      "id": "C1355",
+      "stateid": "S28",
+      "name": "Bhinmal "
+    },
+    {
+      "id": "C1356",
+      "stateid": "S28",
+      "name": "Dudu "
+    },
+    {
+      "id": "C1357",
+      "stateid": "S28",
+      "name": "Kekri "
+    },
+    {
+      "id": "C1358",
+      "stateid": "S28",
+      "name": "Nohar "
+    },
+    {
+      "id": "C1359",
+      "stateid": "S28",
+      "name": "Nokha "
+    },
+    {
+      "id": "C1360",
+      "stateid": "S28",
+      "name": "Shahpura "
+    },
+    {
+      "id": "C1362",
+      "stateid": "S30",
+      "name": "Poonamallee,"
+    },
+    {
+      "id": "C1363",
+      "stateid": "S30",
+      "name": "Ulundurpet \/ Kallakurichi"
+    },
+    {
+      "id": "C1364",
+      "stateid": "S30",
+      "name": "Tindivanam \/ Gingee"
+    },
+    {
+      "id": "C1365",
+      "stateid": "S30",
+      "name": "Sankarankovil"
+    },
+    {
+      "id": "C1366",
+      "stateid": "S30",
+      "name": "Tiruchirapalli East \/ Thiruverumbur"
+    },
+    {
+      "id": "C1367",
+      "stateid": "S30",
+      "name": "Mayiladuthurai \/ Sirkazhi"
+    },
+    {
+      "id": "C1368",
+      "stateid": "S30",
+      "name": "Vaniyambadi \/ Tirupattur \/ Ambur"
+    },
+    {
+      "id": "C1369",
+      "stateid": "S30",
+      "name": "Srivilliputhur \/ Sivakasi"
+    },
+    {
+      "id": "C1370",
+      "stateid": "S30",
+      "name": "Kundrathur,"
+    },
+    {
+      "id": "C1371",
+      "stateid": "S30",
+      "name": "Erode West"
+    },
+    {
+      "id": "C1372",
+      "stateid": "S30",
+      "name": "Namakkal South \/ Paramathi Vellore"
+    },
+    {
+      "id": "C1373",
+      "stateid": "S30",
+      "name": "Salem South"
+    },
+    {
+      "id": "C1374",
+      "stateid": "S30",
+      "name": "Chidambaram \/ Virudhachalam \/ Neyveli"
+    },
+    {
+      "id": "C1375",
+      "stateid": "S30",
+      "name": "Thiruchendur"
+    },
+    {
+      "id": "C1376",
+      "stateid": "S30",
+      "name": "Coimbatore City West"
+    },
+    {
+      "id": "C1378",
+      "stateid": "S33",
+      "name": "Kotdwara"
+    },
+    {
+      "id": "C1379",
+      "stateid": "S33",
+      "name": "Vikasnagar"
+    },
+    {
+      "id": "C1380",
+      "stateid": "S33",
+      "name": "Roorkee"
+    },
+    {
+      "id": "C1381",
+      "stateid": "S33",
+      "name": "Kashipur"
+    },
+    {
+      "id": "C1382",
+      "stateid": "S32",
+      "name": "Sambhal"
+    },
+    {
+      "id": "C1383",
+      "stateid": "S25",
+      "name": "Kendarapara"
+    },
+    {
+      "id": "C1385",
+      "stateid": "S31",
+      "name": "Ambassa"
+    },
+    {
+      "id": "C1386",
+      "stateid": "S34",
+      "name": "Kalyani"
+    },
+    {
+      "id": "C1388",
+      "stateid": "S34",
+      "name": "Raghunathpur"
+    },
+    {
+      "id": "C1389",
+      "stateid": "S34",
+      "name": "Islampur"
+    },
+    {
+      "id": "C1392",
+      "stateid": "S34",
+      "name": "Bishnupur"
+    },
+    {
+      "id": "C1393",
+      "stateid": "S12",
+      "name": "Kalayat"
+    },
+    {
+      "id": "C1395",
+      "stateid": "S36",
+      "name": "Mahbubabad"
+    },
+    {
+      "id": "C1396",
+      "stateid": "S36",
+      "name": "Nagarkurnool"
+    },
+    {
+      "id": "C1397",
+      "stateid": "S12",
+      "name": "Sampla"
+    },
+    {
+      "id": "C1398",
+      "stateid": "S34",
+      "name": "BIRBHUM"
+    },
+    {
+      "id": "C1399",
+      "stateid": "S12",
+      "name": "RAI "
+    },
+    {
+      "id": "C1400",
+      "stateid": "S16",
+      "name": "Marathahalli, Bengaluru"
+    },
+    {
+      "id": "C1401",
+      "stateid": "S31",
+      "name": "SANTIRBAZAR"
+    },
+    {
+      "id": "C1402",
+      "stateid": "S30",
+      "name": "SIVAKASI"
+    },
+    {
+      "id": "C1403",
+      "stateid": "S22",
+      "name": "Kliehriat"
+    },
+    {
+      "id": "C1404",
+      "stateid": "S3",
+      "name": "Namsai"
+    },
+    {
+      "id": "C1405",
+      "stateid": "S12",
+      "name": "Badli"
+    },
+    {
+      "id": "C1406",
+      "stateid": "S11",
+      "name": "Gir Somnath"
+    },
+    {
+      "id": "C1407",
+      "stateid": "S12",
+      "name": "Badkhal"
+    },
+    {
+      "id": "C1408",
+      "stateid": "S36",
+      "name": "Jagtial"
+    },
+    {
+      "id": "C1409",
+      "stateid": "S12",
+      "name": "Punhana"
+    },
+    {
+      "id": "C1410",
+      "stateid": "S12",
+      "name": "Kanina"
+    },
+    {
+      "id": "C1411",
+      "stateid": "S13",
+      "name": "Baddi"
+    },
+    {
+      "id": "C1412",
+      "stateid": "S13",
+      "name": "Manali"
+    },
+    {
+      "id": "C1414",
+      "stateid": "S36",
+      "name": " KUKATPALLY"
+    },
+    {
+      "id": "C1415",
+      "stateid": "S36",
+      "name": "Jangaon"
+    },
+    {
+      "id": "C1416",
+      "stateid": "S11",
+      "name": "Khambaliya"
+    },
+    {
+      "id": "C1417",
+      "stateid": "S13",
+      "name": "Rampur"
+    },
+    {
+      "id": "C1418",
+      "stateid": "S13",
+      "name": "Kumarsain"
+    },
+    {
+      "id": "C1419",
+      "stateid": "S36",
+      "name": "Suryapet"
+    },
+    {
+      "id": "C1420",
+      "stateid": "S36",
+      "name": "Kamareddy"
+    },
+    {
+      "id": "C1423",
+      "stateid": "S36",
+      "name": "Asifabad"
+    },
+    {
+      "id": "C1424",
+      "stateid": "S36",
+      "name": "Peddapalli"
+    },
+    {
+      "id": "C1425",
+      "stateid": "S36",
+      "name": "Sircilla"
+    },
+    {
+      "id": "C1426",
+      "stateid": "S36",
+      "name": "Warangal"
+    },
+    {
+      "id": "C1427",
+      "stateid": "S36",
+      "name": "Bhupalpalle"
+    },
+    {
+      "id": "C1428",
+      "stateid": "S36",
+      "name": "Kothagudem"
+    },
+    {
+      "id": "C1429",
+      "stateid": "S36",
+      "name": "Bhongir"
+    },
+    {
+      "id": "C1430",
+      "stateid": "S36",
+      "name": "Wanaparthy"
+    },
+    {
+      "id": "C1431",
+      "stateid": "S36",
+      "name": "Gadwal"
+    },
+    {
+      "id": "C1432",
+      "stateid": "S36",
+      "name": "Vikarabad"
+    },
+    {
+      "id": "C1435",
+      "stateid": "S22",
+      "name": "Resubelpara "
+    },
+    {
+      "id": "C1436",
+      "stateid": "S33",
+      "name": "Ramnagar"
+    },
+    {
+      "id": "C1438",
+      "stateid": "S34",
+      "name": "Jhargram"
+    },
+    {
+      "id": "C1439",
+      "stateid": "S34",
+      "name": "Baruipur"
+    },
+    {
+      "id": "C1441",
+      "stateid": "S31",
+      "name": "Sepahijala"
+    },
+    {
+      "id": "C1442",
+      "stateid": "S13",
+      "name": "Fatehpur"
+    }
+  ]
+}

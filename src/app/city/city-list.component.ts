@@ -1,12 +1,12 @@
 import { Component, OnInit } from '@angular/core';
-import { City } from '../shared/city.model';
+import { City } from '../model/city.model';
 import { SelectItem } from 'primeng/components/common/selectitem';
 import { CityService } from '../service/city.service';
 import { AngularFirestore } from '@angular/fire/firestore';
 import { ToastrService } from 'ngx-toastr';
 import { Router } from '@angular/router';
 import { Observable, combineLatest } from 'rxjs';
-import { StateService } from '../shared/state.service';
+import { StateService } from '../service/state.service';
 
 @Component({
   selector: 'app-city-list',

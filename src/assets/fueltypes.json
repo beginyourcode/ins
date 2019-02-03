@@ -1,0 +1,24 @@
+{
+    "fueltypes": [
+        {
+            "id": "F3",
+            "name": "CNG"
+        },
+        {
+            "id": "F4",
+            "name": "Diesel"
+        },
+        {
+            "id": "F5",
+            "name": "LPG"
+        },
+        {
+            "id": "F7",
+            "name": "Petrol"
+        },
+        {
+            "id": "F9",
+            "name": "Electric"
+        }
+    ]
+}

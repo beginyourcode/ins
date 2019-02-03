@@ -54,6 +54,7 @@
   </ng-template>
 </p-dataView>
 <!-- (onHide)="onModalClose($event)" -->
-<p-dialog [(header)]="titleDialog" [(visible)]="display" [modal]="true" (onHide)="onModalClose($event)" (onShow)="onModalOpen($event)" [responsive]="true" [style]="{width: '500px', minWidth: '300px'}" [minY]="70">
+<p-dialog [(header)]="titleDialog" [(visible)]="display" [modal]="true" (onHide)="onModalClose($event)" 
+(onShow)="onModalOpen($event)" [responsive]="true" [style]="{width: '600px', minWidth: '500px', height: '400px', minHeight: '300px'}" [minY]="200">
     <app-city-add [(modalVisible)]="display"></app-city-add>
 </p-dialog>

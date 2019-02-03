@@ -1,42 +1,177 @@
-    <div class="input-group mb-3">
-        <div class="input-group-prepend">
-            <span class="input-group-text"><i class="fa fa-motorcycle iconpos"></i></span>
-            <span class="input-group-text">Reg No.</span>
-            
+<!-- <div class="container h-100">
+    <div class="row h-100 justify-content-center align-items-center">
+      <form class="col-12">
+        <div class="form-group">
+          <label for="formGroupExampleInput">Example label</label>
+          <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input">
         </div>
-        <input class="form-control" type="text" placeholder="E.G. DL01AB1234">
+        <div class="form-group">
+          <label for="formGroupExampleInput2">Another label</label>
+          <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input">
+        </div>
+      </form>   
     </div>
+  </div> -->
+<!-- <div class="row">
+        <div class="col-sm-4 form-group">
+            <label class="control-label">Offer:</label>
+            <input type="text" class="form-control" placeholder="$1000">
+        </div>
+        <div class="col-sm-4 form-group">
+            <div class="i-checks">
+                <label class="control-label"> 
+                <input type="radio" value="option1" name="a" checked> All at once </label>
+            </div>
+        </div>
+        <div class="col-sm-4 form-group">
+            <div class="i-checks">
+                <label class="control-label"> <input type="radio" value="option1" name="a"> Pay every </label>
+                <select class="form-control" name="every" disabled >
+                    <option>2 weeks</option>
+                    <option>1 months</option>
+                    <option>2 months</option>
+                    <option>3 months</option>
+                    <option>6 months</option>
+                </select>
+           </div>
+        </div> -->
+<div class="h-100">
+    <div class="row h-100 justify-content-center align-items-center">
+        <form class="col-8 card shadow-lg p-3 mb-5 bg-white rounded justify-content-center align-items-center">
 
-    
+            <form-wizard style="width:100%; ">
+                <wizard-step [title]="'Reg No'" (onNext)="onStep1Next($event)">
 
-    <form>
-        <div class="row">
-            <div class="input-group">
-                <div class="input-group-prepend">
-                    <i class="fa fa-motorcycle iconpos "></i>
-                    REg No.
+                    <div id="dvregno" class="col-12 wizard-step">
+
+                        <div class="row">
+                            <div class="col-sm">
+                                Reg No
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><i class="fa fa-motorcycle iconpos"></i></span>
+                                        <span class="input-group-text">Reg No.</span>
+
+                                    </div>
+                                    <input class="form-control" type="text" placeholder="E.G. DL01AB1234">
+                                </div>
+                            </div>
+                            <div class="col-sm">
+                                <div class="form-group">
+                                    <label for="stateid">State</label>
+                                    <div>
+                                        <p-dropdown name="stateid" [options]="states" filter="true" [style]="{'width':'250px'}"
+                                            (onChange)="onStateChange($event)" placeholder="Select a State" ></p-dropdown>
+                                        <p>{{service.formData.stateid.value || 'none'}}</p>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="cityid">City</label>
+                                    <div>
+                                        <p-dropdown name="cityid" [options]="cities" filter="true" [style]="{'width':'250px'}"
+                                            (onChange)="onCityChange($event)" placeholder="Select a City" ></p-dropdown>
+                                        <p>{{service.formData.stateid.value || 'none'}}</p>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="rtoid">RTO</label>
+                                    <div>
+                                        <p-dropdown name="rtoid" [options]="rto" filter="true" [style]="{'width':'250px'}"
+                                            placeholder="Select a RTO" ></p-dropdown>
+                                        <p>{{service.formData.stateid.value || 'none'}}</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+
+                    </div>
+                </wizard-step>
+                <wizard-step [title]="'Model'" (onNext)="onStep3Next($event)">
+                    <h1>Step3</h1>
+                </wizard-step>
+                <wizard-step [title]="'Previous Policy'" (onNext)="onStep3Next($event)">
+                    <h1>Step3</h1>
+                </wizard-step>
+                <wizard-step [title]="'Profile'" (onComplete)="onComplete($event)">
+                    <div [ngSwitch]="isCompleted">
+                        <div *ngSwitchDefault>
+                            <h1>Step4</h1>
+                        </div>
+                        <div *ngSwitchCase="true">
+                            <h4>Thank you! You have completed all the steps.</h4>
+                        </div>
+                    </div>
+                </wizard-step>
+            </form-wizard>
+            <!-- <div class="row">
+                <div class="col-sm">
+                    <span class="fa fa-caret-left"></span>
+                    <i class="fa fa-caret-left" aria-hidden="true"></i>
                 </div>
-                <input class="form-control" type="text" placeholder="E.G. DL01AB1234" id="twoWheelerRegistrationNumber">
+                <div class="col-sm">
+                    RTO
+                </div>
+                <div class="col-sm">
+                    <i class="fa fa-caret-right" aria-hidden="true"></i>
+                </div>
             </div>
-            <!--<a class="nextstep" id="btntwSubmit">next</a>
-    <div class="process">
-        <span class="loader"></span>
-    </div>-->
-            <div class="err"></div>
-        </div>
-        <div class="input_field pro">
-            <a href="javascript:void(0);" class="carnextstep" id="btntwSubmit"> Continue </a>
-            <button class="btn btn-primary">Continue</button>
-            <div class="process-green">
-                <span class="loader"></span>
-                <span>Please Wait...</span>
-            </div>
-        </div>
-        <div class="dontKnow">
-            <a class="do_not" href="https://twowheeler.policybazaar.com/question?"> Don't Know Registration No.?
-            </a> &nbsp;<br>
-            <a class="got_new_car" href="https://twowheeler.policybazaar.com/question?regNo=&amp;PolicyType=3">Got
-                a new Bike? Awesome! Click Here</a>
-        </div>
-        
-    </form>
+            <div [ngSwitch]="sv">
+                <div *ngSwitchDefault>
+                    <div id="dvregno" class="col-12 justify-content-center text-center wizard-step">
+                        <h1> Reg No</h1>
+                        <div class="row">
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="fa fa-motorcycle iconpos"></i></span>
+                                    <span class="input-group-text">Reg No.</span>
+
+                                </div>
+                                <input class="form-control" type="text" placeholder="E.G. DL01AB1234">
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <button>Don't have number?</button>
+
+                        </div>
+                        <div class="row">
+                            <button>Don't have number?</button>
+
+                        </div>
+                    </div>
+                </div>
+                <div *ngSwitchCase="1">
+                    <div class="col-sm">
+                        <h4>City & RTO</h4>
+
+
+                        <p-dropdown name="stateid" [options]="states" filter="true" [style]="{'width':'150px'}"
+                            placeholder="Select a State" [(ngModel)]="service.formData.stateid"></p-dropdown>
+                        <p>{{service.formData.stateid.value || 'none'}}</p>
+                    </div>
+                </div>
+                <div *ngSwitchCase="2">
+                    <div class="col-sm">
+                        <h4>Make</h4>
+
+                        <p-dropdown name="stateid" [options]="states" filter="true" [style]="{'width':'150px'}"
+                            placeholder="Select a State" [(ngModel)]="service.formData.stateid"></p-dropdown>
+                        <p>{{service.formData.stateid.value || 'none'}}</p>
+                    </div>
+                </div>
+                <div *ngSwitchCase="3">
+                    <h4>3</h4>
+                </div>
+                <div *ngSwitchCase="4">
+                    <h4>4</h4>
+                </div>
+            </div> -->
+
+        </form>
+    </div>
+</div>

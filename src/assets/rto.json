@@ -1,0 +1,6977 @@
+[
+    {
+        "id": "R1",
+        "regno": "AN01",
+        "cityid": "C2"
+    },
+    {
+        "id": "R2",
+        "regno": "AN02",
+        "cityid": "C1"
+    },
+    {
+        "id": "R3",
+        "regno": "AP01",
+        "cityid": "C3"
+    },
+    {
+        "id": "R4",
+        "regno": "AP01",
+        "cityid": "C41"
+    },
+    {
+        "id": "R5",
+        "regno": "AP01",
+        "cityid": "C50"
+    },
+    {
+        "id": "R6",
+        "regno": "AP02",
+        "cityid": "C7"
+    },
+    {
+        "id": "R7",
+        "regno": "AP02",
+        "cityid": "C21"
+    },
+    {
+        "id": "R8",
+        "regno": "AP03",
+        "cityid": "C12"
+    },
+    {
+        "id": "R9",
+        "regno": "AP03",
+        "cityid": "C38"
+    },
+    {
+        "id": "R10",
+        "regno": "AP03",
+        "cityid": "C72"
+    },
+    {
+        "id": "R11",
+        "regno": "AP04",
+        "cityid": "C58"
+    },
+    {
+        "id": "R12",
+        "regno": "AP04",
+        "cityid": "C25"
+    },
+    {
+        "id": "R13",
+        "regno": "AP05",
+        "cityid": "C26"
+    },
+    {
+        "id": "R14",
+        "regno": "AP06",
+        "cityid": "C5"
+    },
+    {
+        "id": "R15",
+        "regno": "AP06",
+        "cityid": "C59"
+    },
+    {
+        "id": "R16",
+        "regno": "AP07",
+        "cityid": "C48"
+    },
+    {
+        "id": "R17",
+        "regno": "AP07",
+        "cityid": "C56"
+    },
+    {
+        "id": "R18",
+        "regno": "AP07",
+        "cityid": "C71"
+    },
+    {
+        "id": "R19",
+        "regno": "AP08",
+        "cityid": "C20"
+    },
+    {
+        "id": "R20",
+        "regno": "AP09",
+        "cityid": "C31"
+    },
+    {
+        "id": "R21",
+        "regno": "AP10",
+        "cityid": "C64"
+    },
+    {
+        "id": "R22",
+        "regno": "AP11",
+        "cityid": "C40"
+    },
+    {
+        "id": "R23",
+        "regno": "AP12",
+        "cityid": "C8"
+    },
+    {
+        "id": "R24",
+        "regno": "AP13",
+        "cityid": "C44"
+    },
+    {
+        "id": "R25",
+        "regno": "AP14",
+        "cityid": "C28"
+    },
+    {
+        "id": "R26",
+        "regno": "AP15",
+        "cityid": "C29"
+    },
+    {
+        "id": "R27",
+        "regno": "AP15",
+        "cityid": "C22"
+    },
+    {
+        "id": "R28",
+        "regno": "AP15",
+        "cityid": "C55"
+    },
+    {
+        "id": "R29",
+        "regno": "AP16",
+        "cityid": "C73"
+    },
+    {
+        "id": "R30",
+        "regno": "AP16",
+        "cityid": "C37"
+    },
+    {
+        "id": "R31",
+        "regno": "AP16",
+        "cityid": "C52"
+    },
+    {
+        "id": "R32",
+        "regno": "AP16",
+        "cityid": "C17"
+    },
+    {
+        "id": "R33",
+        "regno": "AP16",
+        "cityid": "C35"
+    },
+    {
+        "id": "R34",
+        "regno": "AP17",
+        "cityid": "C74"
+    },
+    {
+        "id": "R35",
+        "regno": "AP18",
+        "cityid": "C75"
+    },
+    {
+        "id": "R36",
+        "regno": "AP19",
+        "cityid": "C76"
+    },
+    {
+        "id": "R37",
+        "regno": "AP20",
+        "cityid": "C32"
+    },
+    {
+        "id": "R38",
+        "regno": "AP20",
+        "cityid": "C33"
+    },
+    {
+        "id": "R39",
+        "regno": "AP20",
+        "cityid": "C63"
+    },
+    {
+        "id": "R40",
+        "regno": "AP20",
+        "cityid": "C83"
+    },
+    {
+        "id": "R41",
+        "regno": "AP21",
+        "cityid": "C36"
+    },
+    {
+        "id": "R42",
+        "regno": "AP21",
+        "cityid": "C4"
+    },
+    {
+        "id": "R43",
+        "regno": "AP21",
+        "cityid": "C47"
+    },
+    {
+        "id": "R44",
+        "regno": "AP22",
+        "cityid": "C54"
+    },
+    {
+        "id": "R45",
+        "regno": "AP22",
+        "cityid": "C15"
+    },
+    {
+        "id": "R46",
+        "regno": "AP23",
+        "cityid": "C43"
+    },
+    {
+        "id": "R47",
+        "regno": "AP23",
+        "cityid": "C62"
+    },
+    {
+        "id": "R48",
+        "regno": "AP23",
+        "cityid": "C65"
+    },
+    {
+        "id": "R49",
+        "regno": "AP24",
+        "cityid": "C68"
+    },
+    {
+        "id": "R50",
+        "regno": "AP24",
+        "cityid": "C45"
+    },
+    {
+        "id": "R51",
+        "regno": "AP24",
+        "cityid": "C10"
+    },
+    {
+        "id": "R52",
+        "regno": "AP25",
+        "cityid": "C27"
+    },
+    {
+        "id": "R53",
+        "regno": "AP25",
+        "cityid": "C51"
+    },
+    {
+        "id": "R54",
+        "regno": "AP26",
+        "cityid": "C49"
+    },
+    {
+        "id": "R55",
+        "regno": "AP26",
+        "cityid": "C30"
+    },
+    {
+        "id": "R56",
+        "regno": "AP26",
+        "cityid": "C18"
+    },
+    {
+        "id": "R57",
+        "regno": "AP27",
+        "cityid": "C11"
+    },
+    {
+        "id": "R58",
+        "regno": "AP27",
+        "cityid": "C42"
+    },
+    {
+        "id": "R59",
+        "regno": "AP27",
+        "cityid": "C53"
+    },
+    {
+        "id": "R60",
+        "regno": "AP27",
+        "cityid": "C57"
+    },
+    {
+        "id": "R61",
+        "regno": "AP28",
+        "cityid": "C60"
+    },
+    {
+        "id": "R62",
+        "regno": "AP29",
+        "cityid": "C61"
+    },
+    {
+        "id": "R63",
+        "regno": "AP30",
+        "cityid": "C66"
+    },
+    {
+        "id": "R64",
+        "regno": "AP31",
+        "cityid": "C77"
+    },
+    {
+        "id": "R65",
+        "regno": "AP32",
+        "cityid": "C78"
+    },
+    {
+        "id": "R66",
+        "regno": "AP33",
+        "cityid": "C79"
+    },
+    {
+        "id": "R67",
+        "regno": "AP34",
+        "cityid": "C80"
+    },
+    {
+        "id": "R68",
+        "regno": "AP35",
+        "cityid": "C81"
+    },
+    {
+        "id": "R69",
+        "regno": "AP36",
+        "cityid": "C82"
+    },
+    {
+        "id": "R70",
+        "regno": "AP36",
+        "cityid": "C23"
+    },
+    {
+        "id": "R71",
+        "regno": "AP37",
+        "cityid": "C24"
+    },
+    {
+        "id": "R72",
+        "regno": "AP37",
+        "cityid": "C13"
+    },
+    {
+        "id": "R73",
+        "regno": "AP37",
+        "cityid": "C9"
+    },
+    {
+        "id": "R74",
+        "regno": "AP37",
+        "cityid": "C34"
+    },
+    {
+        "id": "R75",
+        "regno": "AP37",
+        "cityid": "C69"
+    },
+    {
+        "id": "R76",
+        "regno": "AP37",
+        "cityid": "C70"
+    },
+    {
+        "id": "R77",
+        "regno": "AP38",
+        "cityid": "C14"
+    },
+    {
+        "id": "R78",
+        "regno": "AR01",
+        "cityid": "C92"
+    },
+    {
+        "id": "R79",
+        "regno": "AR02",
+        "cityid": "C93"
+    },
+    {
+        "id": "R80",
+        "regno": "AR03",
+        "cityid": "C97"
+    },
+    {
+        "id": "R81",
+        "regno": "AR04",
+        "cityid": "C86"
+    },
+    {
+        "id": "R82",
+        "regno": "AR05",
+        "cityid": "C96"
+    },
+    {
+        "id": "R83",
+        "regno": "AR06",
+        "cityid": "C100"
+    },
+    {
+        "id": "R84",
+        "regno": "AR07",
+        "cityid": "C88"
+    },
+    {
+        "id": "R85",
+        "regno": "AR08",
+        "cityid": "C84"
+    },
+    {
+        "id": "R86",
+        "regno": "AR09",
+        "cityid": "C95"
+    },
+    {
+        "id": "R87",
+        "regno": "AR10",
+        "cityid": "C85"
+    },
+    {
+        "id": "R88",
+        "regno": "AR11",
+        "cityid": "C98"
+    },
+    {
+        "id": "R89",
+        "regno": "AR12",
+        "cityid": "C87"
+    },
+    {
+        "id": "R90",
+        "regno": "AR13",
+        "cityid": "C94"
+    },
+    {
+        "id": "R91",
+        "regno": "AR14",
+        "cityid": "C99"
+    },
+    {
+        "id": "R92",
+        "regno": "AR15",
+        "cityid": "C89"
+    },
+    {
+        "id": "R93",
+        "regno": "AR16",
+        "cityid": "C91"
+    },
+    {
+        "id": "R94",
+        "regno": "AR17",
+        "cityid": "C90"
+    },
+    {
+        "id": "R95",
+        "regno": "AR20",
+        "city id": "C1404"
+    },
+    {
+        "id": "R96",
+        "regno": "AS01",
+        "cityid": "C112"
+    },
+    {
+        "id": "R97",
+        "regno": "AS01",
+        "cityid": "C116"
+    },
+    {
+        "id": "R98",
+        "regno": "AS02",
+        "cityid": "C122"
+    },
+    {
+        "id": "R99",
+        "regno": "AS03",
+        "cityid": "C115"
+    },
+    {
+        "id": "R100",
+        "regno": "AS04",
+        "cityid": "C125"
+    },
+    {
+        "id": "R101",
+        "regno": "AS05",
+        "cityid": "C111"
+    },
+    {
+        "id": "R102",
+        "regno": "AS06",
+        "cityid": "C108"
+    },
+    {
+        "id": "R103",
+        "regno": "AS07",
+        "cityid": "C120"
+    },
+    {
+        "id": "R104",
+        "regno": "AS08",
+        "cityid": "C124"
+    },
+    {
+        "id": "R105",
+        "regno": "AS09",
+        "cityid": "C117"
+    },
+    {
+        "id": "R106",
+        "regno": "AS10",
+        "cityid": "C118"
+    },
+    {
+        "id": "R107",
+        "regno": "AS11",
+        "cityid": "C104"
+    },
+    {
+        "id": "R108",
+        "regno": "AS12",
+        "cityid": "C109"
+    },
+    {
+        "id": "R109",
+        "regno": "AS12",
+        "cityid": "C126"
+    },
+    {
+        "id": "R110",
+        "regno": "AS13",
+        "cityid": "C105"
+    },
+    {
+        "id": "R111",
+        "regno": "AS14",
+        "cityid": "C123"
+    },
+    {
+        "id": "R112",
+        "regno": "AS15",
+        "cityid": "C102"
+    },
+    {
+        "id": "R113",
+        "regno": "AS16",
+        "cityid": "C119"
+    },
+    {
+        "id": "R114",
+        "regno": "AS17",
+        "cityid": "C107"
+    },
+    {
+        "id": "R115",
+        "regno": "AS18",
+        "cityid": "C110"
+    },
+    {
+        "id": "R116",
+        "regno": "AS19",
+        "cityid": "C103"
+    },
+    {
+        "id": "R117",
+        "regno": "AS21",
+        "cityid": "C121"
+    },
+    {
+        "id": "R118",
+        "regno": "AS22",
+        "cityid": "C106"
+    },
+    {
+        "id": "R119",
+        "regno": "AS23",
+        "cityid": "C127"
+    },
+    {
+        "id": "R120",
+        "regno": "AS24",
+        "cityid": "C114"
+    },
+    {
+        "id": "R121",
+        "regno": "AS25",
+        "cityid": "C101"
+    },
+    {
+        "id": "R122",
+        "regno": "AS26",
+        "cityid": "C1190"
+    },
+    {
+        "id": "R123",
+        "regno": "AS27",
+        "cityid": "C128"
+    },
+    {
+        "id": "R124",
+        "regno": "AS28",
+        "cityid": "C1267"
+    },
+    {
+        "id": "R125",
+        "regno": "BR01",
+        "cityid": "C172"
+    },
+    {
+        "id": "R126",
+        "regno": "BR02",
+        "cityid": "C147"
+    },
+    {
+        "id": "R127",
+        "regno": "BR03",
+        "cityid": "C137"
+    },
+    {
+        "id": "R128",
+        "regno": "BR04",
+        "cityid": "C141"
+    },
+    {
+        "id": "R129",
+        "regno": "BR05",
+        "cityid": "C166"
+    },
+    {
+        "id": "R130",
+        "regno": "BR06",
+        "cityid": "C167"
+    },
+    {
+        "id": "R131",
+        "regno": "BR07",
+        "cityid": "C142"
+    },
+    {
+        "id": "R132",
+        "regno": "BR08",
+        "cityid": "C165"
+    },
+    {
+        "id": "R133",
+        "regno": "BR09",
+        "cityid": "C133"
+    },
+    {
+        "id": "R134",
+        "regno": "BR10",
+        "cityid": "C136"
+    },
+    {
+        "id": "R135",
+        "regno": "BR11",
+        "cityid": "C173"
+    },
+    {
+        "id": "R136",
+        "regno": "BR12",
+        "cityid": "C146"
+    },
+    {
+        "id": "R137",
+        "regno": "BR13",
+        "cityid": "C153"
+    },
+    {
+        "id": "R138",
+        "regno": "BR14",
+        "cityid": "C174"
+    },
+    {
+        "id": "R139",
+        "regno": "BR15",
+        "cityid": "C171"
+    },
+    {
+        "id": "R140",
+        "regno": "BR16",
+        "cityid": "C155 "
+    },
+    {
+        "id": "R141",
+        "regno": "BR17",
+        "cityid": "C145"
+    },
+    {
+        "id": "R142",
+        "regno": "BR18",
+        "cityid": "C140"
+    },
+    {
+        "id": "R143",
+        "regno": "BR19",
+        "cityid": "C175"
+    },
+    {
+        "id": "R144",
+        "regno": "BR20",
+        "cityid": "C138"
+    },
+    {
+        "id": "R145",
+        "regno": "BR21",
+        "cityid": "C169"
+    },
+    {
+        "id": "R146",
+        "regno": "BR22",
+        "cityid": "C134"
+    },
+    {
+        "id": "R147",
+        "regno": "BR23",
+        "cityid": "C148"
+    },
+    {
+        "id": "R148",
+        "regno": "BR24",
+        "cityid": "C143"
+    },
+    {
+        "id": "R149",
+        "regno": "BR25",
+        "cityid": "C154"
+    },
+    {
+        "id": "R150",
+        "regno": "BR26",
+        "cityid": "C131"
+    },
+    {
+        "id": "R151",
+        "regno": "BR27",
+        "cityid": "C170"
+    },
+    {
+        "id": "R152",
+        "regno": "BR28",
+        "cityid": "C150"
+    },
+    {
+        "id": "R153",
+        "regno": "BR29",
+        "cityid": "C181"
+    },
+    {
+        "id": "R154",
+        "regno": "BR30",
+        "cityid": "C180"
+    },
+    {
+        "id": "R155",
+        "regno": "BR31",
+        "cityid": "C152"
+    },
+    {
+        "id": "R156",
+        "regno": "BR32",
+        "cityid": "C164"
+    },
+    {
+        "id": "R157",
+        "regno": "BR33",
+        "cityid": "C177"
+    },
+    {
+        "id": "R158",
+        "regno": "BR34",
+        "cityid": "C158"
+    },
+    {
+        "id": "R159",
+        "regno": "BR35",
+        "cityid": "C176"
+    },
+    {
+        "id": "R160",
+        "regno": "BR36",
+        "cityid": "C149"
+    },
+    {
+        "id": "R161",
+        "regno": "BR37",
+        "cityid": "C159"
+    },
+    {
+        "id": "R162",
+        "regno": "BR38",
+        "cityid": "C129"
+    },
+    {
+        "id": "R163",
+        "regno": "BR39",
+        "cityid": "C157"
+    },
+    {
+        "id": "R164",
+        "regno": "BR40",
+        "cityid": "C144"
+    },
+    {
+        "id": "R165",
+        "regno": "BR41",
+        "cityid": "C151"
+    },
+    {
+        "id": "R166",
+        "regno": "BR42",
+        "cityid": "C162"
+    },
+    {
+        "id": "R167",
+        "regno": "BR43",
+        "cityid": "C163"
+    },
+    {
+        "id": "R168",
+        "regno": "BR44",
+        "cityid": "C139"
+    },
+    {
+        "id": "R169",
+        "regno": "BR45",
+        "cityid": "C135"
+    },
+    {
+        "id": "R170",
+        "regno": "BR46",
+        "cityid": "C156"
+    },
+    {
+        "id": "R171",
+        "regno": "BR47",
+        "cityid": "C160"
+    },
+    {
+        "id": "R172",
+        "regno": "BR50",
+        "cityid": "C182"
+    },
+    {
+        "id": "R173",
+        "regno": "BR51",
+        "cityid": "C132"
+    },
+    {
+        "id": "R174",
+        "regno": "BR52",
+        "cityid": "C178"
+    },
+    {
+        "id": "R175",
+        "regno": "BR53",
+        "cityid": "C161"
+    },
+    {
+        "id": "R176",
+        "regno": "BR55",
+        "cityid": "C168"
+    },
+    {
+        "id": "R177",
+        "regno": "BR56",
+        "cityid": "C130"
+    },
+    {
+        "id": "R178",
+        "regno": "BR57",
+        "cityid": "C1268"
+    },
+    {
+        "id": "R179",
+        "regno": "CG04",
+        "cityid": "C205"
+    },
+    {
+        "id": "R180",
+        "regno": "CG05",
+        "cityid": "C195"
+    },
+    {
+        "id": "R181",
+        "regno": "CG06",
+        "cityid": "C203"
+    },
+    {
+        "id": "R182",
+        "regno": "CG07",
+        "cityid": "C197"
+    },
+    {
+        "id": "R183",
+        "regno": "CG08",
+        "cityid": "C206"
+    },
+    {
+        "id": "R184",
+        "regno": "CG09",
+        "cityid": "C201"
+    },
+    {
+        "id": "R185",
+        "regno": "CG10",
+        "cityid": "C192"
+    },
+    {
+        "id ": "R186",
+        "regno": "CG11",
+        "cityid": "C199"
+    },
+    {
+        "id": "R187",
+        "regno": "CG12",
+        "cityid": "C202"
+    },
+    {
+        "id": "R188",
+        "regno": "CG13",
+        "cityid": "C204"
+    },
+    {
+        "id": "R189",
+        "regno": "CG14",
+        "cityid": "C193"
+    },
+    {
+        "id": "R190",
+        "regno": "CG15",
+        "cityid": "C189"
+    },
+    {
+        "id": "R191",
+        "regno": "CG16",
+        "cityid": "C190"
+    },
+    {
+        "id": "R192",
+        "regno": "CG17",
+        "cityid": "C198"
+    },
+    {
+        "id": "R193",
+        "regno": "CG18",
+        "cityid": "C194"
+    },
+    {
+        "id": "R194",
+        "regno": "CG19",
+        "cityid": "C200"
+    },
+    {
+        "id": "R195",
+        "regno": "CG20",
+        "cityid": "C191"
+    },
+    {
+        "id": "R196",
+        "regno": "CG21",
+        "cityid": "C1269"
+    },
+    {
+        "id": "R197",
+        "regno": "CG22",
+        "cityid": "C1270"
+    },
+    {
+        "id": "R198",
+        "regno": "CG23",
+        "cityid": "C1271"
+    },
+    {
+        "id": "R199",
+        "regno": "CG24",
+        "cityid": "C1272"
+    },
+    {
+        "id": "R200",
+        "regno": "CG25",
+        "cityid": "C1273"
+    },
+    {
+        "id": "R201",
+        "regno": "CG26",
+        "cityid": "C1274"
+    },
+    {
+        "id": "R202",
+        "regno": "CG27",
+        "cityid": "C1275"
+    },
+    {
+        "id": "R203",
+        "regno": "CG28",
+        "cityid": "C1276"
+    },
+    {
+        "id": "R204",
+        "regno": "CG29",
+        "cityid": "C1277"
+    },
+    {
+        "id": "R205",
+        "regno": "CG30",
+        "cityid": "C1278"
+    },
+    {
+        "id": "R206",
+        "regno": "CH01",
+        "cityid": "C183"
+    },
+    {
+        "id": "R207",
+        "regno": "CH02",
+        "cityid": "C186"
+    },
+    {
+        "id": "R208",
+        "regno": "CH03",
+        "cityid": "C184"
+    },
+    {
+        "id": "R209",
+        "regno": "CH04",
+        "cityid": "C185"
+    },
+    {
+        "id": "R210",
+        "regno": "CH05",
+        "cityid": "C1279"
+    },
+    {
+        "id": "R211",
+        "regno": "DD02",
+        "cityid": "C209"
+    },
+    {
+        "id": "R212",
+        "regno": "DD03",
+        "cityid": "C208"
+    },
+    {
+        "id": "R213",
+        "regno": "DD09",
+        "cityid": "C984"
+    },
+    {
+        "id": "R214",
+        "regno": "DL1",
+        "cityid": "C215"
+    },
+    {
+        "id": "R215",
+        "regno": "DL10",
+        "cityid": "C217"
+    },
+    {
+        "id": "R216",
+        "regno": "DL11",
+        "cityid": "C218"
+    },
+    {
+        "id": "R217",
+        "regno": "DL12",
+        "cityid": "C221"
+    },
+    {
+        "id": "R218",
+        "regno": "DL13",
+        "cityid": "C213"
+    },
+    {
+        "id": "R219",
+        "regno": "DL14",
+        "cityid": "C1184"
+    },
+    {
+        "id": "R220",
+        "regno": "DL2",
+        "cityid": "C224"
+    },
+    {
+        "id": "R221",
+        "regno": "DL3",
+        "cityid": "C220"
+    },
+    {
+        "id": "R222",
+        "regno": "DL4",
+        "cityid": "C229"
+    },
+    {
+        "id": "R223",
+        "regno": "DL5",
+        "cityid": "C214"
+    },
+    {
+        "id": "R224",
+        "regno": "DL6",
+        "cityid": "C210"
+    },
+    {
+        "id": "R225",
+        "regno": "DL7",
+        "cityid": "C212"
+    },
+    {
+        "id": "R226",
+        "regno": "DL7",
+        "cityid": "C223"
+    },
+    {
+        "id": "R227",
+        "regno": "DL8",
+        "cityid": "C225"
+    },
+    {
+        "id": "R228",
+        "regno": "DL9",
+        "cityid": "C228"
+    },
+    {
+        "id": "R229",
+        "regno": "DN09",
+        "cityid": "C207"
+    },
+    {
+        "id": "R230",
+        "regno": "GA01",
+        "cityid": "C234"
+    },
+    {
+        "id": "R23 1",
+        "regno": "GA01",
+        "cityid": "C235"
+    },
+    {
+        "id": "R232",
+        "regno": "GA02",
+        "cityid": "C232"
+    },
+    {
+        "id": "R233",
+        "regno": "GA02",
+        "cityid": "C239"
+    },
+    {
+        "id": "R234",
+        "regno": "GA03",
+        "cityid": "C231"
+    },
+    {
+        "id": "R235",
+        "regno": "GA04",
+        "cityid": "C230"
+    },
+    {
+        "id": "R236",
+        "regno": "GA05",
+        "cityid": "C237"
+    },
+    {
+        "id": "R237",
+        "regno": "GA06",
+        "cityid": "C240"
+    },
+    {
+        "id": "R238",
+        "regno": "GA07",
+        "cityid": "C236"
+    },
+    {
+        "id": "R239",
+        "regno": "GA08",
+        "cityid": "C233"
+    },
+    {
+        "id": "R240",
+        "regno": "GA09",
+        "cityid": "C238"
+    },
+    {
+        "id": "R241",
+        "regno": "GA10",
+        "cityid": "C1280"
+    },
+    {
+        "id": "R242",
+        "regno": "GA11",
+        "cityid": "C1281"
+    },
+    {
+        "id": "R243",
+        "regno": "GA12",
+        "cityid": "C1282"
+    },
+    {
+        "id": "R244",
+        "regno": "GJ01",
+        "cityid": "C241"
+    },
+    {
+        "id": "R245",
+        "regno": "GJ02",
+        "cityid": "C257"
+    },
+    {
+        "id": "R246",
+        "regno": "GJ03",
+        "cityid": "C265"
+    },
+    {
+        "id": "R247",
+        "regno": "GJ04",
+        "cityid": "C247"
+    },
+    {
+        "id": "R248",
+        "regno": "GJ05",
+        "cityid": "C268"
+    },
+    {
+        "id": "R249",
+        "regno": "GJ06",
+        "cityid": "C270"
+    },
+    {
+        "id": "R250",
+        "regno": "GJ07",
+        "cityid": "C258"
+    },
+    {
+        "id": "R251",
+        "regno": "GJ07",
+        "cityid": "C256"
+    },
+    {
+        "id": "R252",
+        "regno": "GJ08",
+        "cityid": "C244"
+    },
+    {
+        "id": "R253",
+        "regno": "GJ08",
+        "cityid": "C261"
+    },
+    {
+        "id": "R254",
+        "regno": "GJ09",
+        "cityid": "C267"
+    },
+    {
+        "id": "R255",
+        "regno": "GJ09",
+        "cityid": "C253"
+    },
+    {
+        "id": "R256",
+        "regno": "GJ10",
+        "cityid": "C254"
+    },
+    {
+        "id": "R257",
+        "regno": "GJ11",
+        "cityid": "C255"
+    },
+    {
+        "id": "R258",
+        "regno": "GJ12",
+        "cityid": "C248"
+    },
+    {
+        "id": "R259",
+        "regno": "GJ13",
+        "cityid": "C269"
+    },
+    {
+        "id": "R260",
+        "regno": "GJ14",
+        "cityid": "C242"
+    },
+    {
+        "id": "R261",
+        "regno": "GJ15",
+        "cityid": "C272"
+    },
+    {
+        "id": "R262",
+        "regno": "GJ16",
+        "cityid": "C246"
+    },
+    {
+        "id": "R263",
+        "regno": "GJ17",
+        "cityid": "C252"
+    },
+    {
+        "id": "R264",
+        "regno": "GJ17",
+        "cityid": "C262"
+    },
+    {
+        "id": "R265",
+        "regno": "GJ18",
+        "cityid": "C251"
+    },
+    {
+        "id": "R266",
+        "regno": "GJ19",
+        "cityid": "C245"
+    },
+    {
+        "id": "R267",
+        "regno": "GJ20",
+        "cityid": "C249"
+    },
+    {
+        "id": "R268",
+        "regno": "GJ21",
+        "cityid": "C260"
+    },
+    {
+        "id": "R269",
+        "regno": "GJ22",
+        "cityid": "C266"
+    },
+    {
+        "id": "R270",
+        "regno": "GJ22",
+        "cityid": "C259"
+    },
+    {
+        "id": "R271",
+        "regno": "GJ23",
+        "cityid": "C243"
+    },
+    {
+        "id": "R272",
+        "regno": "GJ24",
+        "cityid": "C263"
+    },
+    {
+        "id": "R273",
+        "regno": "GJ25",
+        "cityid": "C264"
+    },
+    {
+        "id": "R274",
+        "regno": "GJ26",
+        "cityid": "C273"
+    },
+    {
+        "id": "R275",
+        "regno": "GJ27",
+        "cityid": "C250"
+    },
+    {
+        "id": "R276",
+        "r egno": "GJ28",
+        "cityid": "C1283"
+    },
+    {
+        "id": "R277",
+        "regno": "GJ29",
+        "cityid": "C271"
+    },
+    {
+        "id": "R278",
+        "regno": "GJ30",
+        "cityid": "C1284"
+    },
+    {
+        "id": "R279",
+        "regno": "GJ31",
+        "cityid": "C1285"
+    },
+    {
+        "id": "R280",
+        "regno": "GJ32",
+        "cityid": "C1286"
+    },
+    {
+        "id": "R281",
+        "regno": "GJ33",
+        "cityid": "C1287"
+    },
+    {
+        "id": "R282",
+        "regno": "GJ34",
+        "cityid": "C1288"
+    },
+    {
+        "id": "R283",
+        "regno": "GJ35",
+        "cityid": "C1289"
+    },
+    {
+        "id": "R284",
+        "regno": "GJ36",
+        "cityid": "C1290"
+    },
+    {
+        "id": "R285",
+        "regno": "GJ37",
+        "cityid": "C1291"
+    },
+    {
+        "id": "R286",
+        "regno": "GJ37",
+        "cityid": "C1416"
+    },
+    {
+        "id": "R287",
+        "regno": "GJ38",
+        "cityid": "C1406"
+    },
+    {
+        "id": "R288",
+        "regno": "HP01",
+        "cityid": "C420"
+    },
+    {
+        "id": "R289",
+        "regno": "HP02",
+        "cityid": "C421"
+    },
+    {
+        "id": "R290",
+        "regno": "HP03",
+        "cityid": "C414"
+    },
+    {
+        "id": "R291",
+        "regno": "HP03",
+        "cityid": "C419"
+    },
+    {
+        "id": "R292",
+        "regno": "HP04",
+        "cityid": "C372"
+    },
+    {
+        "id": "R293",
+        "regno": "HP05",
+        "cityid": "C395"
+    },
+    {
+        "id": "R294",
+        "regno": "HP06",
+        "cityid": "C410"
+    },
+    {
+        "id": "R295",
+        "regno": "HP07",
+        "cityid": "C409"
+    },
+    {
+        "id": "R296",
+        "regno": "HP08",
+        "cityid": "C367"
+    },
+    {
+        "id": "R297",
+        "regno": "HP09",
+        "cityid": "C427"
+    },
+    {
+        "id": "R298",
+        "regno": "HP10",
+        "cityid": "C411"
+    },
+    {
+        "id": "R299",
+        "regno": "HP11",
+        "cityid": "C356"
+    },
+    {
+        "id": "R300",
+        "regno": "HP12",
+        "cityid": "C399"
+    },
+    {
+        "id": "R301",
+        "regno": "HP13",
+        "cityid": "C384"
+    },
+    {
+        "id": "R302",
+        "regno": "HP14",
+        "cityid": "C424"
+    },
+    {
+        "id": "R303",
+        "regno": "HP15",
+        "cityid": "C406"
+    },
+    {
+        "id": "R304",
+        "regno": "HP16",
+        "cityid": "C408"
+    },
+    {
+        "id": "R305",
+        "regno": "HP17",
+        "cityid": "C405"
+    },
+    {
+        "id": "R306",
+        "regno": "HP18",
+        "cityid": "C397"
+    },
+    {
+        "id": "R307",
+        "regno": "HP19",
+        "cityid": "C354"
+    },
+    {
+        "id": "R308",
+        "regno": "HP20",
+        "cityid": "C429"
+    },
+    {
+        "id": "R309",
+        "regno": "HP21",
+        "cityid": "C359"
+    },
+    {
+        "id": "R310",
+        "regno": "HP22",
+        "cityid": "C377"
+    },
+    {
+        "id": "R311",
+        "regno": "HP23",
+        "cityid": "C375"
+    },
+    {
+        "id": "R312",
+        "regno": "HP24",
+        "cityid": "C362"
+    },
+    {
+        "id": "R313",
+        "regno": "HP25",
+        "cityid": "C383"
+    },
+    {
+        "id": "R314",
+        "regno": "HP26",
+        "cityid": "C400"
+    },
+    {
+        "id": "R315",
+        "regno": "HP27",
+        "cityid": "C407"
+    },
+    {
+        "id": "R316",
+        "regno": "HP28",
+        "cityid": "C412"
+    },
+    {
+        "id": "R317",
+        "regno": "HP29",
+        "cityid": "C382"
+    },
+    {
+        "id": "R318",
+        "regno": "HP30",
+        "cityid": "C387"
+    },
+    {
+        "id": "R319",
+        "regno": "HP31",
+        "cityid": "C426"
+    },
+    {
+        "id": "R320",
+        "regno": "HP32",
+        "cityid": "C376"
+    },
+    {
+        "id": "R321",
+        "regno": "HP33",
+        "cityid": "C393"
+    },
+    {
+        "id": "R322",
+        "regno": "HP34",
+        "cityid": "C390"
+    },
+    {
+        "id": "R323",
+        "regno": "HP35",
+        "cityid": "C355"
+    },
+    {
+        "id": "R324",
+        "regno": "HP36",
+        "cityid": "C371"
+    },
+    {
+        "id": "R325",
+        "regno": "HP37",
+        "cityid": "C403"
+    },
+    {
+        "id": "R326",
+        "regno": "HP38",
+        "cityid": "C401"
+    },
+    {
+        "id": "R327",
+        "regno": "HP39",
+        "cityid": "C373"
+    },
+    {
+        "id": "R328",
+        "regno": "HP40",
+        "cityid": "C385"
+    },
+    {
+        "id": "R329",
+        "regno": "HP40",
+        "cityid": "C364"
+    },
+    {
+        "id": "R330",
+        "regno": "HP41",
+        "cityid": "C388"
+    },
+    {
+        "id": "R331",
+        "regno": "HP42",
+        "cityid": "C389"
+    },
+    {
+        "id": "R332",
+        "regno": "HP43",
+        "cityid": "C428"
+    },
+    {
+        "id": "R333",
+        "regno": "HP44",
+        "cityid": "C369"
+    },
+    {
+        "id": "R334",
+        "regno": "HP45",
+        "cityid": "C404"
+    },
+    {
+        "id": "R335",
+        "regno": "HP46",
+        "cityid": "C360"
+    },
+    {
+        "id": "R336",
+        "regno": "HP47",
+        "cityid": "C370"
+    },
+    {
+        "id": "R337",
+        "regno": "HP48",
+        "cityid": "C365"
+    },
+    {
+        "id": "R338",
+        "regno": "HP49",
+        "cityid": "C358"
+    },
+    {
+        "id": "R339",
+        "regno": "HP50",
+        "cityid": "C415"
+    },
+    {
+        "id": "R340",
+        "regno": "HP51",
+        "cityid": "C417"
+    },
+    {
+        "id": "R341",
+        "regno": "HP52",
+        "cityid": "C418"
+    },
+    {
+        "id": "R342",
+        "regno": "HP53",
+        "cityid": "C357"
+    },
+    {
+        "id": "R343",
+        "regno": "HP54",
+        "cityid": "C381"
+    },
+    {
+        "id": "R344",
+        "regno": "HP55",
+        "cityid": "C378"
+    },
+    {
+        "id": "R345",
+        "regno": "HP55",
+        "cityid": "C396"
+    },
+    {
+        "id": "R346",
+        "regno": "HP56",
+        "cityid": "C380"
+    },
+    {
+        "id": "R347",
+        "regno": "HP57",
+        "cityid": "C368"
+    },
+    {
+        "id": "R348",
+        "regno": "HP58",
+        "cityid": "C392"
+    },
+    {
+        "id": "R349",
+        "regno": "HP58",
+        "cityid": "C1412"
+    },
+    {
+        "id": "R350",
+        "regno": "HP59",
+        "cityid": "C1292"
+    },
+    {
+        "id": "R351",
+        "regno": "HP60",
+        "cityid": "C1293"
+    },
+    {
+        "id": "R352",
+        "regno": "HP61",
+        "cityid": "C1294"
+    },
+    {
+        "id": "R353",
+        "regno": "HP62",
+        "cityid": "C374"
+    },
+    {
+        "id": "R354",
+        "regno": "HP63",
+        "cityid": "C416"
+    },
+    {
+        "id": "R355",
+        "regno": "HP64",
+        "cityid": "C425"
+    },
+    {
+        "id": "R356",
+        "regno": "HP65",
+        "cityid": "C394"
+    },
+    {
+        "id": "R357",
+        "regno": "HP66",
+        "cityid": "C391"
+    },
+    {
+        "id": "R358",
+        "regno": "HP67",
+        "cityid": "C379"
+    },
+    {
+        "id": "R359",
+        "regno": "HP68",
+        "cityid": "C386"
+    },
+    {
+        "id": "R360",
+        "regno": "HP69",
+        "cityid": "C363"
+    },
+    {
+        "id": "R361",
+        "regno": "HP71",
+        "cityid": "C398"
+    },
+    {
+        "id": "R362",
+        "regno": "HP72",
+        "cityid": "C430"
+    },
+    {
+        "id": "R363",
+        "regno": "HP73",
+        "cityid": "C366"
+    },
+    {
+        "id": "R364",
+        "regno": "HP74",
+        "cityid": "C361"
+    },
+    {
+        "id": "R365",
+        "regno": "HP76",
+        "cityid": "C402"
+    },
+    {
+        "id": "R366",
+        "re gno": "HP77",
+        "cityid": "C1295"
+    },
+    {
+        "id": "R367",
+        "regno": "HP78",
+        "cityid": "C1296"
+    },
+    {
+        "id": "R368",
+        "regno": "HP79",
+        "cityid": "C1297"
+    },
+    {
+        "id": "R369",
+        "regno": "HP80",
+        "cityid": "C1298"
+    },
+    {
+        "id": "R370",
+        "regno": "HP81",
+        "cityid": "C1299"
+    },
+    {
+        "id": "R371",
+        "regno": "HP82",
+        "cityid": "C1300"
+    },
+    {
+        "id": "R372",
+        "regno": "HP83",
+        "cityid": "C1301"
+    },
+    {
+        "id": "R373",
+        "regno": "HP84",
+        "cityid": "C1302"
+    },
+    {
+        "id": "R374",
+        "regno": "HP85",
+        "cityid": "C1303"
+    },
+    {
+        "id": "R375",
+        "regno": "HP86",
+        "cityid": "C1304"
+    },
+    {
+        "id": "R376",
+        "regno": "HP88",
+        "cityid": "C1442"
+    },
+    {
+        "id": "R377",
+        "regno": "HP92",
+        "cityid": "C1417"
+    },
+    {
+        "id": "R378",
+        "regno": "HP93",
+        "cityid": "C1411"
+    },
+    {
+        "id": "R379",
+        "regno": "HP94",
+        "cityid": "C1440"
+    },
+    {
+        "id": "R380",
+        "regno": "HP94",
+        "cityid": "C1434"
+    },
+    {
+        "id": "R381",
+        "regno": "HP95",
+        "cityid": "C1418"
+    },
+    {
+        "id": "R382",
+        "regno": "HR01",
+        "cityid": "C274"
+    },
+    {
+        "id": "R383",
+        "regno": "HR02",
+        "cityid": "C308"
+    },
+    {
+        "id": "R384",
+        "regno": "HR03",
+        "cityid": "C332"
+    },
+    {
+        "id": "R385",
+        "regno": "HR04",
+        "cityid": "C325"
+    },
+    {
+        "id": "R386",
+        "regno": "HR05",
+        "cityid": "C316"
+    },
+    {
+        "id": "R387",
+        "regno": "HR06",
+        "cityid": "C335"
+    },
+    {
+        "id": "R388",
+        "regno": "HR07",
+        "cityid": "C319"
+    },
+    {
+        "id": "R389",
+        "regno": "HR08",
+        "cityid": "C313"
+    },
+    {
+        "id": "R390",
+        "regno": "HR09",
+        "cityid": "C1182"
+    },
+    {
+        "id": "R391",
+        "regno": "HR10",
+        "cityid": "C350"
+    },
+    {
+        "id": "R392",
+        "regno": "HR11",
+        "cityid": "C295"
+    },
+    {
+        "id": "R393",
+        "regno": "HR12",
+        "cityid": "C342"
+    },
+    {
+        "id": "R394",
+        "regno": "HR13",
+        "cityid": "C279"
+    },
+    {
+        "id": "R395",
+        "regno": "HR14",
+        "cityid": "C309"
+    },
+    {
+        "id": "R396",
+        "regno": "HR15",
+        "cityid": "C1183"
+    },
+    {
+        "id": "R397",
+        "regno": "HR16",
+        "cityid": "C280"
+    },
+    {
+        "id": "R398",
+        "regno": "HR17",
+        "cityid": "C349"
+    },
+    {
+        "id": "R399",
+        "regno": "HR18",
+        "cityid": "C321"
+    },
+    {
+        "id": "R400",
+        "regno": "HR19",
+        "cityid": "C286"
+    },
+    {
+        "id": "R401",
+        "regno": "HR20",
+        "cityid": "C302"
+    },
+    {
+        "id": "R402",
+        "regno": "HR21",
+        "cityid": "C300"
+    },
+    {
+        "id": "R403",
+        "regno": "HR22",
+        "cityid": "C291"
+    },
+    {
+        "id": "R404",
+        "regno": "HR23",
+        "cityid": "C353"
+    },
+    {
+        "id": "R405",
+        "regno": "HR24",
+        "cityid": "C347"
+    },
+    {
+        "id": "R406",
+        "regno": "HR25",
+        "cityid": "C287"
+    },
+    {
+        "id": "R407",
+        "regno": "HR26",
+        "cityid": "C296"
+    },
+    {
+        "id": "R408",
+        "regno": "HR27",
+        "cityid": "C303"
+    },
+    {
+        "id": "R409",
+        "regno": "HR27",
+        "cityid": "C329"
+    },
+    {
+        "id": "R410",
+        "regno": "HR28",
+        "cityid": "C293"
+    },
+    {
+        "id": "R411",
+        "regno": "HR29",
+        "cityid": "C277"
+    },
+    {
+        "id": "R412",
+        "regno": "HR30",
+        "cityid": "C330"
+    },
+    {
+        "id": "R413",
+        "regno": "HR31",
+        "cityid": "C311"
+    },
+    {
+        "id": "R414",
+        "regno": "HR32",
+        "cityid": "C328"
+    },
+    {
+        "id": "R415",
+        "regno": "HR33",
+        "cityid": "C345"
+    },
+    {
+        "id": "R416",
+        "regno": "HR34",
+        "cityid": "C324"
+    },
+    {
+        "id": "R417",
+        "regno": "HR35",
+        "cityid": "C326"
+    },
+    {
+        "id": "R418",
+        "regno": "HR36",
+        "cityid": "C340"
+    },
+    {
+        "id": "R419",
+        "regno": "HR37",
+        "cityid": "C275"
+    },
+    {
+        "id": "R420",
+        "regno": "HR38",
+        "cityid": "C290"
+    },
+    {
+        "id": "R421",
+        "regno": "HR38",
+        "cityid": "C297"
+    },
+    {
+        "id": "R422",
+        "regno": "HR39",
+        "cityid": "C304"
+    },
+    {
+        "id": "R423",
+        "regno": "HR40",
+        "cityid": "C276"
+    },
+    {
+        "id": "R424",
+        "regno": "HR41",
+        "cityid": "C338"
+    },
+    {
+        "id": "R425",
+        "regno": "HR42",
+        "cityid": "C294"
+    },
+    {
+        "id": "R426",
+        "regno": "HR43",
+        "cityid": "C318"
+    },
+    {
+        "id": "R427",
+        "regno": "HR44",
+        "cityid": "C288"
+    },
+    {
+        "id": "R428",
+        "regno": "HR45",
+        "cityid": "C317"
+    },
+    {
+        "id": "R429",
+        "regno": "HR46",
+        "cityid": "C344"
+    },
+    {
+        "id": "R430",
+        "regno": "HR47",
+        "cityid": "C341"
+    },
+    {
+        "id": "R431",
+        "regno": "HR48",
+        "cityid": "C352"
+    },
+    {
+        "id": "R432",
+        "regno": "HR49",
+        "cityid": "C315"
+    },
+    {
+        "id": "R433",
+        "regno": "HR50",
+        "cityid": "C305"
+    },
+    {
+        "id": "R434",
+        "regno": "HR51",
+        "cityid": "C289"
+    },
+    {
+        "id": "R435",
+        "regno": "HR52",
+        "cityid": "C322"
+    },
+    {
+        "id": "R436",
+        "regno": "HR53",
+        "cityid": "C1305"
+    },
+    {
+        "id": "R437",
+        "regno": "HR54",
+        "cityid": "C283"
+    },
+    {
+        "id": "R438",
+        "regno": "HR55",
+        "cityid": "C298"
+    },
+    {
+        "id": "R439",
+        "regno": "HR56",
+        "cityid": "C312"
+    },
+    {
+        "id": "R440",
+        "regno": "HR57",
+        "cityid": "C348"
+    },
+    {
+        "id": "R441",
+        "regno": "HR58",
+        "cityid": "C307"
+    },
+    {
+        "id": "R442",
+        "regno": "HR59",
+        "cityid": "C339"
+    },
+    {
+        "id": "R443",
+        "regno": "HR60",
+        "cityid": "C346"
+    },
+    {
+        "id": "R444",
+        "regno": "HR61",
+        "cityid": "C281"
+    },
+    {
+        "id": "R445",
+        "regno": "HR62",
+        "cityid": "C292"
+    },
+    {
+        "id": "R446",
+        "regno": "HR63",
+        "cityid": "C310"
+    },
+    {
+        "id": "R447",
+        "regno": "HR64",
+        "cityid": "C314"
+    },
+    {
+        "id": "R448",
+        "regno": "HR65",
+        "cityid": "C320"
+    },
+    {
+        "id": "R449",
+        "regno": "HR66",
+        "cityid": "C327"
+    },
+    {
+        "id": "R450",
+        "regno": "HR67",
+        "cityid": "C336"
+    },
+    {
+        "id": "R451",
+        "regno": "HR68",
+        "cityid": "C334"
+    },
+    {
+        "id": "R452",
+        "regno": "HR69",
+        "cityid": "C351"
+    },
+    {
+        "id": "R453",
+        "regno": "HR70",
+        "cityid": "C333"
+    },
+    {
+        "id": "R454",
+        "regno": "HR70",
+        "cityid": "C284"
+    },
+    {
+        "id": "R455",
+        "regno": "HR71",
+        "cityid": "C282"
+    },
+    {
+        "id": "R456",
+        "regno": "HR72",
+        "cityid": "C299"
+    },
+    {
+        "id": "R457",
+        "regno": "HR73",
+        "cityid": "C331"
+    },
+    {
+        "id": "R458",
+        "regno": "HR74",
+        "cityid": "C323"
+    },
+    {
+        "id": "R459",
+        "regno": "HR75",
+        "cityid": "C306"
+    },
+    {
+        "id": "R460",
+        "regno": "HR76",
+        "cityid": "C337"
+    },
+    {
+        "id": "R461",
+        "regno": "HR77",
+        "cityid": "C278"
+    },
+    {
+        "id": "R462",
+        "regno": "HR78",
+        "cityid": "C285"
+    },
+    {
+        "id": "R463",
+        "regno": "HR79",
+        "cityid": "C1265"
+    },
+    {
+        "id": "R464",
+        "regno": "HR80",
+        "cityid": "C301"
+    },
+    {
+        "id": "R465",
+        "regno": "HR81",
+        "cityid": "C1306"
+    },
+    {
+        "id": "R466",
+        "regno": "HR82",
+        "cityid": "C1410"
+    },
+    {
+        "id": "R467",
+        "regno": "HR83",
+        "cityid": "C1393"
+    },
+    {
+        "id": "R468",
+        "regno": "HR85",
+        "cityid": "C1399"
+    },
+    {
+        "id": "R469",
+        "regno": "HR86",
+        "cityid": "C1307"
+    },
+    {
+        "id": "R470",
+        "regno": "HR87",
+        "cityid": "C1407"
+    },
+    {
+        "id": "R471",
+        "regno": "HR88",
+        "cityid": "C1308"
+    },
+    {
+        "id": "R472",
+        "regno": "HR89",
+        "cityid": "C1405"
+    },
+    {
+        "id": "R473",
+        "regno": "HR93",
+        "cityid": "C1409"
+    },
+    {
+        "id": "R474",
+        "regno": "HR95",
+        "cityid": "C1397"
+    },
+    {
+        "id": "R475",
+        "regno": "JH01",
+        "cityid": "C475"
+    },
+    {
+        "id": "R476",
+        "regno": "JH02",
+        "cityid": "C474"
+    },
+    {
+        "id": "R477",
+        "regno": "JH02",
+        "cityid": "C460"
+    },
+    {
+        "id": "R478",
+        "regno": "JH03",
+        "cityid": "C463"
+    },
+    {
+        "id": "R479",
+        "regno": "JH04",
+        "cityid": "C457"
+    },
+    {
+        "id": "R480",
+        "regno": "JH05",
+        "cityid": "C461"
+    },
+    {
+        "id": "R481",
+        "regno": "JH06",
+        "cityid": "C454"
+    },
+    {
+        "id": "R482",
+        "regno": "JH07",
+        "cityid": "C465"
+    },
+    {
+        "id": "R483",
+        "regno": "JH08",
+        "cityid": "C466"
+    },
+    {
+        "id": "R484",
+        "regno": "JH09",
+        "cityid": "C453"
+    },
+    {
+        "id": "R485",
+        "regno": "JH10",
+        "cityid": "C456"
+    },
+    {
+        "id": "R486",
+        "regno": "JH11",
+        "cityid": "C458"
+    },
+    {
+        "id": "R487",
+        "regno": "JH12",
+        "cityid": "C472"
+    },
+    {
+        "id": "R488",
+        "regno": "JH13",
+        "cityid": "C468"
+    },
+    {
+        "id": "R489",
+        "regno": "JH14",
+        "cityid": "C459"
+    },
+    {
+        "id": "R490",
+        "regno": "JH15",
+        "cityid": "C455"
+    },
+    {
+        "id": "R491",
+        "regno": "JH16",
+        "cityid": "C470"
+    },
+    {
+        "id": "R492",
+        "regno": "JH17",
+        "cityid": "C471"
+    },
+    {
+        "id": "R493",
+        "regno": "JH18",
+        "cityid": "C476"
+    },
+    {
+        "id": "R494",
+        "regno": "JH19",
+        "cityid": "C473"
+    },
+    {
+        "id": "R495",
+        "regno": "JH20",
+        "cityid": "C478"
+    },
+    {
+        "id": "R496",
+        "regno": "JH21",
+        "cityid": "C462"
+    },
+    {
+        "id": "R497",
+        "regno": "JH22",
+        "cityid": "C477"
+    },
+    {
+        "id": "R498",
+        "regno": "JH24",
+        "cityid": "C1394"
+    },
+    {
+        "id": "R499",
+        "regno": "JK01",
+        "cityid": "C451"
+    },
+    {
+        "id": "R500",
+        "regno": "JK02",
+        "cityid": "C438"
+    },
+    {
+        "id": "R5 01",
+        "regno": "JK03",
+        "cityid": "C431"
+    },
+    {
+        "id": "R502",
+        "regno": "JK04",
+        "cityid": "C435"
+    },
+    {
+        "id": "R503",
+        "regno": "JK05",
+        "cityid": "C434"
+    },
+    {
+        "id": "R504",
+        "regno": "JK05",
+        "cityid": "C432"
+    },
+    {
+        "id": "R505",
+        "regno": "JK06",
+        "cityid": "C433"
+    },
+    {
+        "id": "R506",
+        "regno": "JK06",
+        "cityid": "C436"
+    },
+    {
+        "id": "R507",
+        "regno": "JK07",
+        "cityid": "C439"
+    },
+    {
+        "id": "R508",
+        "regno": "JK08",
+        "cityid": "C440"
+    },
+    {
+        "id": "R509",
+        "regno": "JK09",
+        "cityid": "C443"
+    },
+    {
+        "id": "R510",
+        "regno": "JK10",
+        "cityid": "C444"
+    },
+    {
+        "id": "R511",
+        "regno": "JK11",
+        "cityid": "C447"
+    },
+    {
+        "id": "R512",
+        "regno": "JK12",
+        "cityid": "C445"
+    },
+    {
+        "id": "R513",
+        "regno": "JK13",
+        "cityid": "C446"
+    },
+    {
+        "id": "R514",
+        "regno": "JK14",
+        "cityid": "C452"
+    },
+    {
+        "id": "R515",
+        "regno": "JK15",
+        "cityid": "C1188"
+    },
+    {
+        "id": "R516",
+        "regno": "JK16",
+        "cityid": "C437"
+    },
+    {
+        "id": "R517",
+        "regno": "JK17",
+        "cityid": "C441"
+    },
+    {
+        "id": "R518",
+        "regno": "JK18",
+        "cityid": "C442"
+    },
+    {
+        "id": "R519",
+        "regno": "JK19",
+        "cityid": "C448"
+    },
+    {
+        "id": "R520",
+        "regno": "JK20",
+        "cityid": "C449"
+    },
+    {
+        "id": "R521",
+        "regno": "JK21",
+        "cityid": "C450"
+    },
+    {
+        "id": "R522",
+        "regno": "JK22",
+        "cityid": "C1309"
+    },
+    {
+        "id": "R523",
+        "regno": "KA01",
+        "cityid": "C481"
+    },
+    {
+        "id": "R524",
+        "regno": "KA02",
+        "cityid": "C485"
+    },
+    {
+        "id": "R525",
+        "regno": "KA03",
+        "cityid": "C482"
+    },
+    {
+        "id": "R526",
+        "regno": "KA04",
+        "cityid": "C483"
+    },
+    {
+        "id": "R527",
+        "regno": "KA05",
+        "cityid": "C484"
+    },
+    {
+        "id": "R528",
+        "regno": "KA06",
+        "cityid": "C531"
+    },
+    {
+        "id": "R529",
+        "regno": "KA07",
+        "cityid": "C513"
+    },
+    {
+        "id": "R530",
+        "regno": "KA08",
+        "cityid": "C512"
+    },
+    {
+        "id": "R531",
+        "regno": "KA09",
+        "cityid": "C519"
+    },
+    {
+        "id": "R532",
+        "regno": "KA10",
+        "cityid": "C493"
+    },
+    {
+        "id": "R533",
+        "regno": "KA11",
+        "cityid": "C517"
+    },
+    {
+        "id": "R534",
+        "regno": "KA12",
+        "cityid": "C516"
+    },
+    {
+        "id": "R535",
+        "regno": "KA13",
+        "cityid": "C504"
+    },
+    {
+        "id": "R536",
+        "regno": "KA14",
+        "cityid": "C528"
+    },
+    {
+        "id": "R537",
+        "regno": "KA15",
+        "cityid": "C526"
+    },
+    {
+        "id": "R538",
+        "regno": "KA16",
+        "cityid": "C497"
+    },
+    {
+        "id": "R539",
+        "regno": "KA17",
+        "cityid": "C498"
+    },
+    {
+        "id": "R540",
+        "regno": "KA18",
+        "cityid": "C494"
+    },
+    {
+        "id": "R541",
+        "regno": "KA19",
+        "cityid": "C518"
+    },
+    {
+        "id": "R542",
+        "regno": "KA20",
+        "cityid": "C532"
+    },
+    {
+        "id": "R543",
+        "regno": "KA21",
+        "cityid": "C522"
+    },
+    {
+        "id": "R544",
+        "regno": "KA22",
+        "cityid": "C487"
+    },
+    {
+        "id": "R545",
+        "regno": "KA23",
+        "cityid": "C496"
+    },
+    {
+        "id": "R546",
+        "r egno": "KA24",
+        "cityid": "C480"
+    },
+    {
+        "id": "R547",
+        "regno": "KA25",
+        "cityid": "C500"
+    },
+    {
+        "id": "R548",
+        "regno": "KA26",
+        "cityid": "C501"
+    },
+    {
+        "id": "R549",
+        "regno": "KA27",
+        "cityid": "C505"
+    },
+    {
+        "id": "R550",
+        "regno": "KA28",
+        "cityid": "C492"
+    },
+    {
+        "id": "R551",
+        "regno": "KA29",
+        "cityid": "C479"
+    },
+    {
+        "id": "R552",
+        "regno": "KA30",
+        "cityid": "C511"
+    },
+    {
+        "id": "R553",
+        "regno": "KA31",
+        "cityid": "C529"
+    },
+    {
+        "id": "R554",
+        "regno": "KA32",
+        "cityid": "C503"
+    },
+    {
+        "id": "R555",
+        "regno": "KA33",
+        "cityid": "C533"
+    },
+    {
+        "id": "R556",
+        "regno": "KA34",
+        "cityid": "C488"
+    },
+    {
+        "id": "R557",
+        "regno": "KA35",
+        "cityid": "C507"
+    },
+    {
+        "id": "R558",
+        "regno": "KA36",
+        "cityid": "C523"
+    },
+    {
+        "id": "R559",
+        "regno": "KA37",
+        "cityid": "C514"
+    },
+    {
+        "id": "R560",
+        "regno": "KA38",
+        "cityid": "C490"
+    },
+    {
+        "id": "R561",
+        "regno": "KA39",
+        "cityid": "C489"
+    },
+    {
+        "id": "R562",
+        "regno": "KA40",
+        "cityid": "C495"
+    },
+    {
+        "id": "R563",
+        "regno": "KA41",
+        "cityid": "C524"
+    },
+    {
+        "id": "R564",
+        "regno": "KA42",
+        "cityid": "C525"
+    },
+    {
+        "id": "R565",
+        "regno": "KA43",
+        "cityid": "C499"
+    },
+    {
+        "id": "R566",
+        "regno": "KA44",
+        "cityid": "C530"
+    },
+    {
+        "id": "R567",
+        "regno": "KA45",
+        "cityid": "C508"
+    },
+    {
+        "id": "R568",
+        "regno": "KA46",
+        "cityid": "C527"
+    },
+    {
+        "id": "R569",
+        "regno": "KA47",
+        "cityid": "C506"
+    },
+    {
+        "id": "R570",
+        "regno": "KA48",
+        "cityid": "C509"
+    },
+    {
+        "id": "R571",
+        "regno": "KA49",
+        "cityid": "C502"
+    },
+    {
+        "id": "R572",
+        "regno": "KA50",
+        "cityid": "C534"
+    },
+    {
+        "id": "R573",
+        "regno": "KA51",
+        "cityid": "C486"
+    },
+    {
+        "id": "R574",
+        "regno": "KA52",
+        "cityid": "C521"
+    },
+    {
+        "id": "R575",
+        "regno": "KA53",
+        "cityid": "C515"
+    },
+    {
+        "id": "R576",
+        "regno": "KA54",
+        "cityid": "C520"
+    },
+    {
+        "id": "R577",
+        "regno": "KA55",
+        "cityid": "C510"
+    },
+    {
+        "id": "R578",
+        "regno": "KA56",
+        "cityid": "C491"
+    },
+    {
+        "id": "R579",
+        "regno": "KA61",
+        "cityid": "C1400"
+    },
+    {
+        "id": "R580",
+        "regno": "KA62",
+        "cityid": "C1310"
+    },
+    {
+        "id": "R581",
+        "regno": "KA63",
+        "cityid": "C1311"
+    },
+    {
+        "id": "R582",
+        "regno": "KA64",
+        "cityid": "C1312"
+    },
+    {
+        "id": "R583",
+        "regno": "KA65",
+        "cityid": "C1313"
+    },
+    {
+        "id": "R584",
+        "regno": "KA66",
+        "cityid": "C1314"
+    },
+    {
+        "id": "R585",
+        "regno": "KA67",
+        "cityid": "C1315"
+    },
+    {
+        "id": "R586",
+        "regno": "KL01",
+        "cityid": "C589"
+    },
+    {
+        "id": "R587",
+        "regno": "KL02",
+        "cityid": "C559"
+    },
+    {
+        "id": "R588",
+        "regno": "KL03",
+        "cityid": "C579"
+    },
+    {
+        "id": "R589",
+        "regno": "KL04",
+        "cityid": "C536"
+    },
+    {
+        "id": "R590",
+        "regno": "KL05",
+        "cityid": "C562"
+    },
+    {
+        "id": "R591",
+        "re gno": "KL06",
+        "cityid": "C548"
+    },
+    {
+        "id": "R592",
+        "regno": "KL07",
+        "cityid": "C546"
+    },
+    {
+        "id": "R593",
+        "regno": "KL08",
+        "cityid": "C593"
+    },
+    {
+        "id": "R594",
+        "regno": "KL09",
+        "cityid": "C577"
+    },
+    {
+        "id": "R595",
+        "regno": "KL10",
+        "cityid": "C566"
+    },
+    {
+        "id": "R596",
+        "regno": "KL11",
+        "cityid": "C564"
+    },
+    {
+        "id": "R597",
+        "regno": "KL12",
+        "cityid": "C600"
+    },
+    {
+        "id": "R598",
+        "regno": "KL13",
+        "cityid": "C552"
+    },
+    {
+        "id": "R599",
+        "regno": "KL14",
+        "cityid": "C554"
+    },
+    {
+        "id": "R600",
+        "regno": "KL15",
+        "cityid": "C590"
+    },
+    {
+        "id": "R601",
+        "regno": "KL16",
+        "cityid": "C540"
+    },
+    {
+        "id": "R602",
+        "regno": "KL17",
+        "cityid": "C571"
+    },
+    {
+        "id": "R603",
+        "regno": "KL18",
+        "cityid": "C598"
+    },
+    {
+        "id": "R604",
+        "regno": "KL19",
+        "cityid": "C578"
+    },
+    {
+        "id": "R605",
+        "regno": "KL20",
+        "cityid": "C573"
+    },
+    {
+        "id": "R606",
+        "regno": "KL21",
+        "cityid": "C572"
+    },
+    {
+        "id": "R607",
+        "regno": "KL22",
+        "cityid": "C556"
+    },
+    {
+        "id": "R608",
+        "regno": "KL23",
+        "cityid": "C553"
+    },
+    {
+        "id": "R609",
+        "regno": "KL24",
+        "cityid": "C561"
+    },
+    {
+        "id": "R610",
+        "regno": "KL25",
+        "cityid": "C584"
+    },
+    {
+        "id": "R611",
+        "regno": "KL26",
+        "cityid": "C535"
+    },
+    {
+        "id": "R612",
+        "regno": "KL27",
+        "cityid": "C588"
+    },
+    {
+        "id": "R613",
+        "regno": "KL28",
+        "cityid": "C567"
+    },
+    {
+        "id": "R614",
+        "regno": "KL29",
+        "cityid": "C555"
+    },
+    {
+        "id": "R615",
+        "regno": "KL30",
+        "cityid": "C544"
+    },
+    {
+        "id": "R616",
+        "regno": "KL31",
+        "cityid": "C570"
+    },
+    {
+        "id": "R617",
+        "regno": "KL32",
+        "cityid": "C545"
+    },
+    {
+        "id": "R618",
+        "regno": "KL33",
+        "cityid": "C543"
+    },
+    {
+        "id": "R619",
+        "regno": "KL34",
+        "cityid": "C551"
+    },
+    {
+        "id": "R620",
+        "regno": "KL35",
+        "cityid": "C576"
+    },
+    {
+        "id": "R621",
+        "regno": "KL36",
+        "cityid": "C596"
+    },
+    {
+        "id": "R622",
+        "regno": "KL37",
+        "cityid": "C597"
+    },
+    {
+        "id": "R623",
+        "regno": "KL38",
+        "cityid": "C591"
+    },
+    {
+        "id": "R624",
+        "regno": "KL39",
+        "cityid": "C592"
+    },
+    {
+        "id": "R625",
+        "regno": "KL40",
+        "cityid": "C582"
+    },
+    {
+        "id": "R626",
+        "regno": "KL41",
+        "cityid": "C538"
+    },
+    {
+        "id": "R627",
+        "regno": "KL42",
+        "cityid": "C574"
+    },
+    {
+        "id": "R628",
+        "regno": "KL43",
+        "cityid": "C569"
+    },
+    {
+        "id": "R629",
+        "regno": "KL44",
+        "cityid": "C560"
+    },
+    {
+        "id": "R630",
+        "regno": "KL45",
+        "cityid": "C549"
+    },
+    {
+        "id": "R631",
+        "regno": "KL46",
+        "cityid": "C547"
+    },
+    {
+        "id": "R632",
+        "regno": "KL47",
+        "cityid": "C557"
+    },
+    {
+        "id": "R633",
+        "regno": "KL48",
+        "cityid": "C599"
+    },
+    {
+        "id": "R634",
+        "regno": "KL49",
+        "cityid": "C537"
+    },
+    {
+        "id": "R635",
+        "regno": "KL50",
+        "cityid": "C568"
+    },
+    {
+        "id": "R636",
+        "regno": "KL 51",
+        "cityid": "C575"
+    },
+    {
+        "id": "R637",
+        "regno": "KL52",
+        "cityid": "C580"
+    },
+    {
+        "id": "R638",
+        "regno": "KL53",
+        "cityid": "C581"
+    },
+    {
+        "id": "R639",
+        "regno": "KL54",
+        "cityid": "C583"
+    },
+    {
+        "id": "R640",
+        "regno": "KL55",
+        "cityid": "C594"
+    },
+    {
+        "id": "R641",
+        "regno": "KL56",
+        "cityid": "C563"
+    },
+    {
+        "id": "R642",
+        "regno": "KL57",
+        "cityid": "C558"
+    },
+    {
+        "id": "R643",
+        "regno": "KL58",
+        "cityid": "C587"
+    },
+    {
+        "id": "R644",
+        "regno": "KL59",
+        "cityid": "C586"
+    },
+    {
+        "id": "R645",
+        "regno": "KL60",
+        "cityid": "C550"
+    },
+    {
+        "id": "R646",
+        "regno": "KL61",
+        "cityid": "C565"
+    },
+    {
+        "id": "R647",
+        "regno": "KL62",
+        "cityid": "C585"
+    },
+    {
+        "id": "R648",
+        "regno": "KL63",
+        "cityid": "C539"
+    },
+    {
+        "id": "R649",
+        "regno": "KL64",
+        "cityid": "C541"
+    },
+    {
+        "id": "R650",
+        "regno": "KL65",
+        "cityid": "C595"
+    },
+    {
+        "id": "R651",
+        "regno": "KL66",
+        "cityid": "C1316"
+    },
+    {
+        "id": "R652",
+        "regno": "KL67",
+        "cityid": "C1317"
+    },
+    {
+        "id": "R653",
+        "regno": "KL68",
+        "cityid": "C1318"
+    },
+    {
+        "id": "R654",
+        "regno": "KL69",
+        "cityid": "C1319"
+    },
+    {
+        "id": "R655",
+        "regno": "KL70",
+        "cityid": "C1320"
+    },
+    {
+        "id": "R656",
+        "regno": "KL71",
+        "cityid": "C1321"
+    },
+    {
+        "id": "R657",
+        "regno": "KL72",
+        "cityid": "C1322"
+    },
+    {
+        "id": "R658",
+        "regno": "KL73",
+        "cityid": "C1323"
+    },
+    {
+        "id": "R659",
+        "regno": "LD01",
+        "cityid": "C601"
+    },
+    {
+        "id": "R660",
+        "regno": "LD02",
+        "cityid": "C1324"
+    },
+    {
+        "id": "R661",
+        "regno": "LD03",
+        "cityid": "C1325"
+    },
+    {
+        "id": "R662",
+        "regno": "LD04",
+        "cityid": "C1326"
+    },
+    {
+        "id": "R663",
+        "regno": "LD05",
+        "cityid": "C1327"
+    },
+    {
+        "id": "R664",
+        "regno": "LD05",
+        "cityid": "C1328"
+    },
+    {
+        "id": "R665",
+        "regno": "LD07",
+        "cityid": "C1329"
+    },
+    {
+        "id": "R666",
+        "regno": "LD08",
+        "cityid": "C1330"
+    },
+    {
+        "id": "R667",
+        "regno": "LD09",
+        "cityid": "C1331"
+    },
+    {
+        "id": "R668",
+        "regno": "MH01",
+        "cityid": "C690"
+    },
+    {
+        "id": "R669",
+        "regno": "MH02",
+        "cityid": "C692"
+    },
+    {
+        "id": "R670",
+        "regno": "MH03",
+        "cityid": "C691"
+    },
+    {
+        "id": "R671",
+        "regno": "MH04",
+        "cityid": "C712"
+    },
+    {
+        "id": "R672",
+        "regno": "MH05",
+        "cityid": "C713"
+    },
+    {
+        "id": "R673",
+        "regno": "MH05",
+        "cityid": "C686"
+    },
+    {
+        "id": "R674",
+        "regno": "MH05",
+        "cityid": "C680"
+    },
+    {
+        "id": "R675",
+        "regno": "MH06",
+        "cityid": "C702"
+    },
+    {
+        "id": "R676",
+        "regno": "MH07",
+        "cityid": "C710"
+    },
+    {
+        "id": "R677",
+        "regno": "MH08",
+        "cityid": "C705"
+    },
+    {
+        "id": "R678",
+        "regno": "MH09",
+        "cityid": "C687"
+    },
+    {
+        "id": "R679",
+        "regno": "MH10",
+        "cityid": "C706"
+    },
+    {
+        "id": "R680",
+        "regno": "MH11",
+        "cityid": "C707"
+    },
+    {
+        "id": "R681",
+        "re gno": "MH12",
+        "cityid": "C704"
+    },
+    {
+        "id": "R682",
+        "regno": "MH13",
+        "cityid": "C711"
+    },
+    {
+        "id": "R683",
+        "regno": "MH14",
+        "cityid": "C703"
+    },
+    {
+        "id": "R684",
+        "regno": "MH15",
+        "cityid": "C696"
+    },
+    {
+        "id": "R685",
+        "regno": "MH16",
+        "cityid": "C669"
+    },
+    {
+        "id": "R686",
+        "regno": "MH17",
+        "cityid": "C709"
+    },
+    {
+        "id": "R687",
+        "regno": "MH18",
+        "cityid": "C679"
+    },
+    {
+        "id": "R688",
+        "regno": "MH19",
+        "cityid": "C684"
+    },
+    {
+        "id": "R689",
+        "regno": "MH20",
+        "cityid": "C673"
+    },
+    {
+        "id": "R690",
+        "regno": "MH21",
+        "cityid": "C685"
+    },
+    {
+        "id": "R691",
+        "regno": "MH22",
+        "cityid": "C700"
+    },
+    {
+        "id": "R692",
+        "regno": "MH23",
+        "cityid": "C675"
+    },
+    {
+        "id": "R693",
+        "regno": "MH24",
+        "cityid": "C688"
+    },
+    {
+        "id": "R694",
+        "regno": "MH25",
+        "cityid": "C698"
+    },
+    {
+        "id": "R695",
+        "regno": "MH26",
+        "cityid": "C694"
+    },
+    {
+        "id": "R696",
+        "regno": "MH27",
+        "cityid": "C672"
+    },
+    {
+        "id": "R697",
+        "regno": "MH28",
+        "cityid": "C677"
+    },
+    {
+        "id": "R698",
+        "regno": "MH29",
+        "cityid": "C718"
+    },
+    {
+        "id": "R699",
+        "regno": "MH30",
+        "cityid": "C671"
+    },
+    {
+        "id": "R700",
+        "regno": "MH31",
+        "cityid": "C693"
+    },
+    {
+        "id": "R701",
+        "regno": "MH32",
+        "cityid": "C716"
+    },
+    {
+        "id": "R702",
+        "regno": "MH33",
+        "cityid": "C681"
+    },
+    {
+        "id": "R703",
+        "regno": "MH34",
+        "cityid": "C678"
+    },
+    {
+        "id": "R704",
+        "regno": "MH35",
+        "cityid": "C682"
+    },
+    {
+        "id": "R705",
+        "regno": "MH36",
+        "cityid": "C676"
+    },
+    {
+        "id": "R706",
+        "regno": "MH37",
+        "cityid": "C717"
+    },
+    {
+        "id": "R707",
+        "regno": "MH38",
+        "cityid": "C683"
+    },
+    {
+        "id": "R708",
+        "regno": "MH39",
+        "cityid": "C695"
+    },
+    {
+        "id": "R709",
+        "regno": "MH40",
+        "cityid": "C715"
+    },
+    {
+        "id": "R710",
+        "regno": "MH41",
+        "cityid": "C689"
+    },
+    {
+        "id": "R711",
+        "regno": "MH42",
+        "cityid": "C674"
+    },
+    {
+        "id": "R712",
+        "regno": "MH43",
+        "cityid": "C697"
+    },
+    {
+        "id": "R713",
+        "regno": "MH44",
+        "cityid": "C701"
+    },
+    {
+        "id": "R714",
+        "regno": "MH45",
+        "cityid": "C670"
+    },
+    {
+        "id": "R715",
+        "regno": "MH46",
+        "cityid": "C699"
+    },
+    {
+        "id": "R716",
+        "regno": "MH47",
+        "cityid": "C1332"
+    },
+    {
+        "id": "R717",
+        "regno": "MH48",
+        "cityid": "C714"
+    },
+    {
+        "id": "R718",
+        "regno": "MH49",
+        "cityid": "C1193"
+    },
+    {
+        "id": "R719",
+        "regno": "MH50",
+        "cityid": "C708"
+    },
+    {
+        "id": "R720",
+        "regno": "MH51",
+        "cityid": "C1333"
+    },
+    {
+        "id": "R721",
+        "regno": "ML01",
+        "cityid": "C727"
+    },
+    {
+        "id": "R722",
+        "regno": "ML02",
+        "cityid": "C728"
+    },
+    {
+        "id": "R723",
+        "regno": "ML03",
+        "cityid": "C729"
+    },
+    {
+        "id": "R724",
+        "regno": "ML04",
+        "cityid": "C725"
+    },
+    {
+        "id": "R725",
+        "regno": "ML05",
+        "cityid": "C724"
+    },
+    {
+        "id": "R726",
+        "regno": "ML06",
+        "cityid": "C732"
+    },
+    {
+        "id": "R727",
+        "regno": "ML07",
+        "cityid": "C723"
+    },
+    {
+        "id": "R728",
+        "regno": "ML08",
+        "cityid": "C731"
+    },
+    {
+        "id": "R729",
+        "regno": "ML09",
+        "cityid": "C730"
+    },
+    {
+        "id": "R730",
+        "regno": "ML10",
+        "cityid": "C726"
+    },
+    {
+        "id": "R731",
+        "regno": "ML11",
+        "cityid": "C1403"
+    },
+    {
+        "id": "R732",
+        "regno": "ML13",
+        "cityid": "C1435"
+    },
+    {
+        "id": "R733",
+        "regno": "MN01",
+        "cityid": "C720"
+    },
+    {
+        "id": "R734",
+        "regno": "MN02",
+        "cityid": "C719"
+    },
+    {
+        "id": "R735",
+        "regno": "MN03",
+        "cityid": "C721"
+    },
+    {
+        "id": "R736",
+        "regno": "MN04",
+        "cityid": "C722"
+    },
+    {
+        "id": "R737",
+        "regno": "MN05",
+        "cityid": "C1334"
+    },
+    {
+        "id": "R738",
+        "regno": "MN06",
+        "cityid": "C1335"
+    },
+    {
+        "id": "R739",
+        "regno": "MN07",
+        "cityid": "C1336"
+    },
+    {
+        "id": "R740",
+        "regno": "MP04",
+        "cityid": "C613"
+    },
+    {
+        "id": "R741",
+        "regno": "MP05",
+        "cityid": "C632"
+    },
+    {
+        "id": "R742",
+        "regno": "MP06",
+        "cityid": "C616"
+    },
+    {
+        "id": "R743",
+        "regno": "MP07",
+        "cityid": "C630"
+    },
+    {
+        "id": "R744",
+        "regno": "MP08",
+        "cityid": "C629"
+    },
+    {
+        "id": "R745",
+        "regno": "MP09",
+        "cityid": "C633"
+    },
+    {
+        "id": "R746",
+        "regno": "MP10",
+        "cityid": "C639"
+    },
+    {
+        "id": "R747",
+        "regno": "MP11",
+        "cityid": "C625"
+    },
+    {
+        "id": "R748",
+        "regno": "MP12",
+        "cityid": "C638"
+    },
+    {
+        "id": "R749",
+        "regno": "MP13",
+        "cityid": "C665"
+    },
+    {
+        "id": "R750",
+        "regno": "MP14",
+        "cityid": "C642"
+    },
+    {
+        "id": "R751",
+        "regno": "MP15",
+        "cityid": "C653"
+    },
+    {
+        "id": "R752",
+        "regno": "MP16",
+        "cityid": "C617"
+    },
+    {
+        "id": "R753",
+        "regno": "MP17",
+        "cityid": "C652"
+    },
+    {
+        "id": "R754",
+        "regno": "MP18",
+        "cityid": "C657"
+    },
+    {
+        "id": "R755",
+        "regno": "MP19",
+        "cityid": "C654"
+    },
+    {
+        "id": "R756",
+        "regno": "MP20",
+        "cityid": "C634"
+    },
+    {
+        "id": "R757",
+        "regno": "MP21",
+        "cityid": "C637"
+    },
+    {
+        "id": "R758",
+        "regno": "MP22",
+        "cityid": "C656"
+    },
+    {
+        "id": "R759",
+        "regno": "MP23",
+        "cityid": "C648"
+    },
+    {
+        "id": "R760",
+        "regno": "MP23",
+        "cityid": "C618"
+    },
+    {
+        "id": "R761",
+        "regno": "MP24",
+        "cityid": "C628"
+    },
+    {
+        "id": "R762",
+        "regno": "MP24",
+        "cityid": "C612"
+    },
+    {
+        "id": "R763",
+        "regno": "MP25",
+        "cityid": "C635"
+    },
+    {
+        "id": "R764",
+        "regno": "MP25",
+        "cityid": "C659"
+    },
+    {
+        "id": "R765",
+        "regno": "MP26",
+        "cityid": "C614"
+    },
+    {
+        "id": "R766",
+        "regno": "MP26",
+        "cityid": "C621"
+    },
+    {
+        "id": "R767",
+        "regno": "MP27",
+        "cityid": "C661"
+    },
+    {
+        "id": "R768",
+        "regno": "MP27",
+        "cityid": "C602"
+    },
+    {
+        "id": "R769",
+        "regno": "MP28",
+        "cityid": "C619"
+    },
+    {
+        "id": "R770",
+        "regno": "MP28",
+        "cityid": "C620"
+    },
+    {
+        "id": "R771",
+        "regno": "MP 29",
+        "cityid": "C646"
+    },
+    {
+        "id": "R772",
+        "regno": "MP30",
+        "cityid": "C664"
+    },
+    {
+        "id": "R773",
+        "regno": "MP31",
+        "cityid": "C660"
+    },
+    {
+        "id": "R774",
+        "regno": "MP32",
+        "cityid": "C649"
+    },
+    {
+        "id": "R775",
+        "regno": "MP32",
+        "cityid": "C622"
+    },
+    {
+        "id": "R776",
+        "regno": "MP33",
+        "cityid": "C650"
+    },
+    {
+        "id": "R777",
+        "regno": "MP34",
+        "cityid": "C668"
+    },
+    {
+        "id": "R778",
+        "regno": "MP35",
+        "cityid": "C623"
+    },
+    {
+        "id": "R779",
+        "regno": "MP36",
+        "cityid": "C658"
+    },
+    {
+        "id": "R780",
+        "regno": "MP37",
+        "cityid": "C655"
+    },
+    {
+        "id": "R781",
+        "regno": "MP38",
+        "cityid": "C645"
+    },
+    {
+        "id": "R782",
+        "regno": "MP39",
+        "cityid": "C636"
+    },
+    {
+        "id": "R783",
+        "regno": "MP40",
+        "cityid": "C607"
+    },
+    {
+        "id": "R784",
+        "regno": "MP41",
+        "cityid": "C624"
+    },
+    {
+        "id": "R785",
+        "regno": "MP42",
+        "cityid": "C610"
+    },
+    {
+        "id": "R786",
+        "regno": "MP43",
+        "cityid": "C651"
+    },
+    {
+        "id": "R787",
+        "regno": "MP43",
+        "cityid": "C644"
+    },
+    {
+        "id": "R788",
+        "regno": "MP44",
+        "cityid": "C608"
+    },
+    {
+        "id": "R789",
+        "regno": "MP45",
+        "cityid": "C640"
+    },
+    {
+        "id": "R790",
+        "regno": "MP46",
+        "cityid": "C626"
+    },
+    {
+        "id": "R791",
+        "regno": "MP47",
+        "cityid": "C631"
+    },
+    {
+        "id": "R792",
+        "regno": "MP48",
+        "cityid": "C615"
+    },
+    {
+        "id": "R793",
+        "regno": "MP48",
+        "cityid": "C611"
+    },
+    {
+        "id": "R794",
+        "regno": "MP48",
+        "cityid": "C603"
+    },
+    {
+        "id": "R795",
+        "regno": "MP49",
+        "cityid": "C605"
+    },
+    {
+        "id": "R796",
+        "regno": "MP50",
+        "cityid": "C609"
+    },
+    {
+        "id": "R797",
+        "regno": "MP51",
+        "cityid": "C641"
+    },
+    {
+        "id": "R798",
+        "regno": "MP52",
+        "cityid": "C627"
+    },
+    {
+        "id": "R799",
+        "regno": "MP53",
+        "cityid": "C662"
+    },
+    {
+        "id": "R800",
+        "regno": "MP54",
+        "cityid": "C666"
+    },
+    {
+        "id": "R801",
+        "regno": "MP65",
+        "cityid": "C604"
+    },
+    {
+        "id": "R802",
+        "regno": "MP66",
+        "cityid": "C663"
+    },
+    {
+        "id": "R803",
+        "regno": "MP67",
+        "cityid": "C606"
+    },
+    {
+        "id": "R804",
+        "regno": "MP68",
+        "cityid": "C1337"
+    },
+    {
+        "id": "R805",
+        "regno": "MP69",
+        "cityid": "C647"
+    },
+    {
+        "id": "R806",
+        "regno": "MP70",
+        "cityid": "C1338"
+    },
+    {
+        "id": "R807",
+        "regno": "MZ01",
+        "cityid": "C733"
+    },
+    {
+        "id": "R808",
+        "regno": "MZ02",
+        "cityid": "C738"
+    },
+    {
+        "id": "R809",
+        "regno": "MZ03",
+        "cityid": "C735"
+    },
+    {
+        "id": "R810",
+        "regno": "MZ04",
+        "cityid": "C734"
+    },
+    {
+        "id": "R811",
+        "regno": "MZ05",
+        "cityid": "C736"
+    },
+    {
+        "id": "R812",
+        "regno": "MZ06",
+        "cityid": "C740"
+    },
+    {
+        "id": "R813",
+        "regno": "MZ07",
+        "cityid": "C737"
+    },
+    {
+        "id": "R814",
+        "regno": "MZ08",
+        "cityid": "C739"
+    },
+    {
+        "id": "R815",
+        "regno": "NL01",
+        "cityid": "C742"
+    },
+    {
+        "id": "R816",
+        "regno": "NL02",
+        "c ityid": "C743"
+    },
+    {
+        "id": "R817",
+        "regno": "NL03",
+        "cityid": "C746"
+    },
+    {
+        "id": "R818",
+        "regno": "NL04",
+        "cityid": "C744"
+    },
+    {
+        "id": "R819",
+        "regno": "NL05",
+        "cityid": "C747"
+    },
+    {
+        "id": "R820",
+        "regno": "NL06",
+        "cityid": "C748"
+    },
+    {
+        "id": "R821",
+        "regno": "NL07",
+        "cityid": "C741"
+    },
+    {
+        "id": "R822",
+        "regno": "NL08",
+        "cityid": "C745"
+    },
+    {
+        "id": "R823",
+        "regno": "OD01",
+        "cityid": "C1196"
+    },
+    {
+        "id": "R824",
+        "regno": "OD02",
+        "cityid": "C1197"
+    },
+    {
+        "id": "R825",
+        "regno": "OD03",
+        "cityid": "C1198"
+    },
+    {
+        "id": "R826",
+        "regno": "OD04",
+        "cityid": "C1199"
+    },
+    {
+        "id": "R827",
+        "regno": "OD05",
+        "cityid": "C1200"
+    },
+    {
+        "id": "R828",
+        "regno": "OD06",
+        "cityid": "C1201"
+    },
+    {
+        "id": "R829",
+        "regno": "OD07",
+        "cityid": "C1202"
+    },
+    {
+        "id": "R830",
+        "regno": "OD08",
+        "cityid": "C1203"
+    },
+    {
+        "id": "R831",
+        "regno": "OD09",
+        "cityid": "C1204"
+    },
+    {
+        "id": "R832",
+        "regno": "OD10",
+        "cityid": "C1205"
+    },
+    {
+        "id": "R833",
+        "regno": "OD11",
+        "cityid": "C1206"
+    },
+    {
+        "id": "R834",
+        "regno": "OD12",
+        "cityid": "C1207"
+    },
+    {
+        "id": "R835",
+        "regno": "OD13",
+        "cityid": "C1208"
+    },
+    {
+        "id": "R836",
+        "regno": "OD14",
+        "cityid": "C1209"
+    },
+    {
+        "id": "R837",
+        "regno": "OD15",
+        "cityid": "C1210"
+    },
+    {
+        "id": "R838",
+        "regno": "OD16",
+        "cityid": "C1211"
+    },
+    {
+        "id": "R839",
+        "regno": "OD17",
+        "cityid": "C1212"
+    },
+    {
+        "id": "R840",
+        "regno": "OD18",
+        "cityid": "C1213"
+    },
+    {
+        "id": "R841",
+        "regno": "OD19",
+        "cityid": "C1214"
+    },
+    {
+        "id": "R842",
+        "regno": "OD20",
+        "cityid": "C1215"
+    },
+    {
+        "id": "R843",
+        "regno": "OD21",
+        "cityid": "C1216"
+    },
+    {
+        "id": "R844",
+        "regno": "OD22",
+        "cityid": "C1217"
+    },
+    {
+        "id": "R845",
+        "regno": "OD23",
+        "cityid": "C1218"
+    },
+    {
+        "id": "R846",
+        "regno": "OD24",
+        "cityid": "C1219"
+    },
+    {
+        "id": "R847",
+        "regno": "OD25",
+        "cityid": "C1220"
+    },
+    {
+        "id": "R848",
+        "regno": "OD26",
+        "cityid": "C1221"
+    },
+    {
+        "id": "R849",
+        "regno": "OD27",
+        "cityid": "C1222"
+    },
+    {
+        "id": "R850",
+        "regno": "OD28",
+        "cityid": "C1223"
+    },
+    {
+        "id": "R851",
+        "regno": "OD29",
+        "cityid": "C1383"
+    },
+    {
+        "id": "R852",
+        "regno": "OD30",
+        "cityid": "C1224"
+    },
+    {
+        "id": "R853",
+        "regno": "OD31",
+        "cityid": "C1225"
+    },
+    {
+        "id": "R854",
+        "regno": "OD32",
+        "cityid": "C1339"
+    },
+    {
+        "id": "R855",
+        "regno": "OD33",
+        "cityid": "C1387"
+    },
+    {
+        "id": "R856",
+        "regno": "OD34",
+        "cityid": "C1340"
+    },
+    {
+        "id": "R857",
+        "regno": "OD35",
+        "cityid": "C1341"
+    },
+    {
+        "id": "R858",
+        "regno": "OR01",
+        "cityid": "C750"
+    },
+    {
+        "id": "R859",
+        "regno": "OR02",
+        "cityid": "C753"
+    },
+    {
+        "id": "R860",
+        "regno": "OR03",
+        "cityid": "C754"
+    },
+    {
+        "i d": "R861",
+        "regno": "OR04",
+        "cityid": "C756"
+    },
+    {
+        "id": "R862",
+        "regno": "OR05",
+        "cityid": "C757"
+    },
+    {
+        "id": "R863",
+        "regno": "OR06",
+        "cityid": "C759"
+    },
+    {
+        "id": "R864",
+        "regno": "OR07",
+        "cityid": "C761"
+    },
+    {
+        "id": "R865",
+        "regno": "OR08",
+        "cityid": "C764"
+    },
+    {
+        "id": "R866",
+        "regno": "OR09",
+        "cityid": "C765"
+    },
+    {
+        "id": "R867",
+        "regno": "OR10",
+        "cityid": "C766"
+    },
+    {
+        "id": "R868",
+        "regno": "OR11",
+        "cityid": "C768"
+    },
+    {
+        "id": "R869",
+        "regno": "OR12",
+        "cityid": "C772"
+    },
+    {
+        "id": "R870",
+        "regno": "OR13",
+        "cityid": "C773"
+    },
+    {
+        "id": "R871",
+        "regno": "OR14",
+        "cityid": "C775"
+    },
+    {
+        "id": "R872",
+        "regno": "OR15",
+        "cityid": "C776"
+    },
+    {
+        "id": "R873",
+        "regno": "OR16",
+        "cityid": "C778"
+    },
+    {
+        "id": "R874",
+        "regno": "OR17",
+        "cityid": "C751"
+    },
+    {
+        "id": "R875",
+        "regno": "OR18",
+        "cityid": "C774"
+    },
+    {
+        "id": "R876",
+        "regno": "OR19",
+        "cityid": "C749"
+    },
+    {
+        "id": "R877",
+        "regno": "OR20",
+        "cityid": "C760"
+    },
+    {
+        "id": "R878",
+        "regno": "OR21",
+        "cityid": "C762"
+    },
+    {
+        "id": "R879",
+        "regno": "OR22",
+        "cityid": "C752"
+    },
+    {
+        "id": "R880",
+        "regno": "OR23",
+        "cityid": "C763"
+    },
+    {
+        "id": "R881",
+        "regno": "OR24",
+        "cityid": "C769"
+    },
+    {
+        "id": "R882",
+        "regno": "OR25",
+        "cityid": "C770"
+    },
+    {
+        "id": "R883",
+        "regno": "OR26",
+        "cityid": "C771"
+    },
+    {
+        "id": "R884",
+        "regno": "OR27",
+        "cityid": "C755"
+    },
+    {
+        "id": "R885",
+        "regno": "OR28",
+        "cityid": "C758"
+    },
+    {
+        "id": "R886",
+        "regno": "OR29",
+        "cityid": "C1384"
+    },
+    {
+        "id": "R887",
+        "regno": "OR30",
+        "cityid": "C767"
+    },
+    {
+        "id": "R888",
+        "regno": "OR31",
+        "cityid": "C777"
+    },
+    {
+        "id": "R889",
+        "regno": "PB01",
+        "cityid": "C798"
+    },
+    {
+        "id": "R890",
+        "regno": "PB02",
+        "cityid": "C786"
+    },
+    {
+        "id": "R891",
+        "regno": "PB03",
+        "cityid": "C794"
+    },
+    {
+        "id": "R892",
+        "regno": "PB04",
+        "cityid": "C803"
+    },
+    {
+        "id": "R893",
+        "regno": "PB05",
+        "cityid": "C806"
+    },
+    {
+        "id": "R894",
+        "regno": "PB06",
+        "cityid": "C809"
+    },
+    {
+        "id": "R895",
+        "regno": "PB07",
+        "cityid": "C810"
+    },
+    {
+        "id": "R896",
+        "regno": "PB08",
+        "cityid": "C814"
+    },
+    {
+        "id": "R897",
+        "regno": "PB09",
+        "cityid": "C816"
+    },
+    {
+        "id": "R898",
+        "regno": "PB10",
+        "cityid": "C820"
+    },
+    {
+        "id": "R899",
+        "regno": "PB11",
+        "cityid": "C834"
+    },
+    {
+        "id": "R900",
+        "regno": "PB12",
+        "cityid": "C842"
+    },
+    {
+        "id": "R901",
+        "regno": "PB13",
+        "cityid": "C845"
+    },
+    {
+        "id": "R902",
+        "regno": "PB14",
+        "cityid": "C784"
+    },
+    {
+        "id": "R903",
+        "regno": "PB15",
+        "cityid": "C783"
+    },
+    {
+        "id": "R904",
+        "regno": "PB16",
+        "cityid": "C787"
+    },
+    {
+        "id": "R905",
+        "regno": "PB17",
+        "cityid": "C788"
+    },
+    {
+        "id": "R90 6",
+        "regno": "PB18",
+        "cityid": "C793"
+    },
+    {
+        "id": "R907",
+        "regno": "PB19",
+        "cityid": "C791"
+    },
+    {
+        "id": "R908",
+        "regno": "PB20",
+        "cityid": "C790"
+    },
+    {
+        "id": "R909",
+        "regno": "PB21",
+        "cityid": "C799"
+    },
+    {
+        "id": "R910",
+        "regno": "PB22",
+        "cityid": "C805"
+    },
+    {
+        "id": "R911",
+        "regno": "PB23",
+        "cityid": "C804"
+    },
+    {
+        "id": "R912",
+        "regno": "PB24",
+        "cityid": "C807"
+    },
+    {
+        "id": "R913",
+        "regno": "PB25",
+        "cityid": "C811"
+    },
+    {
+        "id": "R914",
+        "regno": "PB26",
+        "cityid": "C817"
+    },
+    {
+        "id": "R915",
+        "regno": "PB27",
+        "cityid": "C818"
+    },
+    {
+        "id": "R916",
+        "regno": "PB28",
+        "cityid": "C821"
+    },
+    {
+        "id": "R917",
+        "regno": "PB29",
+        "cityid": "C824"
+    },
+    {
+        "id": "R918",
+        "regno": "PB30",
+        "cityid": "C828"
+    },
+    {
+        "id": "R919",
+        "regno": "PB31",
+        "cityid": "C823"
+    },
+    {
+        "id": "R920",
+        "regno": "PB32",
+        "cityid": "C832"
+    },
+    {
+        "id": "R921",
+        "regno": "PB33",
+        "cityid": "C830"
+    },
+    {
+        "id": "R922",
+        "regno": "PB34",
+        "cityid": "C829"
+    },
+    {
+        "id": "R923",
+        "regno": "PB35",
+        "cityid": "C833"
+    },
+    {
+        "id": "R924",
+        "regno": "PB36",
+        "cityid": "C837"
+    },
+    {
+        "id": "R925",
+        "regno": "PB37",
+        "cityid": "C838"
+    },
+    {
+        "id": "R926",
+        "regno": "PB38",
+        "cityid": "C835"
+    },
+    {
+        "id": "R927",
+        "regno": "PB39",
+        "cityid": "C840"
+    },
+    {
+        "id": "R928",
+        "regno": "PB40",
+        "cityid": "C841"
+    },
+    {
+        "id": "R929",
+        "regno": "PB41",
+        "cityid": "C848"
+    },
+    {
+        "id": "R930",
+        "regno": "PB42",
+        "cityid": "C843"
+    },
+    {
+        "id": "R931",
+        "regno": "PB43",
+        "cityid": "C844"
+    },
+    {
+        "id": "R932",
+        "regno": "PB44",
+        "cityid": "C849"
+    },
+    {
+        "id": "R933",
+        "regno": "PB45",
+        "cityid": "C850"
+    },
+    {
+        "id": "R934",
+        "regno": "PB46",
+        "cityid": "C851"
+    },
+    {
+        "id": "R935",
+        "regno": "PB47",
+        "cityid": "C852"
+    },
+    {
+        "id": "R936",
+        "regno": "PB48",
+        "cityid": "C785"
+    },
+    {
+        "id": "R937",
+        "regno": "PB49",
+        "cityid": "C1342"
+    },
+    {
+        "id": "R938",
+        "regno": "PB50",
+        "cityid": "C796"
+    },
+    {
+        "id": "R939",
+        "regno": "PB51",
+        "cityid": "C815"
+    },
+    {
+        "id": "R940",
+        "regno": "PB51",
+        "cityid": "C846"
+    },
+    {
+        "id": "R941",
+        "regno": "PB52",
+        "cityid": "C792"
+    },
+    {
+        "id": "R942",
+        "regno": "PB53",
+        "cityid": "C822"
+    },
+    {
+        "id": "R943",
+        "regno": "PB54",
+        "cityid": "C827"
+    },
+    {
+        "id": "R944",
+        "regno": "PB55",
+        "cityid": "C836"
+    },
+    {
+        "id": "R945",
+        "regno": "PB56",
+        "cityid": "C839"
+    },
+    {
+        "id": "R946",
+        "regno": "PB57",
+        "cityid": "C795"
+    },
+    {
+        "id": "R947",
+        "regno": "PB58",
+        "cityid": "C800"
+    },
+    {
+        "id": "R948",
+        "regno": "PB59",
+        "cityid": "C802"
+    },
+    {
+        "id": "R949",
+        "regno": "PB60",
+        "cityid": "C808"
+    },
+    {
+        "id": "R950",
+        "regno": "PB61",
+        "cityid": "C813"
+    },
+    {
+        "id": "R951",
+        "reg no": "PB62",
+        "cityid": "C812"
+    },
+    {
+        "id": "R952",
+        "regno": "PB63",
+        "cityid": "C1186"
+    },
+    {
+        "id": "R953",
+        "regno": "PB64",
+        "cityid": "C826"
+    },
+    {
+        "id": "R954",
+        "regno": "PB65",
+        "cityid": "C825"
+    },
+    {
+        "id": "R955",
+        "regno": "PB66",
+        "cityid": "C1187"
+    },
+    {
+        "id": "R956",
+        "regno": "PB67",
+        "cityid": "C847"
+    },
+    {
+        "id": "R957",
+        "regno": "PB68",
+        "cityid": "C1343"
+    },
+    {
+        "id": "R958",
+        "regno": "PB69",
+        "cityid": "C789"
+    },
+    {
+        "id": "R959",
+        "regno": "PB70",
+        "cityid": "C801"
+    },
+    {
+        "id": "R960",
+        "regno": "PB71",
+        "cityid": "C797"
+    },
+    {
+        "id": "R961",
+        "regno": "PB72",
+        "cityid": "C1344"
+    },
+    {
+        "id": "R962",
+        "regno": "PB73",
+        "cityid": "C1189"
+    },
+    {
+        "id": "R963",
+        "regno": "PB74",
+        "cityid": "C831"
+    },
+    {
+        "id": "R964",
+        "regno": "PB75",
+        "cityid": "C819"
+    },
+    {
+        "id": "R965",
+        "regno": "PB76",
+        "cityid": "C1345"
+    },
+    {
+        "id": "R966",
+        "regno": "PB77",
+        "cityid": "C1346"
+    },
+    {
+        "id": "R967",
+        "regno": "PY01",
+        "cityid": "C781"
+    },
+    {
+        "id": "R968",
+        "regno": "PY02",
+        "cityid": "C779"
+    },
+    {
+        "id": "R969",
+        "regno": "PY03",
+        "cityid": "C780"
+    },
+    {
+        "id": "R970",
+        "regno": "PY04",
+        "cityid": "C782"
+    },
+    {
+        "id": "R971",
+        "regno": "PY05",
+        "cityid": "C1347"
+    },
+    {
+        "id": "R972",
+        "regno": "RJ01",
+        "cityid": "C853"
+    },
+    {
+        "id": "R973",
+        "regno": "RJ02",
+        "cityid": "C854"
+    },
+    {
+        "id": "R974",
+        "regno": "RJ03",
+        "cityid": "C855"
+    },
+    {
+        "id": "R975",
+        "regno": "RJ04",
+        "cityid": "C857"
+    },
+    {
+        "id": "R976",
+        "regno": "RJ05",
+        "cityid": "C859"
+    },
+    {
+        "id": "R977",
+        "regno": "RJ06",
+        "cityid": "C860"
+    },
+    {
+        "id": "R978",
+        "regno": "RJ07",
+        "cityid": "C861"
+    },
+    {
+        "id": "R979",
+        "regno": "RJ08",
+        "cityid": "C862"
+    },
+    {
+        "id": "R980",
+        "regno": "RJ09",
+        "cityid": "C863"
+    },
+    {
+        "id": "R981",
+        "regno": "RJ10",
+        "cityid": "C864"
+    },
+    {
+        "id": "R982",
+        "regno": "RJ11",
+        "cityid": "C866"
+    },
+    {
+        "id": "R983",
+        "regno": "RJ12",
+        "cityid": "C867"
+    },
+    {
+        "id": "R984",
+        "regno": "RJ13",
+        "cityid": "C887"
+    },
+    {
+        "id": "R985",
+        "regno": "RJ14",
+        "cityid": "C870"
+    },
+    {
+        "id": "R986",
+        "regno": "RJ15",
+        "cityid": "C871"
+    },
+    {
+        "id": "R987",
+        "regno": "RJ16",
+        "cityid": "C872"
+    },
+    {
+        "id": "R988",
+        "regno": "RJ17",
+        "cityid": "C873"
+    },
+    {
+        "id": "R989",
+        "regno": "RJ18",
+        "cityid": "C874"
+    },
+    {
+        "id": "R990",
+        "regno": "RJ19",
+        "cityid": "C875"
+    },
+    {
+        "id": "R991",
+        "regno": "RJ20",
+        "cityid": "C877"
+    },
+    {
+        "id": "R992",
+        "regno": "RJ21",
+        "cityid": "C879"
+    },
+    {
+        "id": "R993",
+        "regno": "RJ22",
+        "cityid": "C880"
+    },
+    {
+        "id": "R994",
+        "regno": "RJ23",
+        "cityid": "C885"
+    },
+    {
+        "id": "R995",
+        "regno": "RJ24",
+        "cityid": "C886"
+    },
+    {
+        "id": "R996",
+        "reg no": "RJ25",
+        "cityid": "C884"
+    },
+    {
+        "id": "R997",
+        "regno": "RJ26",
+        "cityid": "C888"
+    },
+    {
+        "id": "R998",
+        "regno": "RJ27",
+        "cityid": "C889"
+    },
+    {
+        "id": "R999",
+        "regno": "RJ28",
+        "cityid": "C856"
+    },
+    {
+        "id": "R1000",
+        "regno": "RJ29",
+        "cityid": "C865"
+    },
+    {
+        "id": "R1001",
+        "regno": "RJ30",
+        "cityid": "C881"
+    },
+    {
+        "id": "R1002",
+        "regno": "RJ31",
+        "cityid": "C869"
+    },
+    {
+        "id": "R1003",
+        "regno": "RJ32",
+        "cityid": "C878"
+    },
+    {
+        "id": "R1004",
+        "regno": "RJ33",
+        "cityid": "C882"
+    },
+    {
+        "id": "R1005",
+        "regno": "RJ34",
+        "cityid": "C876"
+    },
+    {
+        "id": "R1006",
+        "regno": "RJ35",
+        "cityid": "C1195"
+    },
+    {
+        "id": "R1007",
+        "regno": "RJ36",
+        "cityid": "C858"
+    },
+    {
+        "id": "R1008",
+        "regno": "RJ37",
+        "cityid": "C868"
+    },
+    {
+        "id": "R1009",
+        "regno": "RJ38",
+        "cityid": "C883"
+    },
+    {
+        "id": "R1010",
+        "regno": "RJ39",
+        "cityid": "C1348"
+    },
+    {
+        "id": "R1011",
+        "regno": "RJ40",
+        "cityid": "C1349"
+    },
+    {
+        "id": "R1012",
+        "regno": "RJ41",
+        "cityid": "C1350"
+    },
+    {
+        "id": "R1013",
+        "regno": "RJ42",
+        "cityid": "C1351"
+    },
+    {
+        "id": "R1014",
+        "regno": "RJ43",
+        "cityid": "C1352"
+    },
+    {
+        "id": "R1015",
+        "regno": "RJ44",
+        "cityid": "C1353"
+    },
+    {
+        "id": "R1016",
+        "regno": "RJ45",
+        "cityid": "C1354"
+    },
+    {
+        "id": "R1017",
+        "regno": "RJ46",
+        "cityid": "C1355"
+    },
+    {
+        "id": "R1018",
+        "regno": "RJ47",
+        "cityid": "C1356"
+    },
+    {
+        "id": "R1019",
+        "regno": "RJ48",
+        "cityid": "C1357"
+    },
+    {
+        "id": "R1020",
+        "regno": "RJ49",
+        "cityid": "C1358"
+    },
+    {
+        "id": "R1021",
+        "regno": "RJ50",
+        "cityid": "C1359"
+    },
+    {
+        "id": "R1022",
+        "regno": "RJ51",
+        "cityid": "C1360"
+    },
+    {
+        "id": "R1023",
+        "regno": "RJ52",
+        "cityid": "C1361"
+    },
+    {
+        "id": "R1024",
+        "regno": "SK01",
+        "cityid": "C890"
+    },
+    {
+        "id": "R1025",
+        "regno": "SK02",
+        "cityid": "C891"
+    },
+    {
+        "id": "R1026",
+        "regno": "SK03",
+        "cityid": "C892"
+    },
+    {
+        "id": "R1027",
+        "regno": "SK04",
+        "cityid": "C893"
+    },
+    {
+        "id": "R1028",
+        "regno": "SK05",
+        "cityid": "C894"
+    },
+    {
+        "id": "R1029",
+        "regno": "TN01",
+        "cityid": "C903"
+    },
+    {
+        "id": "R1030",
+        "regno": "TN02",
+        "cityid": "C906"
+    },
+    {
+        "id": "R1031",
+        "regno": "TN03",
+        "cityid": "C900"
+    },
+    {
+        "id": "R1032",
+        "regno": "TN04",
+        "cityid": "C904"
+    },
+    {
+        "id": "R1033",
+        "regno": "TN05",
+        "cityid": "C905"
+    },
+    {
+        "id": "R1034",
+        "regno": "TN06",
+        "cityid": "C902"
+    },
+    {
+        "id": "R1035",
+        "regno": "TN07",
+        "cityid": "C907"
+    },
+    {
+        "id": "R1036",
+        "regno": "TN09",
+        "cityid": "C909"
+    },
+    {
+        "id": "R1037",
+        "regno": "TN10",
+        "cityid": "C908"
+    },
+    {
+        "id": "R1038",
+        "regno": "TN11",
+        "cityid": "C1192"
+    },
+    {
+        "id": "R1039",
+        "regno": "TN12",
+        "cityid": "C1362"
+    },
+    {
+        "id": "R1040",
+        "regno": "TN13",
+        "cityid": "C1266"
+    },
+    {
+        "id": "R1041",
+        "regno": "TN14",
+        "cityid": "C1264"
+    },
+    {
+        "id": "R1042",
+        "regno": "TN15",
+        "cityid": "C1363"
+    },
+    {
+        "id": "R1043",
+        "regno": "TN16",
+        "cityid": "C1364"
+    },
+    {
+        "id": "R1044",
+        "regno": "TN18",
+        "cityid": "C946"
+    },
+    {
+        "id": "R1045",
+        "regno": "TN18",
+        "cityid": "C901"
+    },
+    {
+        "id": "R1046",
+        "regno": "TN19",
+        "cityid": "C899"
+    },
+    {
+        "id": "R1047",
+        "regno": "TN20",
+        "cityid": "C969"
+    },
+    {
+        "id": "R1048",
+        "regno": "TN21",
+        "cityid": "C922"
+    },
+    {
+        "id": "R1049",
+        "regno": "TN22",
+        "cityid": "C932"
+    },
+    {
+        "id": "R1050",
+        "regno": "TN23",
+        "cityid": "C977"
+    },
+    {
+        "id": "R1051",
+        "regno": "TN24",
+        "cityid": "C925"
+    },
+    {
+        "id": "R1052",
+        "regno": "TN25",
+        "cityid": "C960"
+    },
+    {
+        "id": "R1053",
+        "regno": "TN27",
+        "cityid": "C947"
+    },
+    {
+        "id": "R1054",
+        "regno": "TN28",
+        "cityid": "C945"
+    },
+    {
+        "id": "R1055",
+        "regno": "TN28",
+        "cityid": "C936"
+    },
+    {
+        "id": "R1056",
+        "regno": "TN29",
+        "cityid": "C916"
+    },
+    {
+        "id": "R1057",
+        "regno": "TN30",
+        "cityid": "C948"
+    },
+    {
+        "id": "R1058",
+        "regno": "TN31",
+        "cityid": "C914"
+    },
+    {
+        "id": "R1059",
+        "regno": "TN32",
+        "cityid": "C978"
+    },
+    {
+        "id": "R1060",
+        "regno": "TN33",
+        "cityid": "C918"
+    },
+    {
+        "id": "R1061",
+        "regno": "TN34",
+        "cityid": "C959"
+    },
+    {
+        "id": "R1062",
+        "regno": "TN36",
+        "cityid": "C920"
+    },
+    {
+        "id": "R1063",
+        "regno": "TN36",
+        "cityid": "C898"
+    },
+    {
+        "id": "R1064",
+        "regno": "TN37",
+        "cityid": "C913"
+    },
+    {
+        "id": "R1065",
+        "regno": "TN38",
+        "cityid": "C912"
+    },
+    {
+        "id": "R1066",
+        "regno": "TN39",
+        "cityid": "C967"
+    },
+    {
+        "id": "R1067",
+        "regno": "TN40",
+        "cityid": "C933"
+    },
+    {
+        "id": "R1068",
+        "regno": "TN41",
+        "cityid": "C926"
+    },
+    {
+        "id": "R1069",
+        "regno": "TN41",
+        "cityid": "C941"
+    },
+    {
+        "id": "R1070",
+        "regno": "TN42",
+        "cityid": "C968"
+    },
+    {
+        "id": "R1071",
+        "regno": "TN42",
+        "cityid": "C974"
+    },
+    {
+        "id": "R1072",
+        "regno": "TN43",
+        "cityid": "C975"
+    },
+    {
+        "id": "R1073",
+        "regno": "TN45",
+        "cityid": "C965"
+    },
+    {
+        "id": "R1074",
+        "regno": "TN46",
+        "cityid": "C938"
+    },
+    {
+        "id": "R1075",
+        "regno": "TN47",
+        "cityid": "C923"
+    },
+    {
+        "id": "R1076",
+        "regno": "TN48",
+        "cityid": "C955"
+    },
+    {
+        "id": "R1077",
+        "regno": "TN48Z",
+        "cityid": "C963"
+    },
+    {
+        "id": "R1078",
+        "regno": "TN49",
+        "cityid": "C957"
+    },
+    {
+        "id": "R1079",
+        "regno": "TN50",
+        "cityid": "C970"
+    },
+    {
+        "id": "R1080",
+        "regno": "TN51",
+        "cityid": "C934"
+    },
+    {
+        "id": "R1081",
+        "regno": "TN52",
+        "cityid": "C949"
+    },
+    {
+        "id": "R1082",
+        "regno": "TN54",
+        "cityid": "C950"
+    },
+    {
+        "id": "R1083",
+        "regno": "TN55",
+        "cityid": "C942"
+    },
+    {
+        "id": "R1084",
+        "re gno": "TN56",
+        "cityid": "C919"
+    },
+    {
+        "id": "R1085",
+        "regno": "TN56",
+        "cityid": "C940"
+    },
+    {
+        "id": "R1086",
+        "regno": "TN57",
+        "cityid": "C917"
+    },
+    {
+        "id": "R1087",
+        "regno": "TN58",
+        "cityid": "C930"
+    },
+    {
+        "id": "R1088",
+        "regno": "TN59",
+        "cityid": "C929"
+    },
+    {
+        "id": "R1089",
+        "regno": "TN60",
+        "cityid": "C939"
+    },
+    {
+        "id": "R1090",
+        "regno": "TN61",
+        "cityid": "C896"
+    },
+    {
+        "id": "R1091",
+        "regno": "TN63",
+        "cityid": "C954"
+    },
+    {
+        "id": "R1092",
+        "regno": "TN64",
+        "cityid": "C928"
+    },
+    {
+        "id": "R1093",
+        "regno": "TN65",
+        "cityid": "C943"
+    },
+    {
+        "id": "R1094",
+        "regno": "TN66",
+        "cityid": "C910"
+    },
+    {
+        "id": "R1095",
+        "regno": "TN67",
+        "cityid": "C979"
+    },
+    {
+        "id": "R1096",
+        "regno": "TN68",
+        "cityid": "C958"
+    },
+    {
+        "id": "R1097",
+        "regno": "TN68",
+        "cityid": "C927"
+    },
+    {
+        "id": "R1098",
+        "regno": "TN69",
+        "cityid": "C924"
+    },
+    {
+        "id": "R1099",
+        "regno": "TN69",
+        "cityid": "C964"
+    },
+    {
+        "id": "R1100",
+        "regno": "TN69",
+        "cityid": "C972"
+    },
+    {
+        "id": "R1101",
+        "regno": "TN70",
+        "cityid": "C921"
+    },
+    {
+        "id": "R1102",
+        "regno": "TN72",
+        "cityid": "C966"
+    },
+    {
+        "id": "R1103",
+        "regno": "TN73",
+        "cityid": "C944"
+    },
+    {
+        "id": "R1104",
+        "regno": "TN74",
+        "cityid": "C935"
+    },
+    {
+        "id": "R1105",
+        "regno": "TN75",
+        "cityid": "C931"
+    },
+    {
+        "id": "R1106",
+        "regno": "TN76",
+        "cityid": "C956"
+    },
+    {
+        "id": "R1107",
+        "regno": "TN76",
+        "cityid": "C951"
+    },
+    {
+        "id": "R1108",
+        "regno": "TN76",
+        "cityid": "C895"
+    },
+    {
+        "id": "R1109",
+        "regno": "TN77",
+        "cityid": "C897"
+    },
+    {
+        "id": "R1110",
+        "regno": "TN78",
+        "cityid": "C973"
+    },
+    {
+        "id": "R1111",
+        "regno": "TN78",
+        "cityid": "C915"
+    },
+    {
+        "id": "R1112",
+        "regno": "TN79",
+        "cityid": "C1365"
+    },
+    {
+        "id": "R1113",
+        "regno": "TN81",
+        "cityid": "C1366"
+    },
+    {
+        "id": "R1114",
+        "regno": "TN82",
+        "cityid": "C1367"
+    },
+    {
+        "id": "R1115",
+        "regno": "TN83",
+        "cityid": "C1368"
+    },
+    {
+        "id": "R1116",
+        "regno": "TN84",
+        "cityid": "C1369"
+    },
+    {
+        "id": "R1117",
+        "regno": "TN85",
+        "cityid": "C1370"
+    },
+    {
+        "id": "R1118",
+        "regno": "TN86",
+        "cityid": "C1371"
+    },
+    {
+        "id": "R1119",
+        "regno": "TN88",
+        "cityid": "C1372"
+    },
+    {
+        "id": "R1120",
+        "regno": "TN90",
+        "cityid": "C1373"
+    },
+    {
+        "id": "R1121",
+        "regno": "TN91",
+        "cityid": "C1374"
+    },
+    {
+        "id": "R1122",
+        "regno": "TN92",
+        "cityid": "C1375"
+    },
+    {
+        "id": "R1123",
+        "regno": "TN95",
+        "cityid": "C1402"
+    },
+    {
+        "id": "R1124",
+        "regno": "TN99",
+        "cityid": "C1376"
+    },
+    {
+        "id": "R1125",
+        "regno": "TR01",
+        "cityid": "C980"
+    },
+    {
+        "id": "R1126",
+        "regno": "TR02",
+        "cityid": "C982"
+    },
+    {
+        "id": "R1127",
+        "regno": "TR03",
+        "cityid": "C983"
+    },
+    {
+        "id": "R1128",
+        "regno": "TR04",
+        "cityid": "C981"
+    },
+    {
+        "id": "R1129",
+        "regno": "TR05",
+        "cityid": "C1385"
+    },
+    {
+        "id": "R1130",
+        "regno": "TR07",
+        "cityid": "C1441"
+    },
+    {
+        "id": "R1131",
+        "regno": "TR08",
+        "cityid": "C1401"
+    },
+    {
+        "id": "R1132",
+        "regno": "TS01",
+        "cityid": "C1226"
+    },
+    {
+        "id": "R1133",
+        "regno": "TS01",
+        "cityid": "C1227"
+    },
+    {
+        "id": "R1134",
+        "regno": "TS01",
+        "cityid": "C1228"
+    },
+    {
+        "id": "R1135",
+        "regno": "TS02",
+        "cityid": "C1229"
+    },
+    {
+        "id": "R1136",
+        "regno": "TS03",
+        "cityid": "C1230"
+    },
+    {
+        "id": "R1137",
+        "regno": "TS04",
+        "cityid": "C1231"
+    },
+    {
+        "id": "R1138",
+        "regno": "TS05",
+        "cityid": "C1232"
+    },
+    {
+        "id": "R1139",
+        "regno": "TS06",
+        "cityid": "C1233"
+    },
+    {
+        "id": "R1140",
+        "regno": "TS07",
+        "cityid": "C1234"
+    },
+    {
+        "id": "R1141",
+        "regno": "TS07",
+        "cityid": "C1235"
+    },
+    {
+        "id": "R1142",
+        "regno": "TS07",
+        "cityid": "C1236"
+    },
+    {
+        "id": "R1143",
+        "regno": "TS08",
+        "cityid": "C1237"
+    },
+    {
+        "id": "R1144",
+        "regno": "TS08",
+        "cityid": "C1238"
+    },
+    {
+        "id": "R1145",
+        "regno": "TS08",
+        "cityid": "C1239"
+    },
+    {
+        "id": "R1146",
+        "regno": "TS08",
+        "cityid": "C1240"
+    },
+    {
+        "id": "R1147",
+        "regno": "TS08",
+        "cityid": "C1241"
+    },
+    {
+        "id": "R1148",
+        "regno": "TS08",
+        "cityid": "C1414"
+    },
+    {
+        "id": "R1149",
+        "regno": "TS09",
+        "cityid": "C1242"
+    },
+    {
+        "id": "R1150",
+        "regno": "TS09",
+        "cityid": "C1243"
+    },
+    {
+        "id": "R1151",
+        "regno": "TS09",
+        "cityid": "C1244"
+    },
+    {
+        "id": "R1152",
+        "regno": "TS10",
+        "cityid": "C1245"
+    },
+    {
+        "id": "R1153",
+        "regno": "TS10",
+        "cityid": "C1246"
+    },
+    {
+        "id": "R1154",
+        "regno": "TS10",
+        "cityid": "C1247"
+    },
+    {
+        "id": "R1155",
+        "regno": "TS10",
+        "cityid": "C1248"
+    },
+    {
+        "id": "R1156",
+        "regno": "TS11",
+        "cityid": "C1249"
+    },
+    {
+        "id": "R1157",
+        "regno": "TS11",
+        "cityid": "C1250"
+    },
+    {
+        "id": "R1158",
+        "regno": "TS11",
+        "cityid": "C1251"
+    },
+    {
+        "id": "R1159",
+        "regno": "TS11",
+        "cityid": "C1252"
+    },
+    {
+        "id": "R1160",
+        "regno": "TS11",
+        "cityid": "C1253"
+    },
+    {
+        "id": "R1161",
+        "regno": "TS12",
+        "cityid": "C1254"
+    },
+    {
+        "id": "R1162",
+        "regno": "TS12",
+        "cityid": "C1255"
+    },
+    {
+        "id": "R1163",
+        "regno": "TS13",
+        "cityid": "C1256"
+    },
+    {
+        "id": "R1164",
+        "regno": "TS13",
+        "cityid": "C1257"
+    },
+    {
+        "id": "R1165",
+        "regno": "TS14",
+        "cityid": "C1258"
+    },
+    {
+        "id": "R1166",
+        "regno": "TS14",
+        "cityid": "C1259"
+    },
+    {
+        "id": "R1167",
+        "regno": "TS14",
+        "cityid": "C1260"
+    },
+    {
+        "id": "R1168",
+        "regno": "TS15",
+        "cityid": "C1261"
+    },
+    {
+        "id": "R1169",
+        "regno": "TS15",
+        "cityid": "C1262"
+    },
+    {
+        "id": "R1170",
+        "regno": "TS16",
+        "cityid": "C1263"
+    },
+    {
+        "id": "R1171",
+        "regno": "TS1 7",
+        "cityid": "C1420"
+    },
+    {
+        "id": "R1172",
+        "regno": "TS18",
+        "cityid": "C1421"
+    },
+    {
+        "id": "R1173",
+        "regno": "TS19",
+        "cityid": "C1422"
+    },
+    {
+        "id": "R1174",
+        "regno": "TS20",
+        "cityid": "C1423"
+    },
+    {
+        "id": "R1175",
+        "regno": "TS21",
+        "cityid": "C1408"
+    },
+    {
+        "id": "R1176",
+        "regno": "TS22",
+        "cityid": "C1424"
+    },
+    {
+        "id": "R1177",
+        "regno": "TS23",
+        "cityid": "C1425"
+    },
+    {
+        "id": "R1178",
+        "regno": "TS24",
+        "cityid": "C1426"
+    },
+    {
+        "id": "R1179",
+        "regno": "TS25",
+        "cityid": "C1427"
+    },
+    {
+        "id": "R1180",
+        "regno": "TS26",
+        "cityid": "C1395"
+    },
+    {
+        "id": "R1181",
+        "regno": "TS27",
+        "cityid": "C1415"
+    },
+    {
+        "id": "R1182",
+        "regno": "TS28",
+        "cityid": "C1428"
+    },
+    {
+        "id": "R1183",
+        "regno": "TS29",
+        "cityid": "C1419"
+    },
+    {
+        "id": "R1184",
+        "regno": "TS30",
+        "cityid": "C1429"
+    },
+    {
+        "id": "R1185",
+        "regno": "TS31",
+        "cityid": "C1396"
+    },
+    {
+        "id": "R1186",
+        "regno": "TS32",
+        "cityid": "C1430"
+    },
+    {
+        "id": "R1187",
+        "regno": "TS33",
+        "cityid": "C1431"
+    },
+    {
+        "id": "R1188",
+        "regno": "TS34",
+        "cityid": "C1432"
+    },
+    {
+        "id": "R1189",
+        "regno": "TS35",
+        "cityid": "C1413"
+    },
+    {
+        "id": "R1190",
+        "regno": "TS36",
+        "cityid": "C1433"
+    },
+    {
+        "id": "R1191",
+        "regno": "UA01",
+        "cityid": "C1081"
+    },
+    {
+        "id": "R1192",
+        "regno": "UA02",
+        "cityid": "C1083"
+    },
+    {
+        "id": "R1193",
+        "regno": "UA03",
+        "cityid": "C1087"
+    },
+    {
+        "id": "R1194",
+        "regno": "UA04",
+        "cityid": "C1093"
+    },
+    {
+        "id": "R1195",
+        "regno": "UA05",
+        "cityid": "C1097"
+    },
+    {
+        "id": "R1196",
+        "regno": "UA06",
+        "cityid": "C1105"
+    },
+    {
+        "id": "R1197",
+        "regno": "UA07",
+        "cityid": "C1099"
+    },
+    {
+        "id": "R1198",
+        "regno": "UA07",
+        "cityid": "C1089"
+    },
+    {
+        "id": "R1199",
+        "regno": "UA08",
+        "cityid": "C1091"
+    },
+    {
+        "id": "R1200",
+        "regno": "UA09",
+        "cityid": "C1103"
+    },
+    {
+        "id": "R1201",
+        "regno": "UA10",
+        "cityid": "C1107"
+    },
+    {
+        "id": "R1202",
+        "regno": "UA11",
+        "cityid": "C1085"
+    },
+    {
+        "id": "R1203",
+        "regno": "UA12",
+        "cityid": "C1095"
+    },
+    {
+        "id": "R1204",
+        "regno": "UA13",
+        "cityid": "C1101"
+    },
+    {
+        "id": "R1205",
+        "regno": "UK01",
+        "cityid": "C1082"
+    },
+    {
+        "id": "R1206",
+        "regno": "UK02",
+        "cityid": "C1084"
+    },
+    {
+        "id": "R1207",
+        "regno": "UK03",
+        "cityid": "C1088"
+    },
+    {
+        "id": "R1208",
+        "regno": "UK04",
+        "cityid": "C1094"
+    },
+    {
+        "id": "R1209",
+        "regno": "UK05",
+        "cityid": "C1098"
+    },
+    {
+        "id": "R1210",
+        "regno": "UK06",
+        "cityid": "C1106"
+    },
+    {
+        "id": "R1211",
+        "regno": "UK07",
+        "cityid": "C1100"
+    },
+    {
+        "id": "R1212",
+        "regno": "UK07",
+        "cityid": "C1090"
+    },
+    {
+        "id": "R1213",
+        "regno": "UK08",
+        "cityid": "C1092"
+    },
+    {
+        "id": "R1214",
+        "regno": "UK09",
+        "cityid": "C1104"
+    },
+    {
+        "id": "R1215",
+        "regno": "UK10",
+        "cityid": "C1108"
+    },
+    {
+        "id": "R1216",
+        "regno": "UK11",
+        "cityid": "C1086"
+    },
+    {
+        "id": "R1217",
+        "regno": "UK12",
+        "cityid": "C1096"
+    },
+    {
+        "id": "R1218",
+        "regno": "UK13",
+        "cityid": "C1102"
+    },
+    {
+        "id": "R1219",
+        "regno": "UK14",
+        "cityid": "C1377"
+    },
+    {
+        "id": "R1220",
+        "regno": "UK15",
+        "cityid": "C1378"
+    },
+    {
+        "id": "R1221",
+        "regno": "UK16",
+        "cityid": "C1379"
+    },
+    {
+        "id": "R1222",
+        "regno": "UK17",
+        "cityid": "C1380"
+    },
+    {
+        "id": "R1223",
+        "regno": "UK18",
+        "cityid": "C1381"
+    },
+    {
+        "id": "R1224",
+        "regno": "UK19",
+        "cityid": "C1436"
+    },
+    {
+        "id": "R1225",
+        "regno": "UP01",
+        "cityid": "C988"
+    },
+    {
+        "id": "R1226",
+        "regno": "UP02",
+        "cityid": "C1054"
+    },
+    {
+        "id": "R1227",
+        "regno": "UP03",
+        "cityid": "C1059"
+    },
+    {
+        "id": "R1228",
+        "regno": "UP04",
+        "cityid": "C1076"
+    },
+    {
+        "id": "R1229",
+        "regno": "UP05",
+        "cityid": "C1005"
+    },
+    {
+        "id": "R1230",
+        "regno": "UP06",
+        "cityid": "C1057"
+    },
+    {
+        "id": "R1231",
+        "regno": "UP07",
+        "cityid": "C1007"
+    },
+    {
+        "id": "R1232",
+        "regno": "UP08",
+        "cityid": "C1075"
+    },
+    {
+        "id": "R1233",
+        "regno": "UP09",
+        "cityid": "C1079"
+    },
+    {
+        "id": "R1234",
+        "regno": "UP10",
+        "cityid": "C1026"
+    },
+    {
+        "id": "R1235",
+        "regno": "UP11",
+        "cityid": "C1066"
+    },
+    {
+        "id": "R1236",
+        "regno": "UP12",
+        "cityid": "C1053"
+    },
+    {
+        "id": "R1237",
+        "regno": "UP13",
+        "cityid": "C1004"
+    },
+    {
+        "id": "R1238",
+        "regno": "UP14",
+        "cityid": "C1017"
+    },
+    {
+        "id": "R1239",
+        "regno": "UP15",
+        "cityid": "C1050"
+    },
+    {
+        "id": "R1240",
+        "regno": "UP16",
+        "cityid": "C1055"
+    },
+    {
+        "id": "R1241",
+        "regno": "UP16",
+        "cityid": "C1016"
+    },
+    {
+        "id": "R1242",
+        "regno": "UP17",
+        "cityid": "C994"
+    },
+    {
+        "id": "R1243",
+        "regno": "UP18",
+        "cityid": "C1023"
+    },
+    {
+        "id": "R1244",
+        "regno": "UP19",
+        "cityid": "C1194"
+    },
+    {
+        "id": "R1245",
+        "regno": "UP20",
+        "cityid": "C1003"
+    },
+    {
+        "id": "R1246",
+        "regno": "UP21",
+        "cityid": "C1052"
+    },
+    {
+        "id": "R1247",
+        "regno": "UP22",
+        "cityid": "C1065"
+    },
+    {
+        "id": "R1248",
+        "regno": "UP23",
+        "cityid": "C1034"
+    },
+    {
+        "id": "R1249",
+        "regno": "UP24",
+        "cityid": "C993"
+    },
+    {
+        "id": "R1250",
+        "regno": "UP25",
+        "cityid": "C1000"
+    },
+    {
+        "id": "R1251",
+        "regno": "UP26",
+        "cityid": "C1058"
+    },
+    {
+        "id": "R1252",
+        "regno": "UP27",
+        "cityid": "C1069"
+    },
+    {
+        "id": "R1253",
+        "regno": "UP28",
+        "cityid": "C991"
+    },
+    {
+        "id": "R1254",
+        "regno": "UP30",
+        "cityid": "C1025"
+    },
+    {
+        "id": "R1255",
+        "regno": "UP31",
+        "cityid": "C1040"
+    },
+    {
+        "id": "R1256",
+        "regno": "UP32",
+        "cityid": "C1042"
+    },
+    {
+        "id": "R1257",
+        "regno": "UP33",
+        "cityid": "C1061"
+    },
+    {
+        "id": " R1258",
+        "regno": "UP34",
+        "cityid": "C1072"
+    },
+    {
+        "id": "R1259",
+        "regno": "UP35",
+        "cityid": "C1077"
+    },
+    {
+        "id": "R1260",
+        "regno": "UP36",
+        "cityid": "C1043"
+    },
+    {
+        "id": "R1261",
+        "regno": "UP37",
+        "cityid": "C1185"
+    },
+    {
+        "id": "R1262",
+        "regno": "UP38",
+        "cityid": "C1382"
+    },
+    {
+        "id": "R1263",
+        "regno": "UP40",
+        "cityid": "C995"
+    },
+    {
+        "id": "R1264",
+        "regno": "UP41",
+        "cityid": "C999"
+    },
+    {
+        "id": "R1265",
+        "regno": "UP42",
+        "cityid": "C1012"
+    },
+    {
+        "id": "R1266",
+        "regno": "UP43",
+        "cityid": "C1019"
+    },
+    {
+        "id": "R1267",
+        "regno": "UP44",
+        "cityid": "C1074"
+    },
+    {
+        "id": "R1268",
+        "regno": "UP45",
+        "cityid": "C989"
+    },
+    {
+        "id": "R1269",
+        "regno": "UP46",
+        "cityid": "C1070"
+    },
+    {
+        "id": "R1270",
+        "regno": "UP47",
+        "cityid": "C997"
+    },
+    {
+        "id": "R1271",
+        "regno": "UP50",
+        "cityid": "C992"
+    },
+    {
+        "id": "R1272",
+        "regno": "UP51",
+        "cityid": "C1001"
+    },
+    {
+        "id": "R1273",
+        "regno": "UP52",
+        "cityid": "C1008"
+    },
+    {
+        "id": "R1274",
+        "regno": "UP53",
+        "cityid": "C1020"
+    },
+    {
+        "id": "R1275",
+        "regno": "UP54",
+        "cityid": "C1049"
+    },
+    {
+        "id": "R1276",
+        "regno": "UP55",
+        "cityid": "C1071"
+    },
+    {
+        "id": "R1277",
+        "regno": "UP56",
+        "cityid": "C1046"
+    },
+    {
+        "id": "R1278",
+        "regno": "UP57",
+        "cityid": "C1056"
+    },
+    {
+        "id": "R1279",
+        "regno": "UP58",
+        "cityid": "C1027"
+    },
+    {
+        "id": "R1280",
+        "regno": "UP58",
+        "cityid": "C1068"
+    },
+    {
+        "id": "R1281",
+        "regno": "UP60",
+        "cityid": "C996"
+    },
+    {
+        "id": "R1282",
+        "regno": "UP61",
+        "cityid": "C1018"
+    },
+    {
+        "id": "R1283",
+        "regno": "UP62",
+        "cityid": "C1029"
+    },
+    {
+        "id": "R1284",
+        "regno": "UP63",
+        "cityid": "C1051"
+    },
+    {
+        "id": "R1285",
+        "regno": "UP64",
+        "cityid": "C1073"
+    },
+    {
+        "id": "R1286",
+        "regno": "UP65",
+        "cityid": "C1080"
+    },
+    {
+        "id": "R1287",
+        "regno": "UP66",
+        "cityid": "C1002"
+    },
+    {
+        "id": "R1288",
+        "regno": "UP67",
+        "cityid": "C1006"
+    },
+    {
+        "id": "R1289",
+        "regno": "UP70",
+        "cityid": "C987"
+    },
+    {
+        "id": "R1290",
+        "regno": "UP71",
+        "cityid": "C1014"
+    },
+    {
+        "id": "R1291",
+        "regno": "UP72",
+        "cityid": "C1060"
+    },
+    {
+        "id": "R1292",
+        "regno": "UP73",
+        "cityid": "C1039"
+    },
+    {
+        "id": "R1293",
+        "regno": "UP74",
+        "cityid": "C1035"
+    },
+    {
+        "id": "R1294",
+        "regno": "UP74",
+        "cityid": "C1078"
+    },
+    {
+        "id": "R1295",
+        "regno": "UP75",
+        "cityid": "C1010"
+    },
+    {
+        "id": "R1296",
+        "regno": "UP76",
+        "cityid": "C1013"
+    },
+    {
+        "id": "R1297",
+        "regno": "UP77",
+        "cityid": "C1037"
+    },
+    {
+        "id": "R1298",
+        "regno": "UP78",
+        "cityid": "C1038"
+    },
+    {
+        "id": "R1299",
+        "regno": "UP79",
+        "cityid": "C990"
+    },
+    {
+        "id": "R1300",
+        "regno": "UP80",
+        "cityid": "C985"
+    },
+    {
+        "id": "R1301",
+        "regno": "UP81",
+        "cityid": "C986"
+    },
+    {
+        "id": "R1302",
+        "regno": "UP82",
+        "cityid": "C1009"
+    },
+    {
+        "id": "R1303",
+        "regno": "UP83",
+        "cityid": "C1015"
+    },
+    {
+        "id": "R1304",
+        "regno": "UP84",
+        "cityid": "C1047"
+    },
+    {
+        "id": "R1305",
+        "regno": "UP85",
+        "cityid": "C1048"
+    },
+    {
+        "id": "R1306",
+        "regno": "UP86",
+        "cityid": "C1044"
+    },
+    {
+        "id": "R1307",
+        "regno": "UP87",
+        "cityid": "C1191"
+    },
+    {
+        "id": "R1308",
+        "regno": "UP90",
+        "cityid": "C998"
+    },
+    {
+        "id": "R1309",
+        "regno": "UP91",
+        "cityid": "C1024"
+    },
+    {
+        "id": "R1310",
+        "regno": "UP92",
+        "cityid": "C1028"
+    },
+    {
+        "id": "R1311",
+        "regno": "UP93",
+        "cityid": "C1031"
+    },
+    {
+        "id": "R1312",
+        "regno": "UP94",
+        "cityid": "C1041"
+    },
+    {
+        "id": "R1313",
+        "regno": "UP95",
+        "cityid": "C1045"
+    },
+    {
+        "id": "R1314",
+        "regno": "UP96",
+        "cityid": "C1067"
+    },
+    {
+        "id": "R1315",
+        "regno": "WB01",
+        "cityid": "C1151"
+    },
+    {
+        "id": "R1316",
+        "regno": "WB02",
+        "cityid": "C1152"
+    },
+    {
+        "id": "R1317",
+        "regno": "WB02",
+        "cityid": "C1177"
+    },
+    {
+        "id": "R1318",
+        "regno": "WB03",
+        "cityid": "C1153"
+    },
+    {
+        "id": "R1319",
+        "regno": "WB03",
+        "cityid": "C1124"
+    },
+    {
+        "id": "R1320",
+        "regno": "WB04",
+        "cityid": "C1154"
+    },
+    {
+        "id": "R1321",
+        "regno": "WB05",
+        "cityid": "C1155"
+    },
+    {
+        "id": "R1322",
+        "regno": "WB06",
+        "cityid": "C1160"
+    },
+    {
+        "id": "R1323",
+        "regno": "WB07",
+        "cityid": "C1156"
+    },
+    {
+        "id": "R1324",
+        "regno": "WB08",
+        "cityid": "C1157"
+    },
+    {
+        "id": "R1325",
+        "regno": "WB09",
+        "cityid": "C1158"
+    },
+    {
+        "id": "R1326",
+        "regno": "WB10",
+        "cityid": "C1159"
+    },
+    {
+        "id": "R1327",
+        "regno": "WB11",
+        "cityid": "C1143"
+    },
+    {
+        "id": "R1328",
+        "regno": "WB11",
+        "cityid": "C1120"
+    },
+    {
+        "id": "R1329",
+        "regno": "WB12",
+        "cityid": "C1144"
+    },
+    {
+        "id": "R1330",
+        "regno": "WB13",
+        "cityid": "C1145"
+    },
+    {
+        "id": "R1331",
+        "regno": "WB14",
+        "cityid": "C1146"
+    },
+    {
+        "id": "R1332",
+        "regno": "WB15",
+        "cityid": "C1121"
+    },
+    {
+        "id": "R1333",
+        "regno": "WB15",
+        "cityid": "C1140"
+    },
+    {
+        "id": "R1334",
+        "regno": "WB16",
+        "cityid": "C1141"
+    },
+    {
+        "id": "R1335",
+        "regno": "WB17",
+        "cityid": "C1437"
+    },
+    {
+        "id": "R1336",
+        "regno": "WB18",
+        "cityid": "C1142"
+    },
+    {
+        "id": "R1337",
+        "regno": "WB19",
+        "cityid": "C1109"
+    },
+    {
+        "id": "R1338",
+        "regno": "WB20",
+        "cityid": "C1110"
+    },
+    {
+        "id": "R1339",
+        "regno": "WB22",
+        "cityid": "C1179"
+    },
+    {
+        "id": "R1340",
+        "regno": "WB23",
+        "cityid": "C1125"
+    },
+    {
+        "id": "R1341",
+        "regno": "WB24",
+        "cityid": "C1126"
+    },
+    {
+        "id": "R1342",
+        "regno": "WB24",
+        "cityid": "C1178"
+    },
+    {
+        "id": "R1343",
+        "regno": "WB25",
+        "cityid": "C1122"
+    },
+    {
+        "id": "R1344",
+        "regno": "WB26",
+        "cityid": "C11 23"
+    },
+    {
+        "id": "R1345",
+        "regno": "WB29",
+        "cityid": "C1180"
+    },
+    {
+        "id": "R1346",
+        "regno": "WB30",
+        "cityid": "C1181"
+    },
+    {
+        "id": "R1347",
+        "regno": "WB31",
+        "cityid": "C1132"
+    },
+    {
+        "id": "R1348",
+        "regno": "WB32",
+        "cityid": "C1133"
+    },
+    {
+        "id": "R1349",
+        "regno": "WB33",
+        "cityid": "C1164"
+    },
+    {
+        "id": "R1350",
+        "regno": "WB34",
+        "cityid": "C1165"
+    },
+    {
+        "id": "R1351",
+        "regno": "WB36",
+        "cityid": "C1163"
+    },
+    {
+        "id": "R1352",
+        "regno": "WB37",
+        "cityid": "C1113"
+    },
+    {
+        "id": "R1353",
+        "regno": "WB38",
+        "cityid": "C1114"
+    },
+    {
+        "id": "R1354",
+        "regno": "WB39",
+        "cityid": "C1138"
+    },
+    {
+        "id": "R1355",
+        "regno": "WB40",
+        "cityid": "C1139"
+    },
+    {
+        "id": "R1356",
+        "regno": "WB41",
+        "cityid": "C1130"
+    },
+    {
+        "id": "R1357",
+        "regno": "WB42",
+        "cityid": "C1131"
+    },
+    {
+        "id": "R1358",
+        "regno": "WB44",
+        "cityid": "C1115"
+    },
+    {
+        "id": "R1359",
+        "regno": "WB48",
+        "cityid": "C1398"
+    },
+    {
+        "id": "R1360",
+        "regno": "WB50",
+        "cityid": "C1438"
+    },
+    {
+        "id": "R1361",
+        "regno": "WB51",
+        "cityid": "C1168"
+    },
+    {
+        "id": "R1362",
+        "regno": "WB52",
+        "cityid": "C1169"
+    },
+    {
+        "id": "R1363",
+        "regno": "WB53",
+        "cityid": "C1128"
+    },
+    {
+        "id": "R1364",
+        "regno": "WB54",
+        "cityid": "C1129"
+    },
+    {
+        "id": "R1365",
+        "regno": "WB55",
+        "cityid": "C1171"
+    },
+    {
+        "id": "R1366",
+        "regno": "WB56",
+        "cityid": "C1172"
+    },
+    {
+        "id": "R1367",
+        "regno": "WB57",
+        "cityid": "C1166"
+    },
+    {
+        "id": "R1368",
+        "regno": "WB58",
+        "cityid": "C1167"
+    },
+    {
+        "id": "R1369",
+        "regno": "WB59",
+        "cityid": "C1173"
+    },
+    {
+        "id": "R1370",
+        "regno": "WB60",
+        "cityid": "C1174"
+    },
+    {
+        "id": "R1371",
+        "regno": "WB61",
+        "cityid": "C1116"
+    },
+    {
+        "id": "R1372",
+        "regno": "WB62",
+        "cityid": "C1117"
+    },
+    {
+        "id": "R1373",
+        "regno": "WB63",
+        "cityid": "C1134"
+    },
+    {
+        "id": "R1374",
+        "regno": "WB64",
+        "cityid": "C1135"
+    },
+    {
+        "id": "R1375",
+        "regno": "WB65",
+        "cityid": "C1161"
+    },
+    {
+        "id": "R1376",
+        "regno": "WB66",
+        "cityid": "C1162"
+    },
+    {
+        "id": "R1377",
+        "regno": "WB67",
+        "cityid": "C1118"
+    },
+    {
+        "id": "R1378",
+        "regno": "WB68",
+        "cityid": "C1119"
+    },
+    {
+        "id": "R1379",
+        "regno": "WB69",
+        "cityid": "C1111"
+    },
+    {
+        "id": "R1380",
+        "regno": "WB70",
+        "cityid": "C1112"
+    },
+    {
+        "id": "R1381",
+        "regno": "WB71",
+        "cityid": "C1147"
+    },
+    {
+        "id": "R1382",
+        "regno": "WB72",
+        "cityid": "C1148"
+    },
+    {
+        "id": "R1383",
+        "regno": "WB73",
+        "cityid": "C1175"
+    },
+    {
+        "id": "R1384",
+        "regno": "WB74",
+        "cityid": "C1176"
+    },
+    {
+        "id": "R1385",
+        "regno": "WB76",
+        "cityid": "C1136"
+    },
+    {
+        "id": "R1386",
+        "regno": "WB77",
+        "cityid": "C1137"
+    },
+    {
+        "id": "R1387",
+        "regno": "WB78",
+        "cityid": "C1149"
+    },
+    {
+        "id": " R1388",
+        "regno": "WB79",
+        "cityid": "C1150"
+    },
+    {
+        "id": "R1389",
+        "regno": "WB82",
+        "cityid": "C1388"
+    },
+    {
+        "id": "R1390",
+        "regno": "WB88",
+        "cityid": "C1392"
+    },
+    {
+        "id": "R1391",
+        "regno": "WB90",
+        "cityid": "C1386"
+    },
+    {
+        "id": "R1392",
+        "regno": "WB92",
+        "cityid": "C1389"
+    },
+    {
+        "id": "R1393",
+        "regno": "WB94",
+        "cityid": "C1390"
+    },
+    {
+        "id": "R1394",
+        "regno": "WB95",
+        "cityid": "C1439"
+    },
+    {
+        "id": "R1395",
+        "regno": "WB96",
+        "cityid": "C1391"
+    }
+]

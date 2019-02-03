@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { City } from '../shared/city.model';
+import { City } from '../model/city.model';
 import { AngularFirestore } from '@angular/fire/firestore';
 
 @Injectable({
@@ -23,6 +23,9 @@ export class CityService {
   getAll() {
     return this.firestore.collection("city").snapshotChanges();
   }
+  getById(stateid: string) {
+    return this.firestore.collection("city", q => q.where("stateid", "==", stateid)).snapshotChanges();
+  }
   add(city: any) {
     let data = Object.assign({}, city);
     delete data.id;
@@ -35,5 +38,10 @@ export class CityService {
   }
   delete(city: City) {
     this.firestore.doc('city/' + city.id).delete();
+  }
+  addFromJson(city: any) {
+    let data = Object.assign({}, city);
+    delete data.id;
+    this.firestore.collection('city').doc('C' + city.id).set(data);
   }
 }

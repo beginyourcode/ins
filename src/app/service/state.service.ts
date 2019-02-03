@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { State } from './state.model';
+import { State } from '../model/state.model';
 import { AngularFirestore } from '@angular/fire/firestore'
 
 @Injectable({
@@ -33,4 +33,10 @@ export class StateService {
   delete(state: State) {
     this.firestore.doc('state/' + state.id).delete();
   }
+  addFromJson(state: any) {
+    let data = Object.assign({}, state);
+    delete data.id;
+    this.firestore.collection('state').doc('S'+state.id).set(data);
+  }
+  
 }

@@ -20,13 +20,31 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { LoginComponent } from './login/login.component';
 import { QuoteComponent } from './quote/quote.component';
-import { StateService } from './shared/state.service';
+import { StateService } from './service/state.service';
 import { environment } from 'src/environments/environment';
 import { StateListComponent } from './state/state-list.component';
 import { StateAddEditComponent } from './state/state-add-edit.component';
 import { CityAddComponent } from './city/city-add.component';
 import { CityListComponent } from './city/city-list.component';
+import { AdminComponent } from './admin/admin.component';
+import { DataImportService } from './service/data.service';
+import { CityService } from './service/city.service';
+import { StepsbarComponent } from './stepsbar/stepsbar.component';
+import { WorkflowService } from './workflow/workflow.service';
 
+/* Feature Components */
+import { PersonalComponent }  from './personal/personal.component';
+import { WorkComponent }      from './work/work.component';
+import { AddressComponent }   from './address/address.component';
+import { ResultComponent }    from './result/result.component';
+import { FormDataService } from './data/formData.service';
+
+import { FormWizardModule } from 'angular2-wizard';
+import { RtoService } from './service/rto.service';
+import { MakeService } from './service/make.service';
+import { ModelService } from './service/model.service';
+import { FueltypeService } from './service/fueltype.service';
+import { VariantService } from './service/variant.service';
 
 @NgModule({
   declarations: [
@@ -37,23 +55,23 @@ import { CityListComponent } from './city/city-list.component';
     StateListComponent,
     StateAddEditComponent,
     CityAddComponent,
-    CityListComponent
+    CityListComponent,
+    AdminComponent,
+    StepsbarComponent,
+    PersonalComponent, WorkComponent, AddressComponent, ResultComponent
 
   ],
   imports: [
-    BrowserModule,
-    AppRoutingModule,
-    AngularFontAwesomeModule,
-    FormsModule,
-    AngularFirestoreModule,
+    BrowserModule, AppRoutingModule, BrowserAnimationsModule, HttpClientModule, FormsModule,
+    AngularFontAwesomeModule, 
+    AngularFirestoreModule, 
     AngularFireModule.initializeApp(environment.firebaseConfigI),
-    BrowserAnimationsModule,
     ToastrModule.forRoot({ positionClass: 'toast-bottom-right' }),
     NgxPaginationModule,
-    HttpClientModule,
-    DataViewModule, PaginatorModule, ButtonModule, DialogModule, DropdownModule
+    DataViewModule, PaginatorModule, ButtonModule, DialogModule, DropdownModule,
+    FormWizardModule
   ],
-  providers: [StateService],
+  providers: [StateService, DataImportService, CityService, RtoService, MakeService, ModelService, FueltypeService, VariantService, WorkflowService, FormDataService],
   bootstrap: [AppComponent]
 })
 export class AppModule {

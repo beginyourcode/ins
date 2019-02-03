@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { State } from '../shared/state.model';
-import { StateService } from '../shared/state.service';
+import { State } from '../model/state.model';
+import { StateService } from '../service/state.service';
 import { AngularFirestore } from '@angular/fire/firestore';
 import { ToastrService } from 'ngx-toastr';
 import { ButtonModule } from 'primeng/button';

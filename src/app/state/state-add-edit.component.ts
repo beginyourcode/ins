@@ -1,10 +1,10 @@
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
-import { StateService } from '../shared/state.service';
+import { StateService } from '../service/state.service';
 import { AngularFirestore } from '@angular/fire/firestore';
 import { ToastrService } from 'ngx-toastr';
 import { NgForm } from '@angular/forms';
 import { Router, ActivatedRoute } from '@angular/router';
-import { State } from '../shared/state.model';
+import { State } from '../model/state.model';
 
 @Component({
   selector: 'app-state-add-edit',
