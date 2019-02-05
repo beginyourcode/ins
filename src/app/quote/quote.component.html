@@ -58,11 +58,11 @@
                             </div>
                             <div class="col-sm">
                                 <div class="form-group">
-                                    <label for="stateid">State</label>
+                                    <label for="stateId">State</label>
                                     <div>
-                                        <p-dropdown name="stateid" [options]="states" filter="true" [style]="{'width':'250px'}"
+                                        <p-dropdown name="stateId" [options]="states" filter="true" [style]="{'width':'250px'}"
                                             (onChange)="onStateChange($event)" placeholder="Select a State" ></p-dropdown>
-                                        <p>{{service.formData.stateid.value || 'none'}}</p>
+                                        <p>{{service.formData.stateId || 'none'}}</p>
                                     </div>
                                 </div>
 
@@ -71,7 +71,7 @@
                                     <div>
                                         <p-dropdown name="cityid" [options]="cities" filter="true" [style]="{'width':'250px'}"
                                             (onChange)="onCityChange($event)" placeholder="Select a City" ></p-dropdown>
-                                        <p>{{service.formData.stateid.value || 'none'}}</p>
+                                        <p>{{service.formData.stateId || 'none'}}</p>
                                     </div>
                                 </div>
 
@@ -80,7 +80,7 @@
                                     <div>
                                         <p-dropdown name="rtoid" [options]="rto" filter="true" [style]="{'width':'250px'}"
                                             placeholder="Select a RTO" ></p-dropdown>
-                                        <p>{{service.formData.stateid.value || 'none'}}</p>
+                                        <p>{{service.formData.stateId || 'none'}}</p>
                                     </div>
                                 </div>
                             </div>

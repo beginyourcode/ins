@@ -18,7 +18,7 @@ export class StateAddEditComponent implements OnInit {
 
   title: string;
 
-  constructor(private service: StateService,
+  constructor(public service: StateService,
     //private firestore: AngularFirestore,
     private toastr: ToastrService,
     private router: Router,

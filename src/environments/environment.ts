@@ -21,7 +21,8 @@ export const environment = {
     messagingSenderId: "840663019856",
     timestampsInSnapshots: false
   },
-  apiRoot:"http://localhost:50742/api"
+  apiRoot:"https://inscoreapih.azurewebsites.net/api"
+  //apiRoot:"http://localhost:50742/api"
 };
 
 /*

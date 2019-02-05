@@ -11,7 +11,7 @@ import { State } from '../model/state.model';
 })
 export class StateapiListComponent implements OnInit {
 
-  constructor(private service: StateapiService,
+  constructor(public service: StateapiService,
     private toastr: ToastrService,
     private router: Router) { }
 

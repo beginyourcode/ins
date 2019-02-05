@@ -43,8 +43,8 @@ export class CityListComponent implements OnInit {
   city: any;
 
   joined: any;
-  constructor(private service: CityService,
-    private serviceState: StateService,
+  constructor(public service: CityService,
+    public serviceState: StateService,
     //private firestore: AngularFirestore,
     private toastr: ToastrService,
     private router: Router) { }

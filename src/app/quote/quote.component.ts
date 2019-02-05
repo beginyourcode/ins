@@ -23,44 +23,44 @@ export class QuoteComponent implements OnInit {
   rto: SelectItem[];
   selectedRto: string;
 
-  constructor(private service: CityService,
+  constructor(public service: CityService,
     private serviceState: StateService,
     private serviceRto: RtoService
     ) { }
 
   ngOnInit() {
-    this.serviceState.getAll().subscribe(actionArray => {
-      this.states = actionArray.map(item => {
-        return {
-          label: item.payload.doc.get("name"),
-          //value: item.payload.doc.get("name"),
-          value: item.payload.doc.id
-        } as SelectItem;
-      })
-    });
+    // this.serviceState.getAll().subscribe(actionArray => {
+    //   this.states = actionArray.map(item => {
+    //     return {
+    //       label: item.payload.doc.get("name"),
+    //       //value: item.payload.doc.get("name"),
+    //       value: item.payload.doc.id
+    //     } as SelectItem;
+    //   })
+    // });
   }
   onStateChange(event) {
-    this.service.getById(event.value).subscribe(actionArray => {
-      this.cities = actionArray.map(item => {
-        return {
-          label: item.payload.doc.get("name"),
-          //value: item.payload.doc.get("name"),
-          value: item.payload.doc.id
-        } as SelectItem;
-      })
-    });
+    // this.service.getById(event.value).subscribe(actionArray => {
+    //   this.cities = actionArray.map(item => {
+    //     return {
+    //       label: item.payload.doc.get("name"),
+    //       //value: item.payload.doc.get("name"),
+    //       value: item.payload.doc.id
+    //     } as SelectItem;
+    //   })
+    // });
 
   }
   onCityChange(event) {
-    this.serviceRto.getByCityId(event.value).subscribe(actionArray => {
-      this.rto = actionArray.map(item => {
-        return {
-          label: item.payload.doc.get("regno"),
-          //value: item.payload.doc.get("name"),
-          value: item.payload.doc.id
-        } as SelectItem;
-      })
-    });
+    // this.serviceRto.getByCityId(event.value).subscribe(actionArray => {
+    //   this.rto = actionArray.map(item => {
+    //     return {
+    //       label: item.payload.doc.get("regno"),
+    //       //value: item.payload.doc.get("name"),
+    //       value: item.payload.doc.id
+    //     } as SelectItem;
+    //   })
+    // });
   }
   onStep1Next(event) {
 

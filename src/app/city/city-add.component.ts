@@ -25,8 +25,8 @@ export class CityAddComponent implements OnInit {
   selectedState: string;
   //list: State[];
   
-  constructor(private service: CityService,
-    private serviceState: StateService,
+  constructor(public service: CityService,
+    public serviceState: StateService,
     //private firestore: AngularFirestore,
     private toastr: ToastrService,
     private router: Router,

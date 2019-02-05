@@ -34,7 +34,7 @@ export class StateListComponent implements OnInit {
   display: boolean = false;
   titleDialog: string = "Add";
 
-  constructor(private service: StateService,
+  constructor(public service: StateService,
     //private firestore: AngularFirestore,
     private toastr: ToastrService,
     private router: Router) { }
