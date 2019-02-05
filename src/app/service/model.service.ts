@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Model } from '../model/model.model';
-import { AngularFirestore } from '@angular/fire/firestore';
+//import { AngularFirestore } from '@angular/fire/firestore';
 
 @Injectable({
   providedIn: 'root'
@@ -8,7 +8,9 @@ import { AngularFirestore } from '@angular/fire/firestore';
 export class ModelService {
   formData: Model;
 
-  constructor(private firestore: AngularFirestore) {
+  constructor(
+    //private firestore: AngularFirestore
+    ) {
     this.resetData();
   }
   resetData(){
@@ -20,24 +22,24 @@ export class ModelService {
     }
   }
   getAll() {
-    return this.firestore.collection("model").snapshotChanges();
+    //return this.firestore.collection("model").snapshotChanges();
   }
   add(model: any) {
     let data = Object.assign({}, model);
     delete data.id;
-    this.firestore.collection('model').add(data);
+    //this.firestore.collection('model').add(data);
   }
   edit(model: any) {
     let data = Object.assign({}, model);
     delete data.id;
-    this.firestore.doc('model/' + model.id).update(data);
+    //this.firestore.doc('model/' + model.id).update(data);
   }
   delete(model: Model) {
-    this.firestore.doc('model/' + model.id).delete();
+    //this.firestore.doc('model/' + model.id).delete();
   }
   addFromJson(model: any) {
     let data = Object.assign({}, model);
     delete data.id;
-    this.firestore.collection('model').doc(model.id).set(data);
+    //this.firestore.collection('model').doc(model.id).set(data);
   }
 }

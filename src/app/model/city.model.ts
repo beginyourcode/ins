@@ -1,6 +1,8 @@
+import { State } from './state.model';
+
 export class City {
-    id: string;
-    state: string;
-    stateid: string;
-    name: string
+    id: number;
+    state: State;
+    stateId: number;
+    cityName: string
 }

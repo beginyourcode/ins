@@ -1,4 +1,4 @@
-<p-dataView #dv [value]="list" [paginator]="true" [rows]="10" paginatorPosition="bottom" filterBy="name" [sortField]="sortField"
+<p-dataView #dv [value]="service.list" [paginator]="true" [rows]="10" paginatorPosition="bottom" filterBy="cityName" [sortField]="sortField"
   [sortOrder]="sortOrder" emptyMessage="Loading..." [loading]="loading">
   <p-header>
     <div class="ui-helper-clearfix">
@@ -33,7 +33,7 @@
   <ng-template let-city pTemplate="listItem">
     <div class="ui-g">
       <div class="ui-g-12 ui-md-10">
-        {{city.name}}
+        {{city.cityName}}
       </div>
       <div class="ui-g-12 ui-md-2">
           <!-- [routerLink]="['/city/add/', city.id]" -->

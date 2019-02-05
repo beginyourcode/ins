@@ -1,7 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpResponse } from '@angular/common/http';
 import { Observable } from 'rxjs';
-import { IState } from '../interface/IState';
 import { State } from '../model/state.model';
 import { City } from '../model/city.model';
 import { Rto } from '../model/rto.model';

@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Variant } from '../model/variant.model';
-import { AngularFirestore } from '@angular/fire/firestore';
+//import { AngularFirestore } from '@angular/fire/firestore';
 
 @Injectable({
   providedIn: 'root'
@@ -8,7 +8,9 @@ import { AngularFirestore } from '@angular/fire/firestore';
 export class VariantService {
   formData: Variant;
 
-  constructor(private firestore: AngularFirestore) {
+  constructor(
+    //private firestore: AngularFirestore
+    ) {
     this.resetData();
   }
   resetData(){
@@ -20,24 +22,24 @@ export class VariantService {
     }
   }
   getAll() {
-    return this.firestore.collection("variant").snapshotChanges();
+    //return this.firestore.collection("variant").snapshotChanges();
   }
   add(variant: any) {
     let data = Object.assign({}, variant);
     delete data.id;
-    this.firestore.collection('variant').add(data);
+    //this.firestore.collection('variant').add(data);
   }
   edit(variant: any) {
     let data = Object.assign({}, variant);
     delete data.id;
-    this.firestore.doc('variant/' + variant.id).update(data);
+    //this.firestore.doc('variant/' + variant.id).update(data);
   }
   delete(variant: Variant) {
-    this.firestore.doc('variant/' + variant.id).delete();
+    //this.firestore.doc('variant/' + variant.id).delete();
   }
   addFromJson(variant: any) {
     let data = Object.assign({}, variant);
     delete data.id;
-    this.firestore.collection('variant').doc(variant.id).set(data);
+    //this.firestore.collection('variant').doc(variant.id).set(data);
   }
 }

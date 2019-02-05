@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Make } from '../model/make.model';
-import { AngularFirestore } from '@angular/fire/firestore';
+//import { AngularFirestore } from '@angular/fire/firestore';
 
 @Injectable({
   providedIn: 'root'
@@ -8,7 +8,9 @@ import { AngularFirestore } from '@angular/fire/firestore';
 export class MakeService {
   formData: Make;
 
-  constructor(private firestore: AngularFirestore) {
+  constructor(
+    //private firestore: AngularFirestore
+    ) {
     this.resetData();
   }
   resetData(){
@@ -19,25 +21,25 @@ export class MakeService {
     }
   }
   getAll() {
-    return this.firestore.collection("make").snapshotChanges();
+    //return this.firestore.collection("make").snapshotChanges();
   }
   add(make: any) {
     let data = Object.assign({}, make);
     delete data.id;
-    this.firestore.collection('make').add(data);
+    //this.firestore.collection('make').add(data);
   }
   edit(make: any) {
     let data = Object.assign({}, make);
     delete data.id;
-    this.firestore.doc('make/' + make.id).update(data);
+    //this.firestore.doc('make/' + make.id).update(data);
   }
   delete(make: Make) {
-    this.firestore.doc('make/' + make.id).delete();
+    //this.firestore.doc('make/' + make.id).delete();
   }
   addFromJson(make: any) {
     let data = Object.assign({}, make);
     delete data.id;
-    this.firestore.collection('make').doc(make.id).set(data);
+    //this.firestore.collection('make').doc(make.id).set(data);
   }
   getCount()
   {

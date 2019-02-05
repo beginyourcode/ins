@@ -5,14 +5,15 @@
       <input type="hidden" name="id" #id="ngModel" [(ngModel)]="service.formData.id">
       <div class="form-group">
         <label for="name">State Name</label>
-        <p-dropdown name="stateid" [options]="states" filter="true" [style]="{'width':'150px'}" placeholder="Select a State"
-          [(ngModel)]="service.formData.stateid"></p-dropdown>
-          <p>Selected Car: {{service.formData.stateid.value || 'none'}}</p>
+        <p-dropdown #stateId="ngModel" name="stateId" [options]="serviceState.ddlStates" filter="true" [style]="{'width':'150px'}" 
+        placeholder="Select a State" [(ngModel)]="service.formData.stateId"></p-dropdown>
+        <!-- <p>Selected Car: {{service.formData.stateid.value || 'none'}}</p> -->
+        <!-- [(ngModel)]="service.formData.stateId" -->
         <!-- #id="ngModel" [(ngModel)]="service.formData.stateid" -->
       </div>
       <div class="form-group">
         <label for="name">City Name</label>
-        <input type="text" name="name" id="name" class="form-control" #name="ngModel" [(ngModel)]="service.formData.name">
+        <input type="text" name="cityName" id="cityName" class="form-control" #name="ngModel" [(ngModel)]="service.formData.cityName">
       </div>
       <div class="card-footer"><button type="submit" class="btn btn-primary">Save</button></div>
     </div>

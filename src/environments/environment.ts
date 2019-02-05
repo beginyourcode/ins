@@ -20,7 +20,8 @@ export const environment = {
     storageBucket: "insurance-amlabs.appspot.com",
     messagingSenderId: "840663019856",
     timestampsInSnapshots: false
-  }
+  },
+  apiRoot:"http://localhost:50742/api"
 };
 
 /*

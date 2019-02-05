@@ -1,6 +1,10 @@
 import { Injectable } from '@angular/core';
 import { City } from '../model/city.model';
-import { AngularFirestore } from '@angular/fire/firestore';
+import { HttpClient } from '@angular/common/http';
+import { environment } from 'src/environments/environment';
+import { SelectItem } from 'primeng/components/common/selectitem';
+import { State } from '../model/state.model';
+//import { AngularFirestore } from '@angular/fire/firestore';
 
 @Injectable({
   providedIn: 'root'
@@ -8,40 +12,49 @@ import { AngularFirestore } from '@angular/fire/firestore';
 export class CityService {
 
   formData: City;
+  list: City[];
+  states: SelectItem[];
 
-  constructor(private firestore: AngularFirestore) {
+  constructor(
+    private http: HttpClient
+  ) {
     this.resetData();
   }
   resetData() {
     this.formData = {
-      id: null,
-      state: '',
-      stateid: '',
-      name: '',
+      id: 0,
+      state: null,
+      stateId: 0,
+      cityName: '',
     }
   }
   getAll() {
-    return this.firestore.collection("city").snapshotChanges();
+    return this.http.get(environment.apiRoot + "/MasterCity").toPromise()
+      .then(res => this.list = res as City[]);;
   }
-  getById(stateid: string) {
-    return this.firestore.collection("city", q => q.where("stateid", "==", stateid)).snapshotChanges();
+  // getById(stateid: string) {
+  //   return this.http.get<State[]>(environment.apiRoot + "/MasterCity")
+  //   .subscribe((data: State[]) => );
+    
+  //   // .subscribe(
+  //   //   actionArray => {
+  //   //     this.states = actionArray.map(item => {
+  //   //       return {
+  //   //         label: item.payload.doc.get("name"),
+  //   //         //value: item.payload.doc.get("name"),
+  //   //         value: item.payload.doc.id
+  //   //       } as SelectItem;
+  //   //     })
+  //   //   });
+  // }
+  add() {
+    return this.http.post(environment.apiRoot + '/MasterCity', this.formData);
   }
-  add(city: any) {
-    let data = Object.assign({}, city);
-    delete data.id;
-    this.firestore.collection('city').add(data);
+  edit() {
+    return this.http.put(environment.apiRoot + '/MasterCity/' + this.formData.id, this.formData);
   }
-  edit(city: any) {
-    let data = Object.assign({}, city);
-    delete data.id;
-    this.firestore.doc('city/' + city.id).update(data);
+  delete(id) {
+    return this.http.delete(environment.apiRoot + '/MasterCity/' + id);
   }
-  delete(city: City) {
-    this.firestore.doc('city/' + city.id).delete();
-  }
-  addFromJson(city: any) {
-    let data = Object.assign({}, city);
-    delete data.id;
-    this.firestore.collection('city').doc('C' + city.id).set(data);
-  }
+
 }

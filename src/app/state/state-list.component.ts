@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { State } from '../model/state.model';
 import { StateService } from '../service/state.service';
-import { AngularFirestore } from '@angular/fire/firestore';
+//import { AngularFirestore } from '@angular/fire/firestore';
 import { ToastrService } from 'ngx-toastr';
 import { ButtonModule } from 'primeng/button';
 import { SelectItem } from 'primeng/components/common/selectitem';
@@ -35,21 +35,22 @@ export class StateListComponent implements OnInit {
   titleDialog: string = "Add";
 
   constructor(private service: StateService,
-    private firestore: AngularFirestore,
+    //private firestore: AngularFirestore,
     private toastr: ToastrService,
     private router: Router) { }
 
   ngOnInit() {
-    this.service.getAll().subscribe(actionArray => {
-      this.list = actionArray.map(item => {
-        return {
-          id: item.payload.doc.id,
-          ...item.payload.doc.data()
-        } as State;
-      })
-    });
+    // this.service.getAll().subscribe(actionArray => {
+    //   this.list = actionArray.map(item => {
+    //     return {
+    //       id: item.payload.doc.id,
+    //       ...item.payload.doc.data()
+    //     } as State;
+    //   })
+    // });
+    this.service.getAll();
     this.sortOptions = [
-      { label: 'State Name', value: '!name' }
+      { label: 'State Name', value: '!stateName' }
     ];
   }
 
@@ -68,16 +69,25 @@ export class StateListComponent implements OnInit {
 
   onDelete(id: string) {
     if (confirm("Are you sure to delete this record?")) {
-      this.firestore.doc('state/' + id).delete();
+      //this.firestore.doc('state/' + id).delete();
       this.toastr.warning('Deleted successfully', 'State');
     }
   }
   onDeleteP(event: Event, state: State) {
     if (confirm("Are you sure to delete this record?")) {
-      this.selectedState = state;
-      this.firestore.doc('state/' + this.selectedState.id).delete();
-      this.toastr.warning('Deleted successfully', 'State');
-      event.preventDefault();
+      //this.selectedState = state;
+      //this.firestore.doc('state/' + this.selectedState.id).delete();
+      this.service.delete(state.id).subscribe(res => {
+        //debugger;
+        this.service.getAll();
+        this.toastr.warning('Deleted successfully', 'Payment Detail Register');
+      },
+        err => {
+          debugger;
+          console.log(err);
+        });
+
+      //event.preventDefault();
     }
   }
   selectCar(event: Event, car: State) {

@@ -12,10 +12,12 @@ import { WorkComponent } from './work/work.component';
 import { WorkflowGuard } from './workflow/workflow-guard.service';
 import { AddressComponent } from './address/address.component';
 import { ResultComponent } from './result/result.component';
+import { StateapiListComponent } from './state/stateapi-list.component';
 
 const routes: Routes = [
   { path: 'signin', component: LoginComponent },
   { path: 'states', component: StateListComponent },
+  { path: 'statesapi', component: StateapiListComponent },
   // { path: 'state', component: StateAddEditComponent },
   { path: 'city', component: CityAddComponent },
   { path: 'cities', component: CityListComponent },

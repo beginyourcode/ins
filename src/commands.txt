@@ -10,3 +10,5 @@ npm install ngx-toastr
 npm install angular2-wizard
 -------------------
 npm install primeng primeicons ngx-pagination angular-font-awesome font-awesome ngx-toastr
+
+ng g c state/stateapi-list --flat=true --spec=false -is

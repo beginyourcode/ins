@@ -1,8 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
-import { AngularFireModule } from "@angular/fire";
-import { AngularFirestoreModule } from "@angular/fire/firestore";
+//import { AngularFireModule } from "@angular/fire";
+//import { AngularFirestoreModule } from "@angular/fire/firestore";
 import { FormsModule } from "@angular/forms";
 import { ToastrModule } from 'ngx-toastr';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -45,6 +45,8 @@ import { MakeService } from './service/make.service';
 import { ModelService } from './service/model.service';
 import { FueltypeService } from './service/fueltype.service';
 import { VariantService } from './service/variant.service';
+import { StateapiListComponent } from './state/stateapi-list.component';
+import { StateapiService } from './service/stateapi.service';
 
 @NgModule({
   declarations: [
@@ -58,20 +60,20 @@ import { VariantService } from './service/variant.service';
     CityListComponent,
     AdminComponent,
     StepsbarComponent,
-    PersonalComponent, WorkComponent, AddressComponent, ResultComponent
+    PersonalComponent, WorkComponent, AddressComponent, ResultComponent, StateapiListComponent
 
   ],
   imports: [
     BrowserModule, AppRoutingModule, BrowserAnimationsModule, HttpClientModule, FormsModule,
     AngularFontAwesomeModule, 
-    AngularFirestoreModule, 
-    AngularFireModule.initializeApp(environment.firebaseConfigI),
+    //AngularFirestoreModule, AngularFireModule.initializeApp(environment.firebaseConfigI),
     ToastrModule.forRoot({ positionClass: 'toast-bottom-right' }),
     NgxPaginationModule,
     DataViewModule, PaginatorModule, ButtonModule, DialogModule, DropdownModule,
     FormWizardModule
   ],
-  providers: [StateService, DataImportService, CityService, RtoService, MakeService, ModelService, FueltypeService, VariantService, WorkflowService, FormDataService],
+  providers: [StateService, DataImportService, CityService, RtoService, MakeService, ModelService
+    , FueltypeService, VariantService, WorkflowService, FormDataService, StateapiService],
   bootstrap: [AppComponent]
 })
 export class AppModule {

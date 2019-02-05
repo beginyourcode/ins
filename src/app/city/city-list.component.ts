@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { City } from '../model/city.model';
 import { SelectItem } from 'primeng/components/common/selectitem';
 import { CityService } from '../service/city.service';
-import { AngularFirestore } from '@angular/fire/firestore';
+//import { AngularFirestore } from '@angular/fire/firestore';
 import { ToastrService } from 'ngx-toastr';
 import { Router } from '@angular/router';
 import { Observable, combineLatest } from 'rxjs';
@@ -15,9 +15,9 @@ import { StateService } from '../service/state.service';
 })
 export class CityListComponent implements OnInit {
 
-  list: City[];
+  //list: City[];
 
-  selectedCity: City;
+  //selectedCity: City;
 
   displayDialog: boolean;
 
@@ -29,8 +29,8 @@ export class CityListComponent implements OnInit {
 
   sortOrder: number;
 
-  p: number = 1;
-  collection: any[] = this.list;
+  //p: number = 1;
+  //collection: any[] = this.list;
 
   display: boolean = false;
   titleDialog: string = "Add";
@@ -45,44 +45,26 @@ export class CityListComponent implements OnInit {
   joined: any;
   constructor(private service: CityService,
     private serviceState: StateService,
-    private firestore: AngularFirestore,
+    //private firestore: AngularFirestore,
     private toastr: ToastrService,
     private router: Router) { }
 
   ngOnInit() {
-    this.service.getAll().subscribe(actionArray => {
-      this.list = actionArray.map(item => {
-        return {
-          id: item.payload.doc.id,
-          ...item.payload.doc.data()
-        } as City;
-      })
-    });
+    // this.service.getAll().subscribe(actionArray => {
+    //   this.list = actionArray.map(item => {
+    //     return {
+    //       id: item.payload.doc.id,
+    //       ...item.payload.doc.data()
+    //     } as City;
+    //   })
+    // });
+    this.service.getAll();
     this.sortOptions = [
       { label: 'City Name', value: '!name' }
     ];
-    this.state$ = this.getCollection('state');
-    this.city$ = this.getCollection('city');
-    //this.joined = Observable.combineLatest(this.state$, this.city$);
-    this.joined = combineLatest(this.state$, this.city$);
-    this.joined.subscribe(([state, city]) => {
-      this.state = state;
-      this.city = city;
-    });
-    this.processData();
+    
   }
-  processData() {
-    let stateCollection = this.firestore.collection(`state`).get();
-    let cityCollection = this.firestore.collection(`city`).get();
-    let states = [];
-    states.push(stateCollection);
-    states.push(cityCollection);
-    const res = Promise.all(states);
-    // res should equal a combination of both querySnapshots
-  }
-  getCollection(collectionName) {
-    return this.firestore.collection(`${collectionName}`).valueChanges();
-  }
+  
   onEdit(emp: City) {
     this.service.formData = Object.assign({}, emp);
 
@@ -98,20 +80,29 @@ export class CityListComponent implements OnInit {
 
   onDelete(id: string) {
     if (confirm("Are you sure to delete this record?")) {
-      this.firestore.doc('city/' + id).delete();
+      //this.firestore.doc('city/' + id).delete();
       this.toastr.warning('Deleted successfully', 'City');
     }
   }
   onDeleteP(event: Event, city: City) {
     if (confirm("Are you sure to delete this record?")) {
-      this.selectedCity = city;
-      this.firestore.doc('city/' + this.selectedCity.id).delete();
-      this.toastr.warning('Deleted successfully', 'City');
-      event.preventDefault();
+      //this.selectedCity = city;
+      //this.firestore.doc('city/' + this.selectedCity.id).delete();
+      this.service.delete(city.id).subscribe(res => {
+        //debugger;
+        this.service.getAll();
+        this.toastr.warning('Deleted successfully', 'Payment Detail Register');
+      },
+        err => {
+          debugger;
+          console.log(err);
+        });
+      //this.toastr.warning('Deleted successfully', 'City');
+      //event.preventDefault();
     }
   }
   selectCar(event: Event, car: City) {
-    this.selectedCity = car;
+    //this.selectedCity = car;
     this.displayDialog = true;
     event.preventDefault();
   }
@@ -130,7 +121,7 @@ export class CityListComponent implements OnInit {
   }
 
   onDialogHide() {
-    this.selectedCity = null;
+    //this.selectedCity = null;
   }
   showDialog() {
     this.display = true;

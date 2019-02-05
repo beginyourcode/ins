@@ -16,7 +16,7 @@
     <pagination-controls (pageChange)="p = $event"></pagination-controls>
   </div>
 </div> -->
-<p-dataView #dv [value]="list" [paginator]="true" [rows]="10" paginatorPosition="bottom" filterBy="name" [sortField]="sortField"
+<p-dataView #dv [value]="service.list" [paginator]="true" [rows]="10" paginatorPosition="bottom" filterBy="stateName" [sortField]="sortField"
   [sortOrder]="sortOrder" emptyMessage="Loading..." [loading]="loading">
   <p-header>
     <div class="ui-helper-clearfix">
@@ -51,7 +51,7 @@
   <ng-template let-state pTemplate="listItem">
     <div class="ui-g">
       <div class="ui-g-12 ui-md-10">
-        {{state.name}}
+        {{state.stateName}}
       </div>
       <div class="ui-g-12 ui-md-2">
           <!-- [routerLink]="['/state/add/', state.id]" -->
