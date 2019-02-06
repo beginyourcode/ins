@@ -9,9 +9,9 @@ import { SelectItem } from 'primeng/components/common/selectitem';
   providedIn: 'root'
 })
 export class StateService {
-  formData: State;
-  list: State[];
-  ddlStates: SelectItem[];
+  //formData: State;
+  //list: State[];
+  //ddlStates: SelectItem[];
 
   constructor(
     //private firestore: AngularFirestore
@@ -19,39 +19,40 @@ export class StateService {
   ) {
     //this.resetData();
   }
-  resetData() {
-    this.formData = {
-      id: null,
-      stateName: '',
-    }
+  // resetData() {
+  //   this.formData = {
+  //     id: null,
+  //     stateName: '',
+  //   }
+  // }
+  // getAll() {
+  //   //return this.firestore.collection("state").snapshotChanges();
+  //   return this.http.get(environment.apiRoot + "/MasterState").toPromise()
+  //     .then(res => this.list = res as State[]);;
+  // }
+  // getDropDown() {
+  //   //return this.firestore.collection("state").snapshotChanges();
+  //   this.http.get<State[]>(environment.apiRoot + "/MasterState").subscribe(arr =>
+  //     this.ddlStates = arr.map(
+  //       state => {
+  //         return {
+  //           label: state.stateName,
+  //           value: state
+  //         } as SelectItem
+  //       }
+  //     )//.forEach(item => this.ddlStates.push(item))
+  //   );
+  // }
+  add(state: State) {
+    return this.http.post(environment.apiRoot + '/MasterState', state);
   }
-  getAll() {
-    //return this.firestore.collection("state").snapshotChanges();
-    return this.http.get(environment.apiRoot + "/MasterState").toPromise()
-      .then(res => this.list = res as State[]);;
+  edit(state: State) {
+    return this.http.put(environment.apiRoot + '/MasterState/' + state.id, state);
   }
-  getDropDown() {
-    //return this.firestore.collection("state").snapshotChanges();
-    this.http.get<State[]>(environment.apiRoot + "/MasterState").subscribe(arr => 
-      this.ddlStates = arr.map(
-      state => {
-        return {
-          label: state.stateName,
-          value: state.id.toString()
-        } as SelectItem
-      }
-    )//.forEach(item => this.ddlStates.push(item))
-    );
+  delete(state: State) {
+    return this.http.delete(environment.apiRoot + '/MasterState/' + state.id);
   }
-  add() {
-    return this.http.post(environment.apiRoot + '/MasterState', this.formData);
+  selectAll() {
+    return this.http.get(environment.apiRoot + "/MasterState");
   }
-  edit() {
-    return this.http.put(environment.apiRoot + '/MasterState/' + this.formData.id, this.formData);
-  }
-  delete(id) {
-    return this.http.delete(environment.apiRoot + '/MasterState/' + id);
-
-  }
-
 }

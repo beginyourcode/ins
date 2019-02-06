@@ -17,6 +17,7 @@ export class StateAddEditComponent implements OnInit {
   @Output() modalVisibleChange = new EventEmitter<boolean>();
 
   title: string;
+  formData: State;
 
   constructor(public service: StateService,
     //private firestore: AngularFirestore,
@@ -36,7 +37,7 @@ export class StateAddEditComponent implements OnInit {
   resetForm(form?: NgForm) {
     if (form != null)
       form.resetForm();
-    this.service.formData = {
+    this.formData = {
       id: 0,
       stateName: '',
     }
@@ -44,7 +45,7 @@ export class StateAddEditComponent implements OnInit {
   }
 
   onSubmit(form: NgForm) {
-    if (this.service.formData.id == 0)
+    if (this.formData.id == 0)
       this.insertRecord(form);
     else
       this.updateRecord(form);
@@ -53,12 +54,12 @@ export class StateAddEditComponent implements OnInit {
   }
 
   insertRecord(form: NgForm) {
-    this.service.add().subscribe(
+    this.service.add(this.formData).subscribe(
       res => {
         debugger;
         this.resetForm(form);
         this.toastr.success('Submitted successfully', 'Payment Detail Register');
-        this.service.getAll();
+        this.service.selectAll();
       },
       err => {
         debugger;
@@ -67,11 +68,11 @@ export class StateAddEditComponent implements OnInit {
     )
   }
   updateRecord(form: NgForm) {
-    this.service.edit().subscribe(
+    this.service.edit(this.formData).subscribe(
       res => {
         this.resetForm(form);
         this.toastr.info('Submitted successfully', 'Payment Detail Register');
-        this.service.getAll();
+        this.service.selectAll();
       },
       err => {
         console.log(err);

@@ -13,8 +13,11 @@
         </div>
       </div>
       <div class="ui-g">
-        <div class="ui-g-12 ui-md-10">
+        <div class="ui-g-12 ui-md-5">
           <strong>City</strong>
+        </div>
+        <div class="ui-g-12 ui-md-5">
+          <strong>State</strong>
         </div>
         <div class="ui-g-12 ui-md-2">
           Actions
@@ -32,8 +35,11 @@
   </p-header>
   <ng-template let-city pTemplate="listItem">
     <div class="ui-g">
-      <div class="ui-g-12 ui-md-10">
+      <div class="ui-g-12 ui-md-5">
         {{city.cityName}}
+      </div>
+      <div class="ui-g-12 ui-md-5">
+        {{city.state.stateName}}
       </div>
       <div class="ui-g-12 ui-md-2">
           <!-- [routerLink]="['/city/add/', city.id]" -->
@@ -55,6 +61,6 @@
 </p-dataView>
 <!-- (onHide)="onModalClose($event)" -->
 <p-dialog [(header)]="titleDialog" [(visible)]="display" [modal]="true" (onHide)="onModalClose($event)" 
-(onShow)="onModalOpen($event)" [responsive]="true" [style]="{width: '600px', minWidth: '500px', height: '400px', minHeight: '300px'}" [minY]="200">
+(onShow)="onModalOpen($event)" [responsive]="true" [style]="{width: '600px', minWidth: '500px', height: '500px', minHeight: '400px'}" [minY]="400">
     <app-city-add [(modalVisible)]="display"></app-city-add>
 </p-dialog>

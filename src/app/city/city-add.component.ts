@@ -16,7 +16,7 @@ import { State } from '../model/state.model';
 })
 export class CityAddComponent implements OnInit {
 
-  
+
   @Input() modalVisible: boolean;
   @Output() modalVisibleChange = new EventEmitter<boolean>();
 
@@ -24,13 +24,13 @@ export class CityAddComponent implements OnInit {
   states: SelectItem[];
   selectedState: string;
   //list: State[];
-  
+
   constructor(public service: CityService,
     public serviceState: StateService,
     //private firestore: AngularFirestore,
     private toastr: ToastrService,
     private router: Router,
-    private route: ActivatedRoute) { 
+    private route: ActivatedRoute) {
 
     //   this.cities = [
     //     {label:'Select City', value:null},
@@ -40,7 +40,7 @@ export class CityAddComponent implements OnInit {
     //     {label:'Istanbul', value:{id:4, name: 'Istanbul', code: 'IST'}},
     //     {label:'Paris', value:{id:5, name: 'Paris', code: 'PRS'}}
     // ];
-    }
+  }
 
   ngOnInit() {
     this.resetForm();
@@ -60,18 +60,19 @@ export class CityAddComponent implements OnInit {
     //   this.title = "Add";
     // else
     //   this.title = "Edit";
-    this.serviceState.getDropDown();
+    this.serviceState.getAll();
+    //this.serviceState.getDropDown();
   }
 
   resetForm(form?: NgForm) {
-    if (form != null) {
+    if (form != null)
       form.resetForm();
-      this.service.formData = {
-        id: 0,
-        state: null,
-        stateId: 0,
-        cityName: '',
-      }
+    this.service.formData = {
+      id: 0,
+      state: null,
+      stateId: 0,
+      cityName: '',
+
     }
   }
   onSubmit(form: NgForm) {

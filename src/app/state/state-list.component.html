@@ -16,7 +16,7 @@
     <pagination-controls (pageChange)="p = $event"></pagination-controls>
   </div>
 </div> -->
-<p-dataView #dv [value]="service.list" [paginator]="true" [rows]="10" paginatorPosition="bottom" filterBy="stateName" [sortField]="sortField"
+<p-dataView #dv [value]="list" [paginator]="true" [rows]="10" paginatorPosition="bottom" filterBy="stateName" [sortField]="sortField"
   [sortOrder]="sortOrder" emptyMessage="Loading...">
   <p-header>
     <div class="ui-helper-clearfix">

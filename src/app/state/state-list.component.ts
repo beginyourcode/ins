@@ -6,6 +6,7 @@ import { ToastrService } from 'ngx-toastr';
 import { ButtonModule } from 'primeng/button';
 import { SelectItem } from 'primeng/components/common/selectitem';
 import { Router } from '@angular/router';
+import { StateAddEditComponent } from './state-add-edit.component';
 
 @Component({
   selector: 'app-state-list',
@@ -13,6 +14,7 @@ import { Router } from '@angular/router';
   styles: []
 })
 export class StateListComponent implements OnInit {
+  formData: State;
 
   list: State[];
 
@@ -48,20 +50,24 @@ export class StateListComponent implements OnInit {
     //     } as State;
     //   })
     // });
-    this.service.getAll();
+    //this.service.getAll();
+    this.resetData();
+    this.refreshData();
     this.sortOptions = [
       { label: 'State Name', value: '!stateName' }
     ];
   }
-
-  onEdit(emp: State) {
-    this.service.formData = Object.assign({}, emp);
+refreshData(){
+  this.service.selectAll().subscribe(array => this.list = array as State[]);
+}
+  onEdit(state: State) {
+    this.formData = Object.assign({}, state);
 
   }
 
   onEditP(event: Event, state: State) {
     //this.service.formData = Object.assign({}, state);
-    this.service.formData = Object.assign({}, state);
+    this.formData = Object.assign({}, state);
     //this.router.navigate(['/state/add/' + state.id]);
     //this.router.navigate(['/state']);
     this.display = true;
@@ -77,9 +83,9 @@ export class StateListComponent implements OnInit {
     if (confirm("Are you sure to delete this record?")) {
       //this.selectedState = state;
       //this.firestore.doc('state/' + this.selectedState.id).delete();
-      this.service.delete(state.id).subscribe(res => {
+      this.service.delete(state).subscribe(res => {
         //debugger;
-        this.service.getAll();
+        this.refreshData();
         this.toastr.warning('Deleted successfully', 'Payment Detail Register');
       },
         err => {
@@ -116,13 +122,20 @@ export class StateListComponent implements OnInit {
     this.display = true;
   }
   onModalClose(event) {
-    this.service.resetData();
+    this.resetData();
+    this.refreshData();
     this.display = false;
   }
   onModalOpen(event) {
-    if (this.service.formData.id == null)
+    if (this.formData.id == null)
       this.titleDialog = "Add";
     else
       this.titleDialog = "Edit";
+  }
+  resetData() {
+    this.formData = {
+      id: null,
+      stateName: '',
+    }
   }
 }
