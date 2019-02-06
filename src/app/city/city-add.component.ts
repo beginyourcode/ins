@@ -16,17 +16,19 @@ import { State } from '../model/state.model';
 })
 export class CityAddComponent implements OnInit {
 
-
+  @Input() formData: City;
   @Input() modalVisible: boolean;
   @Output() modalVisibleChange = new EventEmitter<boolean>();
+  @Output() modalRefreshData = new EventEmitter();
 
   title: string;
-  states: SelectItem[];
+  //states: SelectItem[];
+  states: State[];
   selectedState: string;
   //list: State[];
 
-  constructor(public service: CityService,
-    public serviceState: StateService,
+  constructor(public cityService: CityService,
+    public stateService: StateService,
     //private firestore: AngularFirestore,
     private toastr: ToastrService,
     private router: Router,
@@ -60,14 +62,14 @@ export class CityAddComponent implements OnInit {
     //   this.title = "Add";
     // else
     //   this.title = "Edit";
-    this.serviceState.getAll();
+    this.stateService.selectAll().subscribe(array => this.states = array as State[]);
     //this.serviceState.getDropDown();
   }
 
   resetForm(form?: NgForm) {
     if (form != null)
       form.resetForm();
-    this.service.formData = {
+    this.formData = {
       id: 0,
       state: null,
       stateId: 0,
@@ -76,7 +78,7 @@ export class CityAddComponent implements OnInit {
     }
   }
   onSubmit(form: NgForm) {
-    if (this.service.formData.id == 0)
+    if (this.formData.id == 0)
       this.insertRecord(form);
     else
       this.updateRecord(form);
@@ -85,12 +87,12 @@ export class CityAddComponent implements OnInit {
   }
 
   insertRecord(form: NgForm) {
-    this.service.add().subscribe(
+    this.cityService.add(this.formData).subscribe(
       res => {
         debugger;
         this.resetForm(form);
+        this.modalRefreshData.emit();
         this.toastr.success('Submitted successfully', 'Payment Detail Register');
-        this.service.getAll();
       },
       err => {
         debugger;
@@ -99,11 +101,11 @@ export class CityAddComponent implements OnInit {
     )
   }
   updateRecord(form: NgForm) {
-    this.service.edit().subscribe(
+    this.cityService.edit(this.formData).subscribe(
       res => {
         this.resetForm(form);
+        this.modalRefreshData.emit();
         this.toastr.info('Submitted successfully', 'Payment Detail Register');
-        this.service.getAll();
       },
       err => {
         console.log(err);

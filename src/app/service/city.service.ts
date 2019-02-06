@@ -11,27 +11,27 @@ import { State } from '../model/state.model';
 })
 export class CityService {
 
-  formData: City;
-  list: City[];
-  states: SelectItem[];
+  //formData: City;
+  //list: City[];
+  //states: SelectItem[];
 
   constructor(
     private http: HttpClient
   ) {
-    this.resetData();
+    //this.resetData();
   }
-  resetData() {
-    this.formData = {
-      id: 0,
-      state: null,
-      stateId: 0,
-      cityName: '',
-    }
-  }
-  getAll() {
-    return this.http.get(environment.apiRoot + "/MasterCity").toPromise()
-      .then(res => this.list = res as City[]);;
-  }
+  // resetData() {
+  //   this.formData = {
+  //     id: 0,
+  //     state: null,
+  //     stateId: 0,
+  //     cityName: '',
+  //   }
+  // }
+  // getAll() {
+  //   return this.http.get(environment.apiRoot + "/MasterCity").toPromise()
+  //     .then(res => this.list = res as City[]);;
+  // }
   // getById(stateid: string) {
   //   return this.http.get<State[]>(environment.apiRoot + "/MasterCity")
   //   .subscribe((data: State[]) => );
@@ -47,14 +47,16 @@ export class CityService {
   //   //     })
   //   //   });
   // }
-  add() {
-    return this.http.post(environment.apiRoot + '/MasterCity', this.formData);
+  add(city: City) {
+    return this.http.post(environment.apiRoot + '/MasterCity', city);
   }
-  edit() {
-    return this.http.put(environment.apiRoot + '/MasterCity/' + this.formData.id, this.formData);
+  edit(city: City) {
+    return this.http.put(environment.apiRoot + '/MasterCity/' + city.id, city);
   }
-  delete(id) {
-    return this.http.delete(environment.apiRoot + '/MasterCity/' + id);
+  delete(city: City) {
+    return this.http.delete(environment.apiRoot + '/MasterCity/' + city.id);
   }
-
+  selectAll() {
+    return this.http.get(environment.apiRoot + "/MasterCity");
+  }
 }

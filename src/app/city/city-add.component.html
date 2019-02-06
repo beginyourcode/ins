@@ -2,7 +2,7 @@
   <div class="card">
     <!-- <div class="card-header">{{title}}</div> -->
     <div class="card-body">
-      <input type="hidden" name="id" #id="ngModel" [(ngModel)]="service.formData.id">
+      <input type="hidden" name="id" #id="ngModel" [(ngModel)]="formData.id">
       <div class="form-group">
         <label for="name">State Name</label>
         <div>
@@ -11,15 +11,15 @@
           <p>Selected Car: {{service.formData.state.stateName || 'none'}}</p> -->
           <!-- [(ngModel)]="service.formData.stateId" -->
           <!-- #id="ngModel" [(ngModel)]="service.formData.stateid" -->
-          <select name="stateId" id="stateId" #stateId="ngModel" [(ngModel)]="service.formData.stateId">
-            <option *ngFor="let i of serviceState.list" value="{{i.StateName}}"></option>
+          <select name="stateId" id="stateId" #stateId="ngModel" [(ngModel)]="formData.stateId">
+            <option *ngFor="let i of states" value="{{i.stateName}}">{{i.stateName}}</option>
           </select>
 
         </div>
       </div>
       <div class="form-group">
         <label for="name">City Name</label>
-        <input type="text" name="cityName" id="cityName" class="form-control" #name="ngModel" [(ngModel)]="service.formData.cityName">
+        <input type="text" name="cityName" id="cityName" class="form-control" #name="ngModel" [(ngModel)]="formData.cityName">
       </div>
       <div class="card-footer"><button type="submit" class="btn btn-primary">Save</button></div>
     </div>

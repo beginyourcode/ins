@@ -15,7 +15,8 @@ import { StateService } from '../service/state.service';
 })
 export class CityListComponent implements OnInit {
 
-  //list: City[];
+  editFormData: City;
+  list: City[];
 
   //selectedCity: City;
 
@@ -43,7 +44,7 @@ export class CityListComponent implements OnInit {
   city: any;
 
   joined: any;
-  constructor(public service: CityService,
+  constructor(public cityService: CityService,
     public serviceState: StateService,
     //private firestore: AngularFirestore,
     private toastr: ToastrService,
@@ -58,39 +59,40 @@ export class CityListComponent implements OnInit {
     //     } as City;
     //   })
     // });
-    this.service.getAll();
+    this.refreshData();
     this.sortOptions = [
       { label: 'City Name', value: '!name' }
     ];
     
   }
   
-  onEdit(emp: City) {
-    this.service.formData = Object.assign({}, emp);
+  // onEdit(emp: City) {
+  //   this.cityService.formData = Object.assign({}, emp);
 
-  }
+  // }
 
   onEditP(event: Event, city: City) {
     //this.service.formData = Object.assign({}, city);
-    this.service.formData = Object.assign({}, city);
+    this.editFormData = Object.assign({}, city);
     //this.router.navigate(['/city/add/' + city.id]);
     //this.router.navigate(['/city']);
     this.display = true;
   }
 
-  onDelete(id: string) {
-    if (confirm("Are you sure to delete this record?")) {
-      //this.firestore.doc('city/' + id).delete();
-      this.toastr.warning('Deleted successfully', 'City');
-    }
-  }
+  // onDelete(id: string) {
+  //   if (confirm("Are you sure to delete this record?")) {
+  //     //this.firestore.doc('city/' + id).delete();
+  //     this.toastr.warning('Deleted successfully', 'City');
+  //   }
+  // }
+  
   onDeleteP(event: Event, city: City) {
     if (confirm("Are you sure to delete this record?")) {
       //this.selectedCity = city;
       //this.firestore.doc('city/' + this.selectedCity.id).delete();
-      this.service.delete(city.id).subscribe(res => {
+      this.cityService.delete(city).subscribe(res => {
         //debugger;
-        this.service.getAll();
+        this.refreshData();
         this.toastr.warning('Deleted successfully', 'Payment Detail Register');
       },
         err => {
@@ -119,21 +121,33 @@ export class CityListComponent implements OnInit {
       this.sortField = value;
     }
   }
-
+  resetData() {
+    this.editFormData = {
+      id: 0,
+      state: null,
+      stateId: 0,
+      cityName: '',
+    }
+  }
   onDialogHide() {
     //this.selectedCity = null;
   }
   showDialog() {
+    this.resetData();
     this.display = true;
   }
   onModalClose(event) {
-    this.service.resetData();
+    this.resetData();
     this.display = false;
   }
   onModalOpen(event) {
-    if (this.service.formData.id == null)
+    if (this.editFormData.id == null)
       this.titleDialog = "Add";
     else
       this.titleDialog = "Edit";
   }
+  refreshData() {
+    this.cityService.selectAll().subscribe(array => this.list = array as City[]);
+  }
+  
 }

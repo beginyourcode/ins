@@ -14,7 +14,7 @@ import { StateAddEditComponent } from './state-add-edit.component';
   styles: []
 })
 export class StateListComponent implements OnInit {
-  formData: State;
+  editFormData: State;
 
   list: State[];
 
@@ -36,7 +36,7 @@ export class StateListComponent implements OnInit {
   display: boolean = false;
   titleDialog: string = "Add";
 
-  constructor(public service: StateService,
+  constructor(public stateService: StateService,
     //private firestore: AngularFirestore,
     private toastr: ToastrService,
     private router: Router) { }
@@ -57,17 +57,17 @@ export class StateListComponent implements OnInit {
       { label: 'State Name', value: '!stateName' }
     ];
   }
-refreshData(){
-  this.service.selectAll().subscribe(array => this.list = array as State[]);
-}
+  refreshData() {
+    this.stateService.selectAll().subscribe(array => this.list = array as State[]);
+  }
   onEdit(state: State) {
-    this.formData = Object.assign({}, state);
+    //this.formData = Object.assign({}, state);
 
   }
 
   onEditP(event: Event, state: State) {
     //this.service.formData = Object.assign({}, state);
-    this.formData = Object.assign({}, state);
+    this.editFormData = Object.assign({}, state);
     //this.router.navigate(['/state/add/' + state.id]);
     //this.router.navigate(['/state']);
     this.display = true;
@@ -83,7 +83,7 @@ refreshData(){
     if (confirm("Are you sure to delete this record?")) {
       //this.selectedState = state;
       //this.firestore.doc('state/' + this.selectedState.id).delete();
-      this.service.delete(state).subscribe(res => {
+      this.stateService.delete(state).subscribe(res => {
         //debugger;
         this.refreshData();
         this.toastr.warning('Deleted successfully', 'Payment Detail Register');
@@ -119,21 +119,22 @@ refreshData(){
     this.selectedState = null;
   }
   showDialog() {
+    this.resetData();
     this.display = true;
   }
   onModalClose(event) {
     this.resetData();
-    this.refreshData();
+    //this.refreshData();
     this.display = false;
   }
   onModalOpen(event) {
-    if (this.formData.id == null)
+    if (this.editFormData.id == null)
       this.titleDialog = "Add";
     else
       this.titleDialog = "Edit";
   }
   resetData() {
-    this.formData = {
+    this.editFormData = {
       id: null,
       stateName: '',
     }

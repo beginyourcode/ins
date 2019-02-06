@@ -13,11 +13,12 @@ import { State } from '../model/state.model';
 })
 export class StateAddEditComponent implements OnInit {
 
+  @Input() formData: State;
   @Input() modalVisible: boolean;
   @Output() modalVisibleChange = new EventEmitter<boolean>();
-
+  @Output() modalRefreshData = new EventEmitter();
+  
   title: string;
-  formData: State;
 
   constructor(public service: StateService,
     //private firestore: AngularFirestore,
@@ -49,7 +50,6 @@ export class StateAddEditComponent implements OnInit {
       this.insertRecord(form);
     else
       this.updateRecord(form);
-
     this.modalVisibleChange.emit(false);
   }
 
@@ -58,8 +58,8 @@ export class StateAddEditComponent implements OnInit {
       res => {
         debugger;
         this.resetForm(form);
+        this.modalRefreshData.emit();
         this.toastr.success('Submitted successfully', 'Payment Detail Register');
-        this.service.selectAll();
       },
       err => {
         debugger;
@@ -71,8 +71,8 @@ export class StateAddEditComponent implements OnInit {
     this.service.edit(this.formData).subscribe(
       res => {
         this.resetForm(form);
+        this.modalRefreshData.emit();
         this.toastr.info('Submitted successfully', 'Payment Detail Register');
-        this.service.selectAll();
       },
       err => {
         console.log(err);
