@@ -62,5 +62,5 @@
 <!-- (onHide)="onModalClose($event)" -->
 <p-dialog [(header)]="titleDialog" [(visible)]="display" [modal]="true" (onHide)="onModalClose($event)" 
 (onShow)="onModalOpen($event)" [responsive]="true" [style]="{width: '600px', minWidth: '500px', height: '500px', minHeight: '400px'}" [minY]="400">
-    <app-city-add [(modalVisible)]="display" (modalRefreshData)="refreshData($event)" [(formData)]="editFormData"></app-city-add>
+    <app-city-add [(modalVisible)]="display" (modalRefreshData)="refreshData()" [(formData)]="editFormData"></app-city-add>
 </p-dialog>

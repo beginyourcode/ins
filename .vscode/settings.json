@@ -2,6 +2,5 @@
     "appService.zipIgnorePattern": [
         "node_modules{,/**}"
     ],
-    "appService.defaultWebAppToDeploy": "/subscriptions/1186f026-4503-4162-8bac-eabe13fc3063/resourceGroups/appsvc_rg_linux_centralus/providers/Microsoft.Web/sites/incng",
     "appService.deploySubpath": "dist\\INS"
 }

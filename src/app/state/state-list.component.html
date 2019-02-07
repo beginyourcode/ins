@@ -73,5 +73,5 @@
 </p-dataView>
 <!-- (onHide)="onModalClose($event)" -->
 <p-dialog [(header)]="titleDialog" [(visible)]="display" [modal]="true" (onHide)="onModalClose($event)" (onShow)="onModalOpen($event)" [responsive]="true" [style]="{width: '500px', minWidth: '300px'}" [minY]="70">
-    <app-state-add-edit [(modalVisible)]="display" (modalRefreshData)="refreshData($event)" [(formData)]="editFormData"></app-state-add-edit>
+    <app-state-add-edit [(modalVisible)]="display" (modalRefreshData)="refreshData()" [(formData)]="editFormData"></app-state-add-edit>
 </p-dialog>
