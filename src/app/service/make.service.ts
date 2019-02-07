@@ -1,48 +1,25 @@
 import { Injectable } from '@angular/core';
 import { Make } from '../model/make.model';
-//import { AngularFirestore } from '@angular/fire/firestore';
+import { HttpClient } from '@angular/common/http';
+import { environment } from 'src/environments/environment';
 
 @Injectable({
   providedIn: 'root'
 })
 export class MakeService {
-  formData: Make;
 
-  constructor(
-    //private firestore: AngularFirestore
-    ) {
-    this.resetData();
+  constructor(private http: HttpClient) {
   }
-  resetData(){
-    this.formData = {
-      id: null,
-      makename: '',
-      istopmake: false,
-    }
+  add(make: Make) {
+    return this.http.post(environment.apiRoot + '/MasterMake', make);
   }
-  getAll() {
-    //return this.firestore.collection("make").snapshotChanges();
-  }
-  add(make: any) {
-    let data = Object.assign({}, make);
-    delete data.id;
-    //this.firestore.collection('make').add(data);
-  }
-  edit(make: any) {
-    let data = Object.assign({}, make);
-    delete data.id;
-    //this.firestore.doc('make/' + make.id).update(data);
+  edit(make: Make) {
+    return this.http.put(environment.apiRoot + '/MasterMake/' + make.id, make);
   }
   delete(make: Make) {
-    //this.firestore.doc('make/' + make.id).delete();
+    return this.http.delete(environment.apiRoot + '/MasterMake/' + make.id);
   }
-  addFromJson(make: any) {
-    let data = Object.assign({}, make);
-    delete data.id;
-    //this.firestore.collection('make').doc(make.id).set(data);
-  }
-  getCount()
-  {
-    
+  selectAll() {
+    return this.http.get<Make[]>(environment.apiRoot + "/MasterMake");
   }
 }

@@ -1,4 +1,6 @@
 import { Injectable } from '@angular/core';
+import { environment } from 'src/environments/environment';
+import { HttpClient } from '@angular/common/http';
 import { Variant } from '../model/variant.model';
 //import { AngularFirestore } from '@angular/fire/firestore';
 
@@ -6,40 +8,21 @@ import { Variant } from '../model/variant.model';
   providedIn: 'root'
 })
 export class VariantService {
-  formData: Variant;
-
-  constructor(
-    //private firestore: AngularFirestore
-    ) {
-    this.resetData();
+  constructor(private http: HttpClient) {
   }
-  resetData(){
-    this.formData = {
-      id: null,
-      modelid: null,
-      fueltypeid: null,
-      variantname:''
-    }
+  add(variant: Variant) {
+    return this.http.post(environment.apiRoot + '/MasterVariant', variant);
   }
-  getAll() {
-    //return this.firestore.collection("variant").snapshotChanges();
-  }
-  add(variant: any) {
-    let data = Object.assign({}, variant);
-    delete data.id;
-    //this.firestore.collection('variant').add(data);
-  }
-  edit(variant: any) {
-    let data = Object.assign({}, variant);
-    delete data.id;
-    //this.firestore.doc('variant/' + variant.id).update(data);
+  edit(variant: Variant) {
+    return this.http.put(environment.apiRoot + '/MasterVariant/' + variant.id, variant);
   }
   delete(variant: Variant) {
-    //this.firestore.doc('variant/' + variant.id).delete();
+    return this.http.delete(environment.apiRoot + '/MasterVariant/' + variant.id);
   }
-  addFromJson(variant: any) {
-    let data = Object.assign({}, variant);
-    delete data.id;
-    //this.firestore.collection('variant').doc(variant.id).set(data);
+  selectAll() {
+    return this.http.get<Variant[]>(environment.apiRoot + "/MasterVariant");
+  }
+  selectByModelAndFuelTypeId(modelId: number, fuelTypeId: number) {
+    return this.http.get<Variant[]>(environment.apiRoot + "/MasterVariant/bymodel?modelid=" + modelId + "&fueltypeid=" + fuelTypeId);
   }
 }

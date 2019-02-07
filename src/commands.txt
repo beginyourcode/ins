@@ -12,3 +12,11 @@ npm install angular2-wizard
 npm install primeng primeicons ngx-pagination angular-font-awesome font-awesome ngx-toastr
 
 ng g c state/stateapi-list --flat=true --spec=false -is
+ng g c make/make-list --flat=true --spec=false -is
+ng g c make/make-add --flat=true --spec=false -is
+ng g c motormodel/model-list --flat=true --spec=false -is
+ng g c motormodel/model-add --flat=true --spec=false -is
+ng g c fueltype/fueltype-list --flat=true --spec=false -is
+ng g c fueltype/fueltype-add --flat=true --spec=false -is
+ng g c variant/variant-list --flat=true --spec=false -is
+ng g c variant/variant-add --flat=true --spec=false -is

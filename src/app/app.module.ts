@@ -9,11 +9,13 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgxPaginationModule } from 'ngx-pagination';
 import { HttpClientModule } from '@angular/common/http';
 
+// Prime Ng
 import { DataViewModule } from 'primeng/dataview';
 import { PaginatorModule } from 'primeng/paginator';
 import { ButtonModule } from 'primeng/button';
 import { DialogModule } from 'primeng/dialog';
 import { DropdownModule } from 'primeng/dropdown';
+import {RadioButtonModule} from 'primeng/radiobutton';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -47,6 +49,14 @@ import { FueltypeService } from './service/fueltype.service';
 import { VariantService } from './service/variant.service';
 import { StateapiListComponent } from './state/stateapi-list.component';
 import { StateapiService } from './service/stateapi.service';
+import { MakeListComponent } from './make/make-list.component';
+import { MakeAddComponent } from './make/make-add.component';
+import { ModelListComponent } from './motormodel/model-list.component';
+import { ModelAddComponent } from './motormodel/model-add.component';
+import { FueltypeListComponent } from './fueltype/fueltype-list.component';
+import { FueltypeAddComponent } from './fueltype/fueltype-add.component';
+import { VariantListComponent } from './variant/variant-list.component';
+import { VariantAddComponent } from './variant/variant-add.component';
 
 @NgModule({
   declarations: [
@@ -60,7 +70,7 @@ import { StateapiService } from './service/stateapi.service';
     CityListComponent,
     AdminComponent,
     StepsbarComponent,
-    PersonalComponent, WorkComponent, AddressComponent, ResultComponent, StateapiListComponent
+    PersonalComponent, WorkComponent, AddressComponent, ResultComponent, StateapiListComponent, MakeListComponent, MakeAddComponent, ModelListComponent, ModelAddComponent, FueltypeListComponent, FueltypeAddComponent, VariantListComponent, VariantAddComponent
 
   ],
   imports: [
@@ -69,7 +79,7 @@ import { StateapiService } from './service/stateapi.service';
     //AngularFirestoreModule, AngularFireModule.initializeApp(environment.firebaseConfigI),
     ToastrModule.forRoot({ positionClass: 'toast-bottom-right' }),
     NgxPaginationModule,
-    DataViewModule, PaginatorModule, ButtonModule, DialogModule, DropdownModule,
+    DataViewModule, PaginatorModule, ButtonModule, DialogModule, DropdownModule, RadioButtonModule,
     FormWizardModule
   ],
   providers: [StateService, DataImportService, CityService, RtoService, MakeService, ModelService

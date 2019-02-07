@@ -64,33 +64,33 @@ export class AdminComponent implements OnInit {
 
     
   }
-  uploadMake() {
-    this.dataImport.getMake().subscribe((data: Make[]) =>
-      data.map(item => {
-        this.makeService.addFromJson(item);
-      })
-    );
-  }
-  uploadModel() {
-    this.dataImport.getModel().subscribe((data: Model[]) =>
-      data.map(item => {
-        this.modelService.addFromJson(item);
-      })
-    );
-  }
-  uploadFuelType() {
-    this.dataImport.getFuelType().subscribe((data: FuelType[]) =>
-      data.map(item => {
-        this.fueltypeService.addFromJson(item);
-      })
-    );
-  }
-  uploadVariant() {
-    this.dataImport.getVariant().subscribe((data: Variant[]) =>
-      data.map(item => {
-        this.variantService.addFromJson(item);
-      })
-    );
-  }
+  // uploadMake() {
+  //   this.dataImport.getMake().subscribe((data: Make[]) =>
+  //     data.map(item => {
+  //       this.makeService.addFromJson(item);
+  //     })
+  //   );
+  // }
+  // uploadModel() {
+  //   this.dataImport.getModel().subscribe((data: Model[]) =>
+  //     data.map(item => {
+  //       this.modelService.addFromJson(item);
+  //     })
+  //   );
+  // }
+  // uploadFuelType() {
+  //   this.dataImport.getFuelType().subscribe((data: FuelType[]) =>
+  //     data.map(item => {
+  //       this.fueltypeService.addFromJson(item);
+  //     })
+  //   );
+  // }
+  // uploadVariant() {
+  //   this.dataImport.getVariant().subscribe((data: Variant[]) =>
+  //     data.map(item => {
+  //       this.variantService.addFromJson(item);
+  //     })
+  //   );
+  // }
 }
 

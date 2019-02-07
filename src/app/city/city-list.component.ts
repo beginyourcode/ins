@@ -93,7 +93,7 @@ export class CityListComponent implements OnInit {
       this.cityService.delete(city).subscribe(res => {
         //debugger;
         this.refreshData();
-        this.toastr.warning('Deleted successfully', 'Payment Detail Register');
+        this.toastr.warning('Deleted successfully', 'City');
       },
         err => {
           debugger;

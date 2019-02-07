@@ -53,6 +53,6 @@ export class StateService {
     return this.http.delete(environment.apiRoot + '/MasterState/' + state.id);
   }
   selectAll() {
-    return this.http.get(environment.apiRoot + "/MasterState");
+    return this.http.get<State[]>(environment.apiRoot + "/MasterState");
   }
 }

@@ -1,5 +1,5 @@
 export class Make {
-    id: string;
-    makename: string;
+    id: number;
+    makeName: string;
     istopmake: boolean
 }

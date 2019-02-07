@@ -6,13 +6,13 @@
       <div class="form-group">
         <label for="name">State Name</label>
         <div>
-          <!-- <p-dropdown #stateId="ngModel" name="stateId" [options]="serviceState.list" optionLabel="stateName" filter="true" 
-          [style]="{'width':'150px'}" placeholder="Select a State" [(ngModel)]="service.formData.state.stateName"></p-dropdown>
-          <p>Selected Car: {{service.formData.state.stateName || 'none'}}</p> -->
+          <p-dropdown #stateId="ngModel" name="stateId" [options]="ddlPStates" filter="true" 
+          [style]="{'width':'150px'}" placeholder="Select a State" [(ngModel)]="formData.stateId"></p-dropdown>
+          <p>Selected Car: {{formData.stateId || 'none'}}</p>
           <!-- [(ngModel)]="service.formData.stateId" -->
           <!-- #id="ngModel" [(ngModel)]="service.formData.stateid" -->
           <select name="stateId" id="stateId" #stateId="ngModel" [(ngModel)]="formData.stateId">
-            <option *ngFor="let i of states" value="{{i.stateName}}">{{i.stateName}}</option>
+            <option *ngFor="let i of states" value="{{i.id}}">{{i.stateName}}</option>
           </select>
 
         </div>
@@ -26,4 +26,4 @@
   </div>
 </form>
 {{form.value | json}}<br/>
-{{service.formData | json}}
+{{formData | json}}

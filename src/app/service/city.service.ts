@@ -57,6 +57,7 @@ export class CityService {
     return this.http.delete(environment.apiRoot + '/MasterCity/' + city.id);
   }
   selectAll() {
-    return this.http.get(environment.apiRoot + "/MasterCity");
+    return this.http.get<City[]>(environment.apiRoot + "/MasterCity");
   }
+  
 }

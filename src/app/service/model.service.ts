@@ -1,45 +1,27 @@
 import { Injectable } from '@angular/core';
 import { Model } from '../model/model.model';
-//import { AngularFirestore } from '@angular/fire/firestore';
+import { HttpClient } from '@angular/common/http';
+import { environment } from 'src/environments/environment';
 
 @Injectable({
   providedIn: 'root'
 })
 export class ModelService {
-  formData: Model;
-
-  constructor(
-    //private firestore: AngularFirestore
-    ) {
-    this.resetData();
+  constructor(private http: HttpClient) {
   }
-  resetData(){
-    this.formData = {
-      id: null,
-      makeid: null,
-      modelname: '',
-      istopmodel: false,
-    }
+  add(model: Model) {
+    return this.http.post(environment.apiRoot + '/MasterModel', model);
   }
-  getAll() {
-    //return this.firestore.collection("model").snapshotChanges();
-  }
-  add(model: any) {
-    let data = Object.assign({}, model);
-    delete data.id;
-    //this.firestore.collection('model').add(data);
-  }
-  edit(model: any) {
-    let data = Object.assign({}, model);
-    delete data.id;
-    //this.firestore.doc('model/' + model.id).update(data);
+  edit(model: Model) {
+    return this.http.put(environment.apiRoot + '/MasterModel/' + model.id, model);
   }
   delete(model: Model) {
-    //this.firestore.doc('model/' + model.id).delete();
+    return this.http.delete(environment.apiRoot + '/MasterModel/' + model.id);
   }
-  addFromJson(model: any) {
-    let data = Object.assign({}, model);
-    delete data.id;
-    //this.firestore.collection('model').doc(model.id).set(data);
+  selectAll() {
+    return this.http.get<Model[]>(environment.apiRoot + "/MasterModel");
+  }
+  selectByMakeId(id: number) {
+    return this.http.get<Model[]>(environment.apiRoot + "/MasterModel/bymake/" + id);
   }
 }

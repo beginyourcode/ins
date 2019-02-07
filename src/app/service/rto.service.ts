@@ -1,47 +1,27 @@
 import { Injectable } from '@angular/core';
 import { Rto } from '../model/rto.model';
-//import { AngularFirestore } from '@angular/fire/firestore';
+import { HttpClient } from '@angular/common/http';
+import { environment } from 'src/environments/environment';
 
 @Injectable({
   providedIn: 'root'
 })
 export class RtoService {
-  formData: Rto;
-
-  constructor(
-    //private firestore: AngularFirestore
-    ) {
-    this.resetData();
+  constructor(private http: HttpClient) {
   }
-  resetData() {
-    this.formData = {
-      id: null,
-      cityid: '',
-      name: '',
-    }
+  add(rto: Rto) {
+    return this.http.post(environment.apiRoot + '/MasterRto', rto);
   }
-  getAll() {
-    //return this.firestore.collection("rto").snapshotChanges();
-  }
-  getByCityId(cityid: string) {
-    //return this.firestore.collection("rto", q => q.where("cityid", "==", cityid)).snapshotChanges();
-  }
-  add(rto: any) {
-    let data = Object.assign({}, rto);
-    delete data.id;
-    //this.firestore.collection('rto').add(data);
-  }
-  edit(rto: any) {
-    let data = Object.assign({}, rto);
-    delete data.id;
-    //this.firestore.doc('rto/' + rto.id).update(data);
+  edit(rto: Rto) {
+    return this.http.put(environment.apiRoot + '/MasterRto/' + rto.id, rto);
   }
   delete(rto: Rto) {
-    //this.firestore.doc('rto/' + rto.id).delete();
+    return this.http.delete(environment.apiRoot + '/MasterRto/' + rto.id);
   }
-  addFromJson(rto: any) {
-    let data = Object.assign({}, rto);
-    delete data.id;
-    //this.firestore.collection('rto').doc(rto.id).set(data);
+  selectAll() {
+    return this.http.get<Rto[]>(environment.apiRoot + "/MasterRto");
+  }
+  selectByStateId(id: number) {
+    return this.http.get<Rto[]>(environment.apiRoot + "/MasterRto/bystate/" + id);
   }
 }

@@ -37,7 +37,7 @@
         </div> -->
 <div class="h-100">
     <div class="row h-100 justify-content-center align-items-center">
-        <form class="col-8 card shadow-lg p-3 mb-5 bg-white rounded justify-content-center align-items-center">
+        <form #form="ngForm" autocomplete="off" (submit)="onSubmit(form)" class="col-8 card shadow-lg p-3 mb-5 bg-white rounded justify-content-center align-items-center">
 
             <form-wizard style="width:100%; ">
                 <wizard-step [title]="'Reg No'" (onNext)="onStep1Next($event)">
@@ -60,29 +60,22 @@
                                 <div class="form-group">
                                     <label for="stateId">State</label>
                                     <div>
-                                        <p-dropdown name="stateId" [options]="states" filter="true" [style]="{'width':'250px'}"
-                                            (onChange)="onStateChange($event)" placeholder="Select a State" ></p-dropdown>
-                                        <p>{{service.formData.stateId || 'none'}}</p>
+                                        <p-dropdown name="stateId" [options]="ddlPStates" filter="true" [style]="{'width':'250px'}"
+                                            (onChange)="onStateChange($event)" placeholder="Select a State"></p-dropdown>
+                                        <!-- <p>{{service.formData.stateId || 'none'}}</p> -->
                                     </div>
                                 </div>
 
                                 <div class="form-group">
-                                    <label for="cityid">City</label>
+                                    <label for="cityid">City / RTO</label>
                                     <div>
-                                        <p-dropdown name="cityid" [options]="cities" filter="true" [style]="{'width':'250px'}"
-                                            (onChange)="onCityChange($event)" placeholder="Select a City" ></p-dropdown>
-                                        <p>{{service.formData.stateId || 'none'}}</p>
+                                        <p-dropdown name="cityid" [options]="ddlPRto" filter="true" [style]="{'width':'250px'}"
+                                            (onChange)="onCityChange($event)" placeholder="Select a City / RTO"></p-dropdown>
+                                        <!-- <p>{{service.formData.stateId || 'none'}}</p> -->
                                     </div>
                                 </div>
 
-                                <div class="form-group">
-                                    <label for="rtoid">RTO</label>
-                                    <div>
-                                        <p-dropdown name="rtoid" [options]="rto" filter="true" [style]="{'width':'250px'}"
-                                            placeholder="Select a RTO" ></p-dropdown>
-                                        <p>{{service.formData.stateId || 'none'}}</p>
-                                    </div>
-                                </div>
+
                             </div>
 
                         </div>
@@ -93,9 +86,60 @@
                 </wizard-step>
                 <wizard-step [title]="'Model'" (onNext)="onStep3Next($event)">
                     <h1>Step3</h1>
+
+                    <div class="form-group">
+                        <label for="stateId">Make</label>
+                        <div>
+                            <p-dropdown #makeId="ngModel" name="makeId" [(ngModel)]="quote.makeId" [options]="ddlPMake"
+                                filter="true" [style]="{'width':'250px'}" (onChange)="onMakeChange($event)" placeholder="Select a Make"></p-dropdown>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="stateId">Model</label>
+                        <div>
+                            <p-dropdown #modelId="ngModel" name="modelId" [(ngModel)]="quote.modelId" [options]="ddlPModel"
+                                filter="true" [style]="{'width':'250px'}" (onChange)="onModelChange($event)"
+                                placeholder="Select a Model"></p-dropdown>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="stateId">Fuel Type</label>
+                        <div>
+                            <p-dropdown #fuelTypeId="ngModel" name="fuelTypeId" [(ngModel)]="quote.fuelTypeId"
+                                [options]="ddlPFueltype" filter="true" [style]="{'width':'250px'}" (onChange)="onFuelTypeChange($event)"
+                                placeholder="Select a Fuel type"></p-dropdown>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="stateId">Variant</label>
+                        <div>
+                            <p-dropdown #variantId="ngModel" name="variantId" [(ngModel)]="quote.variantId" [options]="ddlPVariant"
+                                filter="true" [style]="{'width':'250px'}" placeholder="Select a Variant"></p-dropdown>
+                        </div>
+                    </div>
+
                 </wizard-step>
                 <wizard-step [title]="'Previous Policy'" (onNext)="onStep3Next($event)">
-                    <h1>Step3</h1>
+                    <h1>Previous Policy Details</h1>
+                    <h3>(Refer RC Book and previous policy copy)</h3>
+                    <div class="form-group">
+                        <label for="stateId">Previous policy expiry date</label>
+                        <div>
+                            <select name="policyExpiration" id="policyExpiration">
+                                <option value="1">Expiring today or tomorrow</option>
+                                <option value="1">Expiring in few days</option>
+                                <option value="1">Expired, less than 90 days ago</option>
+                                <option value="1">Expired, more than 90 days ago</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="stateId">Previous policy type</label>
+                        <div>
+                                <p-radioButton name="groupname" value="Comprehensive" label="Comprehensive" [(ngModel)]="selectedValue"></p-radioButton>
+                                <p-radioButton name="groupname" value="Third Party" label="Third Party" [(ngModel)]="selectedValue"></p-radioButton>
+                        </div>
+                    </div>
                 </wizard-step>
                 <wizard-step [title]="'Profile'" (onComplete)="onComplete($event)">
                     <div [ngSwitch]="isCompleted">

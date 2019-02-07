@@ -1,43 +1,28 @@
 import { Injectable } from '@angular/core';
 import { FuelType } from '../model/fueltype.model';
+import { environment } from 'src/environments/environment';
+import { HttpClient } from '@angular/common/http';
 //import { AngularFirestore } from '@angular/fire/firestore';
 
 @Injectable({
   providedIn: 'root'
 })
 export class FueltypeService {
-  formData: FuelType;
-
-  constructor(
-    //private firestore: AngularFirestore
-    ) {
-    this.resetData();
+  constructor(private http: HttpClient) {
   }
-  resetData(){
-    this.formData = {
-      id: null,
-      name: '',
-    }
+  add(model: FuelType) {
+    return this.http.post(environment.apiRoot + '/MasterFuelType', model);
   }
-  getAll() {
-    //return this.firestore.collection("fueltype").snapshotChanges();
+  edit(model: FuelType) {
+    return this.http.put(environment.apiRoot + '/MasterFuelType/' + model.id, model);
   }
-  add(fueltype: any) {
-    let data = Object.assign({}, fueltype);
-    delete data.id;
-    //this.firestore.collection('fueltype').add(data);
+  delete(model: FuelType) {
+    return this.http.delete(environment.apiRoot + '/MasterFuelType/' + model.id);
   }
-  edit(fueltype: any) {
-    let data = Object.assign({}, fueltype);
-    delete data.id;
-    //this.firestore.doc('fueltype/' + fueltype.id).update(data);
+  selectAll() {
+    return this.http.get<FuelType[]>(environment.apiRoot + "/MasterFuelType");
   }
-  delete(fueltype: FuelType) {
-    //this.firestore.doc('fueltype/' + fueltype.id).delete();
-  }
-  addFromJson(fueltype: any) {
-    let data = Object.assign({}, fueltype);
-    delete data.id;
-    //this.firestore.collection('fueltype').doc(fueltype.id).set(data);
+  selectByModelId(id: number) {
+    return this.http.get<FuelType[]>(environment.apiRoot + "/MasterFuelType/bymodel/" + id);
   }
 }

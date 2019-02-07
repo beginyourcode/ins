@@ -13,6 +13,10 @@ import { WorkflowGuard } from './workflow/workflow-guard.service';
 import { AddressComponent } from './address/address.component';
 import { ResultComponent } from './result/result.component';
 import { StateapiListComponent } from './state/stateapi-list.component';
+import { MakeListComponent } from './make/make-list.component';
+import { ModelListComponent } from './motormodel/model-list.component';
+import { FueltypeListComponent } from './fueltype/fueltype-list.component';
+import { VariantListComponent } from './variant/variant-list.component';
 
 const routes: Routes = [
   { path: 'signin', component: LoginComponent },
@@ -23,6 +27,11 @@ const routes: Routes = [
   { path: 'cities', component: CityListComponent },
   { path: 'admin', component: AdminComponent },
   { path: 'quote', component: QuoteComponent },
+
+  { path: 'make', component: MakeListComponent },
+  { path: 'model', component: ModelListComponent },
+  { path: 'fueltype', component: FueltypeListComponent },
+  { path: 'variant', component: VariantListComponent },
 
   // 1st Route
   { path: 'personal',  component: PersonalComponent },

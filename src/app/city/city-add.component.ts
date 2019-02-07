@@ -22,7 +22,7 @@ export class CityAddComponent implements OnInit {
   @Output() modalRefreshData = new EventEmitter();
 
   title: string;
-  //states: SelectItem[];
+  ddlPStates: SelectItem[];
   states: State[];
   selectedState: string;
   //list: State[];
@@ -63,6 +63,17 @@ export class CityAddComponent implements OnInit {
     // else
     //   this.title = "Edit";
     this.stateService.selectAll().subscribe(array => this.states = array as State[]);
+    this.stateService.selectAll().subscribe(
+      arr =>
+      this.ddlPStates = arr.map(
+        state => {
+          return {
+            label: state.stateName,
+            value: state.id
+          } as SelectItem
+        }
+      )
+    );
     //this.serviceState.getDropDown();
   }
 
@@ -90,9 +101,9 @@ export class CityAddComponent implements OnInit {
     this.cityService.add(this.formData).subscribe(
       res => {
         debugger;
+        this.toastr.success('Added successfully', 'City');
         this.resetForm(form);
         this.modalRefreshData.emit();
-        this.toastr.success('Submitted successfully', 'Payment Detail Register');
       },
       err => {
         debugger;
@@ -103,9 +114,9 @@ export class CityAddComponent implements OnInit {
   updateRecord(form: NgForm) {
     this.cityService.edit(this.formData).subscribe(
       res => {
+        this.toastr.success('Updated successfully', 'City');
         this.resetForm(form);
         this.modalRefreshData.emit();
-        this.toastr.info('Submitted successfully', 'Payment Detail Register');
       },
       err => {
         console.log(err);
