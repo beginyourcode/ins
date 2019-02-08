@@ -15,7 +15,6 @@ import { ResultComponent } from './result/result.component';
 import { StateapiListComponent } from './state/stateapi-list.component';
 import { MakeListComponent } from './make/make-list.component';
 import { ModelListComponent } from './motormodel/model-list.component';
-import { FueltypeListComponent } from './fueltype/fueltype-list.component';
 import { VariantListComponent } from './variant/variant-list.component';
 
 const routes: Routes = [
@@ -30,7 +29,6 @@ const routes: Routes = [
 
   { path: 'make', component: MakeListComponent },
   { path: 'model', component: ModelListComponent },
-  { path: 'fueltype', component: FueltypeListComponent },
   { path: 'variant', component: VariantListComponent },
 
   // 1st Route

@@ -41,110 +41,201 @@
 
             <form-wizard style="width:100%; ">
                 <wizard-step [title]="'Reg No'" (onNext)="onStep1Next($event)">
+                    <div class="wizard-step d-flex justify-content-center">
 
-                    <div id="dvregno" class="col-12 wizard-step">
 
-                        <div class="row">
-                            <div class="col-sm">
-                                Reg No
-                                <div class="input-group mb-3">
-                                    <div class="input-group-prepend">
-                                        <span class="input-group-text"><i class="fa fa-motorcycle iconpos"></i></span>
-                                        <span class="input-group-text">Reg No.</span>
+                        <div id="dvregno" class="col-6 ">
+                            <h4>Car Registration Information</h4>
+                            <div *ngIf="bShowRegNo">
+                                <div class="form-group">
+                                    <label for="regNo">Reg No</label>
+                                    <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text"><i class="fa fa-car iconpos"></i></span>
+                                            <!-- <span class="input-group-text">Reg No.</span> -->
 
+                                        </div>
+                                        <input name="regNo" class="form-control" type="text" placeholder="E.G. DL01AB1234">
                                     </div>
-                                    <input class="form-control" type="text" placeholder="E.G. DL01AB1234">
                                 </div>
+                                <div class="form-group">
+                                    <!-- <a href="#" (click)="bShowRegNo = !bShowRegNo">I do not have a registration number</a> -->
+                                    <button type="button" class="btn btn-link" (click)="bShowRegNo = !bShowRegNo">I do
+                                        not
+                                        have a registration number</button>
+                                </div>
+
                             </div>
-                            <div class="col-sm">
+                            <div *ngIf="!bShowRegNo">
                                 <div class="form-group">
                                     <label for="stateId">State</label>
                                     <div>
-                                        <p-dropdown name="stateId" [options]="ddlPStates" filter="true" [style]="{'width':'250px'}"
+                                        <p-dropdown name="stateId" [options]="ddlPStates" filter="true" [style]="{'width':'100%'}"
                                             (onChange)="onStateChange($event)" placeholder="Select a State"></p-dropdown>
                                         <!-- <p>{{service.formData.stateId || 'none'}}</p> -->
                                     </div>
                                 </div>
-
                                 <div class="form-group">
                                     <label for="cityid">City / RTO</label>
                                     <div>
-                                        <p-dropdown name="cityid" [options]="ddlPRto" filter="true" [style]="{'width':'250px'}"
+                                        <p-dropdown name="cityid" [options]="ddlPRto" filter="true" [style]="{'width':'100%'}"
                                             (onChange)="onCityChange($event)" placeholder="Select a City / RTO"></p-dropdown>
                                         <!-- <p>{{service.formData.stateId || 'none'}}</p> -->
                                     </div>
                                 </div>
+                                <div class="form-group">
+                                    <!-- <a href="#" (click)="bShowRegNo = !bShowRegNo" >I have a registration number</a> -->
+                                    <button type="button" class="btn btn-link" (click)="bShowRegNo = !bShowRegNo">I
+                                        have a
+                                        registration number</button>
 
-
+                                </div>
                             </div>
-
                         </div>
-
-
-
                     </div>
                 </wizard-step>
                 <wizard-step [title]="'Model'" (onNext)="onStep3Next($event)">
-                    <h1>Step3</h1>
+                    <div class="wizard-step d-flex justify-content-center">
 
-                    <div class="form-group">
-                        <label for="stateId">Make</label>
-                        <div>
-                            <p-dropdown #makeId="ngModel" name="makeId" [(ngModel)]="quote.makeId" [options]="ddlPMake"
-                                filter="true" [style]="{'width':'250px'}" (onChange)="onMakeChange($event)" placeholder="Select a Make"></p-dropdown>
+                        <div id="dvModel" class="col-6">
+                            <h4>Your Car details</h4>
+                            <div class="form-group row">
+                                <label for="stateId" class="col-sm-4 col-form-label">Make</label>
+                                <div class="col-sm-8">
+                                    <p-dropdown #makeId="ngModel" name="makeId" [(ngModel)]="quote.makeId" [options]="ddlPMake"
+                                        filter="true" [style]="{'width':'250px'}" (onChange)="onMakeChange($event)"
+                                        placeholder="Select a Make"></p-dropdown>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="stateId" class="col-sm-4 col-form-label">Model</label>
+                                <div class="col-sm-8">
+                                    <p-dropdown #modelId="ngModel" name="modelId" [(ngModel)]="quote.modelId" [options]="ddlPModel"
+                                        filter="true" [style]="{'width':'250px'}" (onChange)="onModelChange($event)"
+                                        placeholder="Select a Model"></p-dropdown>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="stateId" class="col-sm-4 col-form-label">Fuel Type</label>
+                                <div class="col-sm-8">
+                                    <p-dropdown #fuelTypeId="ngModel" name="fuelTypeId" [(ngModel)]="quote.fuelTypeId"
+                                        [options]="ddlPFueltype" filter="true" [style]="{'width':'250px'}" (onChange)="onFuelTypeChange($event)"
+                                        placeholder="Select a Fuel type"></p-dropdown>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="stateId" class="col-sm-4 col-form-label">Variant</label>
+                                <div class="col-sm-8">
+                                    <p-dropdown #variantId="ngModel" name="variantId" [(ngModel)]="quote.variantId"
+                                        [options]="ddlPVariant" filter="true" [style]="{'width':'250px'}" placeholder="Select a Variant"></p-dropdown>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="form-group">
-                        <label for="stateId">Model</label>
-                        <div>
-                            <p-dropdown #modelId="ngModel" name="modelId" [(ngModel)]="quote.modelId" [options]="ddlPModel"
-                                filter="true" [style]="{'width':'250px'}" (onChange)="onModelChange($event)"
-                                placeholder="Select a Model"></p-dropdown>
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label for="stateId">Fuel Type</label>
-                        <div>
-                            <p-dropdown #fuelTypeId="ngModel" name="fuelTypeId" [(ngModel)]="quote.fuelTypeId"
-                                [options]="ddlPFueltype" filter="true" [style]="{'width':'250px'}" (onChange)="onFuelTypeChange($event)"
-                                placeholder="Select a Fuel type"></p-dropdown>
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label for="stateId">Variant</label>
-                        <div>
-                            <p-dropdown #variantId="ngModel" name="variantId" [(ngModel)]="quote.variantId" [options]="ddlPVariant"
-                                filter="true" [style]="{'width':'250px'}" placeholder="Select a Variant"></p-dropdown>
-                        </div>
-                    </div>
-
                 </wizard-step>
                 <wizard-step [title]="'Previous Policy'" (onNext)="onStep3Next($event)">
-                    <h1>Previous Policy Details</h1>
-                    <h3>(Refer RC Book and previous policy copy)</h3>
-                    <div class="form-group">
-                        <label for="stateId">Previous policy expiry date</label>
-                        <div>
-                            <select name="policyExpiration" id="policyExpiration">
-                                <option value="1">Expiring today or tomorrow</option>
-                                <option value="1">Expiring in few days</option>
-                                <option value="1">Expired, less than 90 days ago</option>
-                                <option value="1">Expired, more than 90 days ago</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label for="stateId">Previous policy type</label>
-                        <div>
-                                <p-radioButton name="groupname" value="Comprehensive" label="Comprehensive" ></p-radioButton>
-                                <p-radioButton name="groupname" value="Third Party" label="Third Party" ></p-radioButton>
+                    <div class="wizard-step d-flex justify-content-center">
+
+                        <div id="dvPrevPolicy" class="col-9">
+                            <h4>Previous Policy Details</h4>
+                            <h6>(Refer RC Book and previous policy copy)</h6>
+                            <div class="form-group row">
+                                <label for="stateId" class="col-sm-5 col-form-label">Previous policy expiry date</label>
+                                <div class="col-sm-7">
+                                    <div>
+                                        <select name="policyExpiration" id="policyExpiration" class="custom-select">
+                                            <option value="1">Expiring today or tomorrow</option>
+                                            <option value="1">Expiring in few days</option>
+                                            <option value="1">Expired, less than 90 days ago</option>
+                                            <option value="1">Expired, more than 90 days ago</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="stateId" class="col-sm-5 col-form-label">Previous policy type</label>
+                                <div class="col-sm-7">
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+                                        <label class="custom-control-label" for="customRadio1">Comprehensive</label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+                                        <label class="custom-control-label" for="customRadio2">Third Party</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="stateId" class="col-sm-5 col-form-label">Made any claims in previous year?</label>
+                                <div class="col-sm-7">
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+                                        <label class="custom-control-label" for="customRadio1">No</label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+                                        <label class="custom-control-label" for="customRadio2">Yes</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="stateId" class="col-sm-5 col-form-label">NCB on previous policy</label>
+                                <div class="col-sm-7">
+                                    <div>
+                                        <select name="policyExpiration" id="policyExpiration" class="custom-select">
+                                            <option value="1">0%</option>
+                                            <option value="2">20%</option>
+                                            <option value="3">25%</option>
+                                            <option value="4">35%</option>
+                                            <option value="5">45%</option>
+                                            <option value="6">50%</option>
+                                            <option value="7">Not Sure</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="stateId" class="col-sm-5 col-form-label">Previous policy insurer</label>
+                                <div class="col-sm-7">
+                                    <div>
+                                        <select name="policyExpiration" id="policyExpiration" class="custom-select">
+                                            <option value="1">Not Sure</option>
+                                            <option value="2">General Insurance</option>
+                                            <option value="3">L&T Insurance</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </wizard-step>
                 <wizard-step [title]="'Profile'" (onComplete)="onComplete($event)">
                     <div [ngSwitch]="isCompleted">
                         <div *ngSwitchDefault>
-                            <h1>Step4</h1>
+                            <div class="wizard-step d-flex justify-content-center">
+
+                                <div id="dvPrevPolicy" class="col-8">
+                                    <h4>Previous Policy Details</h4>
+                                        <div class="form-group row">
+                                            <label for="stateId" class="col-sm-4 col-form-label">Name</label>
+                                            <div class="col-sm-8">
+                                                <input name="name" type="text" class="form-control" placeholder="Enter Name">
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label for="stateId" class="col-sm-4 col-form-label">Mobile</label>
+                                            <div class="col-sm-8">
+                                                <input name="Mobile" type="text" class="form-control" placeholder="Enter Mobile">
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label for="stateId" class="col-sm-4 col-form-label">Email</label>
+                                            <div class="col-sm-8">
+                                                <input name="Email" type="text" class="form-control" placeholder="Enter Email">
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
                         </div>
                         <div *ngSwitchCase="true">
                             <h4>Thank you! You have completed all the steps.</h4>

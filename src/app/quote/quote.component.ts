@@ -19,6 +19,7 @@ export class QuoteComponent implements OnInit {
   isValid: boolean;
   isCompleted: boolean;
   sv: number;
+  bShowRegNo: boolean = true;
 
   quote: Quote;
 
@@ -40,8 +41,8 @@ export class QuoteComponent implements OnInit {
   rto: SelectItem[];
   selectedRto: string;
 
-  policyExpiration:Array<string>[4];
-  
+  policyExpiration: Array<string>[4];
+
   constructor(public cityService: CityService,
     private stateService: StateService,
     private rtoService: RtoService,

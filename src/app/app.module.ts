@@ -53,8 +53,6 @@ import { MakeListComponent } from './make/make-list.component';
 import { MakeAddComponent } from './make/make-add.component';
 import { ModelListComponent } from './motormodel/model-list.component';
 import { ModelAddComponent } from './motormodel/model-add.component';
-import { FueltypeListComponent } from './fueltype/fueltype-list.component';
-import { FueltypeAddComponent } from './fueltype/fueltype-add.component';
 import { VariantListComponent } from './variant/variant-list.component';
 import { VariantAddComponent } from './variant/variant-add.component';
 
@@ -70,7 +68,7 @@ import { VariantAddComponent } from './variant/variant-add.component';
     CityListComponent,
     AdminComponent,
     StepsbarComponent,
-    PersonalComponent, WorkComponent, AddressComponent, ResultComponent, StateapiListComponent, MakeListComponent, MakeAddComponent, ModelListComponent, ModelAddComponent, FueltypeListComponent, FueltypeAddComponent, VariantListComponent, VariantAddComponent
+    PersonalComponent, WorkComponent, AddressComponent, ResultComponent, StateapiListComponent, MakeListComponent, MakeAddComponent, ModelListComponent, ModelAddComponent, VariantListComponent, VariantAddComponent
 
   ],
   imports: [
