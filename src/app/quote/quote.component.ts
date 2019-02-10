@@ -9,6 +9,7 @@ import { VariantService } from '../service/variant.service';
 import { FueltypeService } from '../service/fueltype.service';
 import { Quote } from '../model/quote.model.';
 import { NgForm } from '@angular/forms';
+import { ENUMERATION } from '../common/enumeration';
 
 @Component({
   selector: 'app-quote',
@@ -42,6 +43,8 @@ export class QuoteComponent implements OnInit {
   selectedRto: string;
 
   policyExpiration: Array<string>[4];
+  MANUFACTURING_YEAR_RENEW: any;
+  MANUFACTURING_YEAR_NEW: any;
 
   constructor(public cityService: CityService,
     private stateService: StateService,
@@ -49,7 +52,8 @@ export class QuoteComponent implements OnInit {
     private makeService: MakeService,
     private modelService: ModelService,
     private fueltypeService: FueltypeService,
-    private variantService: VariantService
+    private variantService: VariantService,
+    private e : ENUMERATION
   ) { }
   onSubmit(form: NgForm) {
 
@@ -64,7 +68,10 @@ export class QuoteComponent implements OnInit {
       fuelTypeId: 0,
       variantId: 0,
     }
+    //this.manufacturingYearRenew = [2019,2018];
 
+    this.MANUFACTURING_YEAR_RENEW = Array.from(new Array(14), (x, i) => i + 2004);
+    this.MANUFACTURING_YEAR_NEW = Array.from(new Array(2), (x, i) => i + 2018);
     // this.serviceState.getAll().subscribe(actionArray => {
     //   this.states = actionArray.map(item => {
     //     return {

@@ -1,3 +1,51 @@
-<p>
-  model-list works!
-</p>
+<div class="title">
+  <h1>
+      Model
+  </h1>
+</div>
+<p-dataView #dv [value]="list" [paginator]="true" [rows]="10" paginatorPosition="bottom" filterBy="modelName" [sortField]="sortField"
+  [sortOrder]="sortOrder" emptyMessage="Loading...">
+  <p-header>
+    <div class="ui-helper-clearfix">
+      <div class="ui-g">
+        <div class="ui-g-12 ui-md-4">
+          <p-dropdown [options]="sortOptions" [(ngModel)]="sortKey" placeholder="Sort By" (onChange)="onSortChange($event)"
+            [autoWidth]="false" [style]="{'min-width':'15em'}"></p-dropdown>
+        </div>
+        <div class="ui-g-12 ui-md-2" style="text-align:right">
+          <p-button label="Add Model" (click)="showDialog()"></p-button>
+        </div>
+      </div>
+      <div class="ui-g">
+        <div class="ui-g-12 ui-md-10">
+          <strong>Model</strong>
+        </div>
+        <div class="ui-g-12 ui-md-2">
+          Actions
+        </div>
+      </div>
+      <div class="ui-g">
+        <div class="ui-g-6 ui-md-4 filter-container">
+          <div style="position:relative">
+            <input type="search" pInputText placeholder="Search by model" (keyup)="dv.filter($event.target.value)">
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </p-header>
+  <ng-template let-model pTemplate="listItem">
+    <div class="ui-g">
+      <div class="ui-g-12 ui-md-10">
+        {{model.modelName}}
+      </div>
+      <div class="ui-g-12 ui-md-2">
+        <a class="btn text-danger" (click)="onEditP($event, model)"><i class="fa fa-edit"></i></a> 
+        <a class="btn text-danger" (click)="onDeleteP($event, model)"><i class="fa fa-trash"></i></a>
+      </div>
+    </div>
+  </ng-template>
+</p-dataView>
+<p-dialog [(header)]="titleDialog" [(visible)]="display" [modal]="true" (onHide)="onModalClose($event)" (onShow)="onModalOpen($event)" [responsive]="true" [style]="{width: '500px', minWidth: '300px'}" [minY]="70">
+    <app-model-add [(modalVisible)]="display" (modalRefreshData)="refreshData()" [(formData)]="editFormData"></app-model-add>
+</p-dialog>

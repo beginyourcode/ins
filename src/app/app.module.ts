@@ -32,14 +32,6 @@ import { AdminComponent } from './admin/admin.component';
 import { DataImportService } from './service/data.service';
 import { CityService } from './service/city.service';
 import { StepsbarComponent } from './stepsbar/stepsbar.component';
-import { WorkflowService } from './workflow/workflow.service';
-
-/* Feature Components */
-import { PersonalComponent }  from './personal/personal.component';
-import { WorkComponent }      from './work/work.component';
-import { AddressComponent }   from './address/address.component';
-import { ResultComponent }    from './result/result.component';
-import { FormDataService } from './data/formData.service';
 
 import { FormWizardModule } from 'angular2-wizard';
 import { RtoService } from './service/rto.service';
@@ -55,6 +47,9 @@ import { ModelListComponent } from './motormodel/model-list.component';
 import { ModelAddComponent } from './motormodel/model-add.component';
 import { VariantListComponent } from './variant/variant-list.component';
 import { VariantAddComponent } from './variant/variant-add.component';
+import { ENUMERATION } from './common/enumeration';
+import { RegisterComponent } from './register/register.component';
+import { TestComponent } from './test/test.component';
 
 @NgModule({
   declarations: [
@@ -68,7 +63,7 @@ import { VariantAddComponent } from './variant/variant-add.component';
     CityListComponent,
     AdminComponent,
     StepsbarComponent,
-    PersonalComponent, WorkComponent, AddressComponent, ResultComponent, StateapiListComponent, MakeListComponent, MakeAddComponent, ModelListComponent, ModelAddComponent, VariantListComponent, VariantAddComponent
+    StateapiListComponent, MakeListComponent, MakeAddComponent, ModelListComponent, ModelAddComponent, VariantListComponent, VariantAddComponent, RegisterComponent, TestComponent
 
   ],
   imports: [
@@ -81,7 +76,7 @@ import { VariantAddComponent } from './variant/variant-add.component';
     FormWizardModule
   ],
   providers: [StateService, DataImportService, CityService, RtoService, MakeService, ModelService
-    , FueltypeService, VariantService, WorkflowService, FormDataService, StateapiService],
+    , FueltypeService, VariantService, StateapiService, ENUMERATION],
   bootstrap: [AppComponent]
 })
 export class AppModule {

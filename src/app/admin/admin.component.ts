@@ -15,6 +15,7 @@ import { FueltypeService } from '../service/fueltype.service';
 import { Model } from '../model/model.model';
 import { FuelType } from '../model/fueltype.model';
 import { Variant } from '../model/variant.model';
+import { ENUMERATION } from '../common/enumeration';
 
 @Component({
   selector: 'app-admin',

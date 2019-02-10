@@ -37,7 +37,7 @@
         </div> -->
 <div class="h-100">
     <div class="row h-100 justify-content-center align-items-center">
-        <form #form="ngForm" autocomplete="off" (submit)="onSubmit(form)" class="col-8 card shadow-lg p-3 mb-5 bg-white rounded justify-content-center align-items-center">
+        <form #form="ngForm" autocomplete="off" (submit)="onSubmit(form)" class="col-12 card shadow-lg p-3 mb-5 bg-white rounded justify-content-center align-items-center">
 
             <form-wizard style="width:100%; ">
                 <wizard-step [title]="'Reg No'" (onNext)="onStep1Next($event)">
@@ -45,7 +45,7 @@
 
 
                         <div id="dvregno" class="col-6 ">
-                            <h4>Car Registration Information</h4>
+                            <h4 class="py-3">Car Registration Information</h4>
                             <div *ngIf="bShowRegNo">
                                 <div class="form-group">
                                     <label for="regNo">Reg No</label>
@@ -98,7 +98,7 @@
                     <div class="wizard-step d-flex justify-content-center">
 
                         <div id="dvModel" class="col-6">
-                            <h4>Your Car details</h4>
+                            <h4 class="py-3">Your Car details</h4>
                             <div class="form-group row">
                                 <label for="stateId" class="col-sm-4 col-form-label">Make</label>
                                 <div class="col-sm-8">
@@ -113,6 +113,18 @@
                                     <p-dropdown #modelId="ngModel" name="modelId" [(ngModel)]="quote.modelId" [options]="ddlPModel"
                                         filter="true" [style]="{'width':'250px'}" (onChange)="onModelChange($event)"
                                         placeholder="Select a Model"></p-dropdown>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="stateId" class="col-sm-4 col-form-label">Manufacturing Year</label>
+                                <div class="col-sm-8">
+                                    <div>
+                                        <!-- <select name="policyExpiration" id="policyExpiration" class="custom-select">
+                                            <option *ngFor="let i of MANUFACTURING_YEAR_RENEW" value="{{i}}" label="{{i}}"></option>
+                                        </select> -->
+                                        <p-dropdown #variantId="ngModel" name="variantId" [(ngModel)]="quote.variantId" 
+                                        [options]="e.A" [style]="{'width':'250px'}" placeholder="Select Manufacturing Year"></p-dropdown>
+                                    </div>
                                 </div>
                             </div>
                             <div class="form-group row">
@@ -137,8 +149,8 @@
                     <div class="wizard-step d-flex justify-content-center">
 
                         <div id="dvPrevPolicy" class="col-9">
-                            <h4>Previous Policy Details</h4>
-                            <h6>(Refer RC Book and previous policy copy)</h6>
+                            <h4 class="pt-3">Previous Policy Details</h4>
+                            <h6 class="pb-3">(Refer RC Book and previous policy copy)</h6>
                             <div class="form-group row">
                                 <label for="stateId" class="col-sm-5 col-form-label">Previous policy expiry date</label>
                                 <div class="col-sm-7">
@@ -215,7 +227,7 @@
                             <div class="wizard-step d-flex justify-content-center">
 
                                 <div id="dvPrevPolicy" class="col-8">
-                                    <h4>Previous Policy Details</h4>
+                                    <h4 class="py-3">Profile Information</h4>
                                         <div class="form-group row">
                                             <label for="stateId" class="col-sm-4 col-form-label">Name</label>
                                             <div class="col-sm-8">

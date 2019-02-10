@@ -7,18 +7,16 @@ import { CityAddComponent } from './city/city-add.component';
 import { CityListComponent } from './city/city-list.component';
 import { AdminComponent } from './admin/admin.component';
 import { QuoteComponent } from './quote/quote.component';
-import { PersonalComponent } from './personal/personal.component';
-import { WorkComponent } from './work/work.component';
-import { WorkflowGuard } from './workflow/workflow-guard.service';
-import { AddressComponent } from './address/address.component';
-import { ResultComponent } from './result/result.component';
 import { StateapiListComponent } from './state/stateapi-list.component';
 import { MakeListComponent } from './make/make-list.component';
 import { ModelListComponent } from './motormodel/model-list.component';
 import { VariantListComponent } from './variant/variant-list.component';
+import { RegisterComponent } from './register/register.component';
+import { TestComponent } from './test/test.component';
 
 const routes: Routes = [
-  { path: 'signin', component: LoginComponent },
+  { path: 'login', component: LoginComponent },
+  { path: 'register', component: RegisterComponent },
   { path: 'states', component: StateListComponent },
   { path: 'statesapi', component: StateapiListComponent },
   // { path: 'state', component: StateAddEditComponent },
@@ -30,24 +28,15 @@ const routes: Routes = [
   { path: 'make', component: MakeListComponent },
   { path: 'model', component: ModelListComponent },
   { path: 'variant', component: VariantListComponent },
+  { path: 'test', component: TestComponent },
 
-  // 1st Route
-  { path: 'personal',  component: PersonalComponent },
-  // 2nd Route
-  { path: 'work',  component: WorkComponent, canActivate: [WorkflowGuard] },
-  // 3rd Route
-  { path: 'address',  component: AddressComponent, canActivate: [WorkflowGuard] },
-  // 4th Route
-  { path: 'result',  component: ResultComponent, canActivate: [WorkflowGuard] },
-  // 5th Route
-  { path: '',   redirectTo: '/personal', pathMatch: 'full' },
-  // 6th Route
-  { path: '**', component: PersonalComponent }
+  { path: '', component: QuoteComponent },
+  { path: '**', component: QuoteComponent }
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule],
-  providers: [WorkflowGuard]
+  providers: []
 })
 export class AppRoutingModule { }

@@ -1,6 +1,6 @@
 export class Model {
-    id: string;
-    makeid: string;
+    id: number;
+    makeid: number;
     modelName: string;
     istopmodel: boolean
 }

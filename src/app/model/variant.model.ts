@@ -1,6 +1,6 @@
 export class Variant {
-    id: string;
-    modelId: string;
-    fuelTypeId: string;
+    id: number;
+    modelId: number;
+    fuelTypeId: number;
     variantName: string
 }

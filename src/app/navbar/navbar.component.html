@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Navbar</a>
+  <a class="navbar-brand" href="#">Logo</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -7,7 +7,7 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" routerLink="quote">Home</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" routerLink="admin">Admin</a>
@@ -20,19 +20,48 @@
           <a class="dropdown-item" routerLink="states">State</a>
           <a class="dropdown-item" routerLink="cities">City</a>
           <div class="dropdown-divider"></div>
+          <a class="dropdown-item" routerLink="rto">RTO</a>
+          <div class="dropdown-divider"></div>
           <a class="dropdown-item" routerLink="make">Make</a>
           <a class="dropdown-item" routerLink="model">Model</a>
           <a class="dropdown-item" routerLink="variant">Variant</a>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">RTO</a>
+          <a class="dropdown-item" routerLink="">Insurer</a>
+          <a class="dropdown-item" routerLink="">Commission Configuration</a>
+          
         </div>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" routerLink="quote">Quote</a>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Customer
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" routerLink="">Add Customer</a>
+          <a class="dropdown-item" routerLink="">Manage Customer</a>
+          <a class="dropdown-item" routerLink="">Add Customer Policy</a>
+          <a class="dropdown-item" routerLink="">Manage Customer Policy</a>
+          <a class="dropdown-item" routerLink="">Manage Premium Paid</a>
+        </div>
       </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Report
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" routerLink="">Policy Report</a>
+          <a class="dropdown-item" routerLink="">Commission Report</a>
+          <a class="dropdown-item" routerLink="">Policy Renewal Report</a>
+        </div>
+      </li>
+      <!-- <li class="nav-item">
+        <a class="nav-link" routerLink="quote">Quote</a>
+      </li> -->
     </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Login</button>
+    <form class="form-inline m-2 my-lg-0">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit" routerLink="register">Register</button>
+    </form>
+    <form class="form-inline m-2 my-lg-0">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit" routerLink="login">Login</button>
     </form>
   </div>
 </nav>
