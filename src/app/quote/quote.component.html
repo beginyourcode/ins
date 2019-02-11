@@ -123,7 +123,7 @@
                                             <option *ngFor="let i of MANUFACTURING_YEAR_RENEW" value="{{i}}" label="{{i}}"></option>
                                         </select> -->
                                         <p-dropdown #variantId="ngModel" name="variantId" [(ngModel)]="quote.variantId" 
-                                        [options]="e.A" [style]="{'width':'250px'}" placeholder="Select Manufacturing Year"></p-dropdown>
+                                        [options]="MANUFACTURING_YEAR_RENEW" [style]="{'width':'250px'}" placeholder="Select Manufacturing Year"></p-dropdown>
                                     </div>
                                 </div>
                             </div>

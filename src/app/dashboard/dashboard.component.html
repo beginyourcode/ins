@@ -1,0 +1,98 @@
+<div class="col-md-12 dashboardimage imgaesize smallmobilesize">
+  <div class="row">
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+      <div class="dashboard-stat blue-madison" style="border-radius: 3%;box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 19px 0 rgba(0, 0, 0,0.30);cursor:pointer;">
+        <div class="visual">
+          <i class="fa fa-calculator"></i>
+        </div>
+        <div class="details">
+          <div class="number">
+
+          </div>
+          <div class="desc desc1" style="font-size:1.5em;text-decoration: underline;" ui-sref="privatecar">
+            Premium Calculator
+          </div>
+        </div>
+        <a class="more">
+          &nbsp;&nbsp;&nbsp;&nbsp;
+          <i class="m-icon-swapright m-icon-white"></i>
+        </a>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+      <div class="dashboard-stat red-intense" style="border-radius: 3%;box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 19px 0 rgba(0, 0, 0,0.30);">
+        <div class="visual">
+          <i class="fa fa-users"></i>
+        </div>
+        <div class="details">
+          <div class="number">
+            <span style="font-size: 26px;" class="ng-binding">INR</span>
+            <span class="counter ng-binding">0</span><!-- {{totalLifeplcyamt | number : fractionSize}} -->
+
+          </div>
+          <div class="desc">
+            <span style="text-decoration: underline;" ng-click="showPremDialog('LIFE',$event)" role="button" tabindex="0">
+              Life Net Premium</span>
+          </div>
+        </div>
+        <span class="more" style="text-transform: none;">
+          <span> Current FY</span>
+          <i class="m-icon-swapright m-icon-white"></i>
+        </span>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+      <div class="dashboard-stat green-haze" style="border-radius: 3%;box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 19px 0 rgba(0, 0, 0,0.30);">
+        <div class="visual">
+          <i class="fa fa-car"></i>
+        </div>
+        <div class="details">
+          <div class="number">
+            <!-- this div will display for brokers-->
+            <span style="font-size: 26px;" class="ng-binding">INR</span>
+            <span class="counter ng-binding">30,000</span> <!-- {{totalamt | number : fractionSize}}  -->
+          </div>
+          <div class="desc">
+            <span style="text-decoration: underline;" ng-click="showPremDialog('GENERAL',$event)" role="button"
+              tabindex="0">Non-Life Net Premium</span>
+          </div>
+          <!--  <div class="number"  ng-hide="dbFireflag" >
+             Rs.  {{motorprem | number : fractionSize}}
+          </div>
+          <div class="desc" ng-hide="dbFireflag" >
+          <span style="text-decoration: underline;" ng-click="showPremDialog('MOTOR',$event);"> Non-Life Net Premium Received </span>
+          </div> -->
+        </div>
+        <span class="more" style="text-transform: none;">
+          <span> Current FY</span>
+          <i class="m-icon-swapright m-icon-white"></i>
+        </span>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+      <div class="dashboard-stat purple-plum" style="border-radius: 3%;box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 19px 0 rgba(0, 0, 0,0.30);">
+        <div class="visual">
+          <i class="fa fa-medkit"></i>
+        </div>
+        <div class="details">
+          <div class="number">
+            <span style="font-size: 26px;" class="ng-binding">INR</span>
+            <span class="counter ng-binding">0</span>
+
+          </div>
+          <div class="desc">
+            <span style="text-decoration: underline;" ng-click="showPremDialog('HEALTH',$event)" role="button" tabindex="0">Health
+              Net Premium</span>
+          </div>
+        </div>
+        <span class="more" style="text-transform: none;">
+          <span> Current FY</span>
+          <i class="m-icon-swapright m-icon-white"></i>
+        </span>
+      </div>
+    </div>
+
+  </div>
+
+
+</div>

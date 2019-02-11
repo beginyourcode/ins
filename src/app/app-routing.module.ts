@@ -13,6 +13,7 @@ import { ModelListComponent } from './motormodel/model-list.component';
 import { VariantListComponent } from './variant/variant-list.component';
 import { RegisterComponent } from './register/register.component';
 import { TestComponent } from './test/test.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 const routes: Routes = [
   { path: 'login', component: LoginComponent },
@@ -29,6 +30,7 @@ const routes: Routes = [
   { path: 'model', component: ModelListComponent },
   { path: 'variant', component: VariantListComponent },
   { path: 'test', component: TestComponent },
+  { path: 'dashboard', component: DashboardComponent },
 
   { path: '', component: QuoteComponent },
   { path: '**', component: QuoteComponent }

@@ -8,6 +8,7 @@ npm install font-awesome
 npm install ngx-toastr
 
 npm install angular2-wizard
+ng build --prod
 -------------------
 npm install primeng primeicons ngx-pagination angular-font-awesome font-awesome ngx-toastr
 

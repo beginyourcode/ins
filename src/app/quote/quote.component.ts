@@ -53,7 +53,6 @@ export class QuoteComponent implements OnInit {
     private modelService: ModelService,
     private fueltypeService: FueltypeService,
     private variantService: VariantService,
-    private e : ENUMERATION
   ) { }
   onSubmit(form: NgForm) {
 

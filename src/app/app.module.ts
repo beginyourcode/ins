@@ -50,6 +50,7 @@ import { VariantAddComponent } from './variant/variant-add.component';
 import { ENUMERATION } from './common/enumeration';
 import { RegisterComponent } from './register/register.component';
 import { TestComponent } from './test/test.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
@@ -63,7 +64,7 @@ import { TestComponent } from './test/test.component';
     CityListComponent,
     AdminComponent,
     StepsbarComponent,
-    StateapiListComponent, MakeListComponent, MakeAddComponent, ModelListComponent, ModelAddComponent, VariantListComponent, VariantAddComponent, RegisterComponent, TestComponent
+    StateapiListComponent, MakeListComponent, MakeAddComponent, ModelListComponent, ModelAddComponent, VariantListComponent, VariantAddComponent, RegisterComponent, TestComponent, DashboardComponent
 
   ],
   imports: [
