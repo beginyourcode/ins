@@ -14,15 +14,19 @@ import { VariantListComponent } from './variant/variant-list.component';
 import { RegisterComponent } from './register/register.component';
 import { TestComponent } from './test/test.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { RtoComponent } from './rto/rto.component';
 
 const routes: Routes = [
   { path: 'login', component: LoginComponent },
   { path: 'register', component: RegisterComponent },
+  //Masters
   { path: 'states', component: StateListComponent },
   { path: 'statesapi', component: StateapiListComponent },
   // { path: 'state', component: StateAddEditComponent },
   { path: 'city', component: CityAddComponent },
   { path: 'cities', component: CityListComponent },
+  { path: 'rto', component: RtoComponent },
+
   { path: 'admin', component: AdminComponent },
   { path: 'quote', component: QuoteComponent },
 

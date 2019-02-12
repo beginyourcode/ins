@@ -15,7 +15,7 @@ import { PaginatorModule } from 'primeng/paginator';
 import { ButtonModule } from 'primeng/button';
 import { DialogModule } from 'primeng/dialog';
 import { DropdownModule } from 'primeng/dropdown';
-import {RadioButtonModule} from 'primeng/radiobutton';
+import { RadioButtonModule } from 'primeng/radiobutton';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -51,7 +51,10 @@ import { ENUMERATION } from './common/enumeration';
 import { RegisterComponent } from './register/register.component';
 import { TestComponent } from './test/test.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { RtoComponent } from './rto/rto.component';
 
+//material
+import { MatTableModule, MatPaginatorModule, MatSortModule, MatFormFieldModule, MatInputModule, MatIconModule  } from '@angular/material';
 @NgModule({
   declarations: [
     AppComponent,
@@ -64,17 +67,18 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     CityListComponent,
     AdminComponent,
     StepsbarComponent,
-    StateapiListComponent, MakeListComponent, MakeAddComponent, ModelListComponent, ModelAddComponent, VariantListComponent, VariantAddComponent, RegisterComponent, TestComponent, DashboardComponent
+    StateapiListComponent, MakeListComponent, MakeAddComponent, ModelListComponent, ModelAddComponent, VariantListComponent, VariantAddComponent, RegisterComponent, TestComponent, DashboardComponent, RtoComponent
 
   ],
   imports: [
     BrowserModule, AppRoutingModule, BrowserAnimationsModule, HttpClientModule, FormsModule,
-    AngularFontAwesomeModule, 
+    AngularFontAwesomeModule,
     //AngularFirestoreModule, AngularFireModule.initializeApp(environment.firebaseConfigI),
     ToastrModule.forRoot({ positionClass: 'toast-bottom-right' }),
     NgxPaginationModule,
     DataViewModule, PaginatorModule, ButtonModule, DialogModule, DropdownModule, RadioButtonModule,
-    FormWizardModule
+    FormWizardModule,
+    MatTableModule, MatPaginatorModule, MatSortModule, MatFormFieldModule, MatInputModule, MatIconModule
   ],
   providers: [StateService, DataImportService, CityService, RtoService, MakeService, ModelService
     , FueltypeService, VariantService, StateapiService, ENUMERATION],

@@ -9,6 +9,9 @@ npm install ngx-toastr
 
 npm install angular2-wizard
 ng build --prod
+
+npm install --save @angular/material @angular/cdk @angular/animations
+npm install --save hammerjs
 -------------------
 npm install primeng primeicons ngx-pagination angular-font-awesome font-awesome ngx-toastr
 
