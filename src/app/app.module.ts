@@ -54,7 +54,8 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { RtoComponent } from './rto/rto.component';
 
 //material
-import { MatTableModule, MatPaginatorModule, MatSortModule, MatFormFieldModule, MatInputModule, MatIconModule  } from '@angular/material';
+import { MatTableModule, MatPaginatorModule, MatSortModule, MatFormFieldModule, MatInputModule, MatIconModule, MatCardModule, MatProgressBarModule, MatProgressSpinnerModule  } from '@angular/material';
+import { Rto1Component } from './rto1/rto1.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -67,7 +68,7 @@ import { MatTableModule, MatPaginatorModule, MatSortModule, MatFormFieldModule, 
     CityListComponent,
     AdminComponent,
     StepsbarComponent,
-    StateapiListComponent, MakeListComponent, MakeAddComponent, ModelListComponent, ModelAddComponent, VariantListComponent, VariantAddComponent, RegisterComponent, TestComponent, DashboardComponent, RtoComponent
+    StateapiListComponent, MakeListComponent, MakeAddComponent, ModelListComponent, ModelAddComponent, VariantListComponent, VariantAddComponent, RegisterComponent, TestComponent, DashboardComponent, RtoComponent, Rto1Component
 
   ],
   imports: [
@@ -78,7 +79,7 @@ import { MatTableModule, MatPaginatorModule, MatSortModule, MatFormFieldModule, 
     NgxPaginationModule,
     DataViewModule, PaginatorModule, ButtonModule, DialogModule, DropdownModule, RadioButtonModule,
     FormWizardModule,
-    MatTableModule, MatPaginatorModule, MatSortModule, MatFormFieldModule, MatInputModule, MatIconModule
+    MatTableModule, MatPaginatorModule, MatSortModule, MatFormFieldModule, MatInputModule, MatIconModule, MatCardModule, MatProgressBarModule, MatProgressSpinnerModule
   ],
   providers: [StateService, DataImportService, CityService, RtoService, MakeService, ModelService
     , FueltypeService, VariantService, StateapiService, ENUMERATION],
