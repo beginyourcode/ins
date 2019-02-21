@@ -6,6 +6,7 @@ import { Router } from '@angular/router';
 import { RtoService } from '../service/rto.service';
 import { Rto } from '../model/rto.model';
 import { MatPaginator, MatTableDataSource, MatSort, MatFormFieldControl } from '@angular/material';
+import { delay } from 'q';
 
 @Component({
   selector: 'app-rto',
@@ -17,11 +18,12 @@ export class RtoComponent implements OnInit {
   @ViewChild(MatPaginator) paginator: MatPaginator;
   @ViewChild(MatSort) sort: MatSort;
 
-
-  displayedColumns: string[] = ['regNo'];
-  list: Rto[];
+  isLoading = true;
+  displayedColumns: string[] = ['regNo', 'actions'];
+  //list: Rto[];
   //dataSource = new MatTableDataSource<PeriodicElement>(ELEMENT_DATA);
   dataSource: MatTableDataSource<Rto>;
+  //dataSource = null;
 
 
   constructor(public cityService: CityService,
@@ -40,6 +42,7 @@ export class RtoComponent implements OnInit {
   refreshData() {
     this.rtoService.selectAll().subscribe(
       array => {
+        this.isLoading = false;
         //this.list = array as Rto[]
         let i = array.map(item => {
           return item;
@@ -49,10 +52,13 @@ export class RtoComponent implements OnInit {
         this.dataSource.paginator = this.paginator;
         this.dataSource.sort = this.sort;
 
-      }
+      },
+      error => this.isLoading = false
     );
   }
-
+  onEdit(id: any) {
+    debugger;
+  }
 }
 export interface PeriodicElement {
   name: string;

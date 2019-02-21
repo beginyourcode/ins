@@ -15,6 +15,7 @@ import { RegisterComponent } from './register/register.component';
 import { TestComponent } from './test/test.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { RtoComponent } from './rto/rto.component';
+import { Rto1Component } from './rto1/rto1.component';
 
 const routes: Routes = [
   { path: 'login', component: LoginComponent },
@@ -26,6 +27,7 @@ const routes: Routes = [
   { path: 'city', component: CityAddComponent },
   { path: 'cities', component: CityListComponent },
   { path: 'rto', component: RtoComponent },
+  { path: 'rto1', component: Rto1Component },
 
   { path: 'admin', component: AdminComponent },
   { path: 'quote', component: QuoteComponent },
@@ -36,7 +38,7 @@ const routes: Routes = [
   { path: 'test', component: TestComponent },
   { path: 'dashboard', component: DashboardComponent },
 
-  { path: '', component: QuoteComponent },
+  { path: '', component: LoginComponent },
   { path: '**', component: QuoteComponent }
 ];
 

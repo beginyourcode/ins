@@ -22,8 +22,12 @@ export const environment = {
     timestampsInSnapshots: false
   },
   //apiRoot:"https://inscoreapih.azurewebsites.net/api"
+<<<<<<< HEAD
   apiRoot:"http://localhost:5000/api"
   //apiRoot:"http://localhost:50742/api"
+=======
+  apiRoot:"http://localhost:50742/api"
+>>>>>>> 65d0145b97fd9f888c0bd69061d36b1ff67de0a2
 };
 
 /*
